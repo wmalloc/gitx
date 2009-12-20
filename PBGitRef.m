@@ -9,25 +9,60 @@
 #import "PBGitRef.h"
 
 
+NSString * const kGitXTagRefPrefix    = @"refs/tags/";
+NSString * const kGitXBranchRefPrefix = @"refs/heads/";
+NSString * const kGitXRemoteRefPrefix = @"refs/remotes/";
+
+
 @implementation PBGitRef
 
 @synthesize ref;
-- (NSString*) shortName
+
+// everything after refs/<type>s/
+- (NSString *)shortName
 {
 	if ([self type])
 		return [ref substringFromIndex:[[self type] length] + 7];
 	return ref;
 }
 
-- (NSString*) type
+- (NSString *)type
 {
-	if ([ref hasPrefix:@"refs/heads"])
+	if ([self isBranch])
 		return @"head";
-	if ([ref hasPrefix:@"refs/tags"])
+	if ([self isTag])
 		return @"tag";
-	if ([ref hasPrefix:@"refs/remotes"])
+	if ([self isRemote])
 		return @"remote";
 	return nil;
+}
+
+- (BOOL)isBranch
+{
+	return [ref hasPrefix:kGitXBranchRefPrefix];
+}
+
+- (BOOL)isTag
+{
+	return [ref hasPrefix:kGitXTagRefPrefix];
+}
+
+- (BOOL)isRemote
+{
+	return [ref hasPrefix:kGitXRemoteRefPrefix];
+}
+
+- (BOOL)isEqual:(id)otherRef
+{
+	if (![otherRef isMemberOfClass:[PBGitRef class]])
+		return NO;
+
+	return [ref isEqualToString:[otherRef ref]];
+}
+
+- (NSUInteger)hash
+{
+	return [ref hash];
 }
 
 + (PBGitRef*) refFromString: (NSString*) s
