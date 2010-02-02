@@ -9,6 +9,10 @@
 #import "PBGitRef.h"
 
 
+NSString * const kGitXTagType    = @"tag";
+NSString * const kGitXBranchType = @"branch";
+NSString * const kGitXRemoteType = @"remote";
+
 NSString * const kGitXTagRefPrefix    = @"refs/tags/";
 NSString * const kGitXBranchRefPrefix = @"refs/heads/";
 NSString * const kGitXRemoteRefPrefix = @"refs/remotes/";
@@ -17,14 +21,6 @@ NSString * const kGitXRemoteRefPrefix = @"refs/remotes/";
 @implementation PBGitRef
 
 @synthesize ref;
-
-// everything after refs/<type>s/
-- (NSString *)shortName
-{
-	if ([self type])
-		return [ref substringFromIndex:[[self type] length] + 7];
-	return ref;
-}
 
 - (NSString *)type
 {
@@ -83,6 +79,33 @@ NSString * const kGitXRemoteRefPrefix = @"refs/remotes/";
 
 + (BOOL)isKeyExcludedFromWebScript:(const char *)name {
 	return NO;
+}
+
+
+#pragma mark <PBGitRefish>
+
+- (NSString *)refishName
+{
+	return ref;
+}
+
+// everything after refs/<type>s/
+- (NSString *)shortName
+{
+	if ([self type])
+		return [ref substringFromIndex:[[self type] length] + 7];
+	return ref;
+}
+
+- (NSString *)refishType
+{
+	if ([self isBranch])
+		return kGitXBranchType;
+	if ([self isTag])
+		return kGitXTagType;
+	if ([self isRemote])
+		return kGitXRemoteType;
+	return nil;
 }
 
 @end
