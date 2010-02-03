@@ -9,6 +9,7 @@
 #import "PBRefController.h"
 #import "PBGitRevisionCell.h"
 #import "PBRefMenuItem.h"
+#import "PBCreateBranchSheet.h"
 
 
 @interface PBRefController ()
@@ -32,6 +33,7 @@
 - (void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if ([(NSString *)context isEqualToString: @"branchChange"]) {
+		[commitController rearrangeObjects];
 		[self updateBranchMenu];
 	}
 	else if ([(NSString *)context isEqualToString:@"currentBranchChange"]) {
@@ -41,6 +43,16 @@
 		[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
 	}
 }
+
+
+#pragma mark Create Branch
+
+- (void)createBranch:(PBRefMenuItem *)sender
+{
+	id <PBGitRefish> refish = [sender refish];
+	[PBCreateBranchSheet beginCreateBranchSheetAtRefish:refish inRepository:historyController.repository];
+}
+
 
 - (void)removeRefSheetDidEnd:(NSWindow *)sheet returnCode:(int)returnCode contextInfo:(void  *)contextInfo
 {
@@ -185,53 +197,6 @@
 	[commitController rearrangeObjects];
 	[aTableView needsToDrawRect:[aTableView rectOfRow:oldRow]];
 	return YES;
-}
-
-# pragma mark Add ref methods
--(void)addRef:(id)sender
-{
-	[errorMessage setStringValue:@""];
-	[NSApp beginSheet:newBranchSheet
-	   modalForWindow:[[historyController view] window]
-		modalDelegate:NULL
-	   didEndSelector:NULL
-		  contextInfo:NULL];
-}
-
--(void)saveSheet:(id) sender
-{
-	NSString *branchName = [@"refs/heads/" stringByAppendingString:[newBranchName stringValue]];
-	
-	if ([[commitController selectedObjects] count] == 0)
-		return;
-
-	PBGitCommit *commit = [[commitController selectedObjects] objectAtIndex:0];
-
-	int retValue = 1;
-	[historyController.repository outputForArguments:[NSArray arrayWithObjects:@"check-ref-format", branchName, nil] retValue:&retValue];
-	if (retValue != 0) {
-		[errorMessage setStringValue:@"Invalid name"];
-		return;
-	}
-
-	retValue = 1;
-	[historyController.repository outputForArguments:[NSArray arrayWithObjects:@"update-ref", @"-mCreate branch from GitX", branchName, [commit realSha], @"0000000000000000000000000000000000000000", NULL] retValue:&retValue];
-	if (retValue)
-	{
-		[errorMessage setStringValue:@"Branch exists"];
-		return;
-	}
-	[historyController.repository addBranch:[[PBGitRevSpecifier alloc] initWithRef:[PBGitRef refFromString:branchName]]];
-	[self closeSheet:sender];
-	[commit addRef:[PBGitRef refFromString:branchName]];
-	[commitController rearrangeObjects];
-}
-
--(void)closeSheet:(id) sender
-{	
-	[NSApp endSheet:newBranchSheet];
-	[newBranchName setStringValue:@""];
-	[newBranchSheet orderOut:self];
 }
 
 # pragma mark Branches menu
