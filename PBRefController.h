@@ -35,7 +35,8 @@
 - (IBAction)closeSheet:(id) sender;
 - (IBAction)saveSheet:(id) sender;
 
-- (NSArray *) menuItemsForRef:(PBGitRef *)ref commit:(PBGitCommit *)commit;
+- (NSArray *)menuItemsForRef:(PBGitRef *)ref;
+- (NSArray *)menuItemsForCommit:(PBGitCommit *)commit;
 
 - (void) changeBranch:(NSMenuItem *)sender;
 - (void) selectCurrentBranch;
