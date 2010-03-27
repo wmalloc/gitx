@@ -22,6 +22,7 @@
 	NSString* details;
 	NSString *_patch;
 	NSArray* parents;
+	NSString *realSHA;
 
 	int timestamp;
 	char sign;
@@ -29,12 +30,16 @@
 	PBGitRepository* repository;
 }
 
++ (id)commitWithRepository:(PBGitRepository*)repo andSha:(git_oid)newSha;
 - (id)initWithRepository:(PBGitRepository *)repo andSha:(git_oid)sha;
 
 - (void)addRef:(PBGitRef *)ref;
 - (void)removeRef:(id)ref;
+- (BOOL)hasRef:(PBGitRef *)ref;
 
 - (NSString *)realSha;
+- (BOOL)isOnSameBranchAs:(PBGitCommit *)other;
+- (BOOL)isOnHeadBranch;
 
 // <PBGitRefish>
 - (NSString *)refishName;
