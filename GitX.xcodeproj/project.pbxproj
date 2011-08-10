@@ -94,7 +94,7 @@
 		91B103CC0E898EC300C84364 /* PBIconAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */; };
 		93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB42C10EAB7B2200530609 /* PBGitDefaults.m */; };
 		93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */; };
-		D26DC6450E782C9000C777B2 /* gitx.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* gitx.icns */; };
+		D26DC6450E782C9000C777B2 /* GitX.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* GitX.icns */; };
 		D8022FE811E124A0003C21F6 /* PBGitXMessageSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8022FE711E124A0003C21F6 /* PBGitXMessageSheet.xib */; };
 		D8022FED11E124C8003C21F6 /* PBGitXMessageSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8022FEC11E124C8003C21F6 /* PBGitXMessageSheet.m */; };
 		D8083A43111E045D00337480 /* PBRemoteProgressSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8083A42111E045D00337480 /* PBRemoteProgressSheet.m */; };
@@ -356,7 +356,7 @@
 		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
 		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageView.m; sourceTree = "<group>"; };
 		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitConfig.m; sourceTree = "<group>"; };
-		D26DC6440E782C9000C777B2 /* gitx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = gitx.icns; sourceTree = "<group>"; };
+		D26DC6440E782C9000C777B2 /* GitX.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GitX.icns; sourceTree = "<group>"; };
 		D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
 		D8022FE711E124A0003C21F6 /* PBGitXMessageSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitXMessageSheet.xib; sourceTree = "<group>"; };
 		D8022FEB11E124C8003C21F6 /* PBGitXMessageSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitXMessageSheet.h; sourceTree = "<group>"; };
@@ -767,7 +767,7 @@
 				F5F7D0641062E7940072C81C /* UpdateKey.pem */,
 				31DAA7EC1317737100463846 /* gitx_l_pub.pem */,
 				47DBDB920E94F47200671A1E /* Preference Icons */,
-				D26DC6440E782C9000C777B2 /* gitx.icns */,
+				D26DC6440E782C9000C777B2 /* GitX.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				D8F01C4A12182F19007F729F /* GitX.sdef */,
@@ -1257,7 +1257,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				F5B721C40E05CF7E00AF29DC /* MainMenu.xib in Resources */,
 				911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */,
-				D26DC6450E782C9000C777B2 /* gitx.icns in Resources */,
+				D26DC6450E782C9000C777B2 /* GitX.icns in Resources */,
 				F52BCE030E84208300AA3741 /* PBGitHistoryView.xib in Resources */,
 				F59116E60E843BB50072CCB1 /* PBGitCommitView.xib in Resources */,
 				F5E92A230E88569500056E75 /* new_file.png in Resources */,
