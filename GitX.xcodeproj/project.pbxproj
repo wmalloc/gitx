@@ -356,6 +356,7 @@
 		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
 		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageView.m; sourceTree = "<group>"; };
 		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitConfig.m; sourceTree = "<group>"; };
+		C5EA6E5413F293F800292110 /* GitX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GitX.entitlements; sourceTree = "<group>"; };
 		D26DC6440E782C9000C777B2 /* GitX.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GitX.icns; sourceTree = "<group>"; };
 		D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
 		D8022FE711E124A0003C21F6 /* PBGitXMessageSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitXMessageSheet.xib; sourceTree = "<group>"; };
@@ -698,6 +699,7 @@
 		29B97314FDCFA39411CA2CEA /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5EA6E5413F293F800292110 /* GitX.entitlements */,
 				F5886A080ED5D26B0066E74C /* SpeedTest */,
 				913D5E420E5563FD00CECEA2 /* cli */,
 				D89E9B4C1218C22A0097A90B /* GitXScripting */,
@@ -1600,6 +1602,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = GitX.entitlements;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1629,6 +1633,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = GitX.entitlements;
+				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
