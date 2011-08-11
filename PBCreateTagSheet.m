@@ -47,7 +47,7 @@
 	[self window]; // loads the window (if it wasn't already)
 	[self.errorMessageField setStringValue:@""];
 
-	[NSApp beginSheet:[self window] modalForWindow:[self.repository.windowController window] modalDelegate:self didEndSelector:nil contextInfo:NULL];
+	[NSApp beginSheet:[self window] modalForWindow:[self.repository windowForSheet] modalDelegate:self didEndSelector:nil contextInfo:NULL];
 }
 
 

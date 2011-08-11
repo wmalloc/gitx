@@ -15,15 +15,12 @@
 
 @implementation PBCloneRepositoryPanel
 
-
 @synthesize repositoryURL;
 @synthesize destinationPath;
 @synthesize errorMessage;
 @synthesize repositoryAccessoryView;
 
 @synthesize isBare;
-
-
 
 #pragma mark -
 #pragma mark PBCloneRepositoryPanel

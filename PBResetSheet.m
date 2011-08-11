@@ -25,7 +25,7 @@ static const char* StringFromResetType(PBResetType type) {
     targetRefish = refish;
     repository = repo;
     [NSApp beginSheet: [self window]
-       modalForWindow: [[repository windowController] window]
+       modalForWindow: [repository windowForSheet]
         modalDelegate: self
        didEndSelector: nil
           contextInfo: NULL];

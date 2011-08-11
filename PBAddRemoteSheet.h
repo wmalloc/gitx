@@ -11,14 +11,15 @@
 
 @class PBGitRepository;
 
-@interface PBAddRemoteSheet : NSWindowController {
+@interface PBAddRemoteSheet : NSWindowController
+{
 	PBGitRepository *repository;
 
-	NSTextField *remoteName;
-	NSTextField *remoteURL;
-	NSTextField *errorMessage;
+	NSTextField *remoteNameTextField;
+	NSTextField *remoteURLTextField;
+	NSTextField *errorMessageTextField;
 
-	NSOpenPanel *browseSheet;
+	NSOpenPanel *browseSheetOpenPanel;
 	NSView      *browseAccessoryView;
 }
 
@@ -32,11 +33,11 @@
 
 @property (readwrite) PBGitRepository *repository;
 
-@property (readwrite) IBOutlet NSTextField *remoteName;
-@property (readwrite) IBOutlet NSTextField *remoteURL;
-@property (readwrite) IBOutlet NSTextField *errorMessage;
+@property (readwrite) IBOutlet NSTextField *remoteNameTextField;
+@property (readwrite) IBOutlet NSTextField *remoteURLTextField;
+@property (readwrite) IBOutlet NSTextField *errorMessageTextField;
 
-@property (readwrite)          NSOpenPanel *browseSheet;
+@property (readwrite)          NSOpenPanel *browseSheetOpenPanel;
 @property (readwrite) IBOutlet NSView      *browseAccessoryView;
 
 @end

@@ -25,11 +25,11 @@
 
 @synthesize repository;
 
-@synthesize remoteName;
-@synthesize remoteURL;
-@synthesize errorMessage;
+@synthesize remoteNameTextField;
+@synthesize remoteURLTextField;
+@synthesize errorMessageTextField;
 
-@synthesize browseSheet;
+@synthesize browseSheetOpenPanel;
 @synthesize browseAccessoryView;
 
 
@@ -55,7 +55,7 @@
 
 - (void) openAddRemoteSheet
 {
-	[self.errorMessage setStringValue:@""];
+	[self.errorMessageTextField setStringValue:@""];
 
 	[NSApp beginSheet:[self window] modalForWindow:[self.repository.windowController window] modalDelegate:self didEndSelector:nil contextInfo:NULL];
 }
@@ -66,12 +66,10 @@
     [sheet orderOut:self];
 
     if (code == NSOKButton)
-		[self.remoteURL setStringValue:[(NSOpenPanel *)sheet filename]];
+		[self.remoteURLTextField setStringValue:[(NSOpenPanel *)sheet filename]];
 
 	[self openAddRemoteSheet];
 }
-
-
 
 #pragma mark IBActions
 
@@ -79,18 +77,18 @@
 {
 	[self orderOutAddRemoteSheet:nil];
 
-    self.browseSheet = [NSOpenPanel openPanel];
+    self.browseSheetOpenPanel = [NSOpenPanel openPanel];
 
-	[browseSheet setTitle:@"Add remote"];
-    [browseSheet setMessage:@"Select a folder with a git repository"];
-    [browseSheet setCanChooseFiles:NO];
-    [browseSheet setCanChooseDirectories:YES];
-    [browseSheet setAllowsMultipleSelection:NO];
-    [browseSheet setCanCreateDirectories:NO];
-	[browseSheet setAccessoryView:browseAccessoryView];
+	[browseSheetOpenPanel setTitle:@"Add remote"];
+    [browseSheetOpenPanel setMessage:@"Select a folder with a git repository"];
+    [browseSheetOpenPanel setCanChooseFiles:NO];
+    [browseSheetOpenPanel setCanChooseDirectories:YES];
+    [browseSheetOpenPanel setAllowsMultipleSelection:NO];
+    [browseSheetOpenPanel setCanCreateDirectories:NO];
+	[browseSheetOpenPanel setAccessoryView:browseAccessoryView];
 
-    [browseSheet beginSheetForDirectory:nil file:nil types:nil
-						 modalForWindow:[self.repository.windowController window]
+    [browseSheetOpenPanel beginSheetForDirectory:nil file:nil types:nil
+						 modalForWindow:[self.repository windowForSheet]
 						  modalDelegate:self
 						 didEndSelector:@selector(browseSheetDidEnd:returnCode:contextInfo:)
 							contextInfo:NULL];
@@ -99,23 +97,23 @@
 
 - (IBAction) addRemote:(id)sender
 {
-	[self.errorMessage setStringValue:@""];
+	[self.errorMessageTextField setStringValue:@""];
 
-	NSString *name = [[self.remoteName stringValue] copy];
+	NSString *name = [[self.remoteNameTextField stringValue] copy];
 
 	if ([name isEqualToString:@""]) {
-		[self.errorMessage setStringValue:@"Remote name is required"];
+		[self.errorMessageTextField setStringValue:@"Remote name is required"];
 		return;
 	}
 
 	if (![self.repository checkRefFormat:[@"refs/remotes/" stringByAppendingString:name]]) {
-		[self.errorMessage setStringValue:@"Invalid remote name"];
+		[self.errorMessageTextField setStringValue:@"Invalid remote name"];
 		return;
 	}
 
-	NSString *url = [[self.remoteURL stringValue] copy];
+	NSString *url = [[self.remoteURLTextField stringValue] copy];
 	if ([url isEqualToString:@""]) {
-		[self.errorMessage setStringValue:@"Remote URL is required"];
+		[self.errorMessageTextField setStringValue:@"Remote URL is required"];
 		return;
 	}
 
@@ -135,7 +133,7 @@
 {
 	// This uses undocumented OpenPanel features to show hidden files (required for 10.5 support)
 	NSNumber *showHidden = [NSNumber numberWithBool:[sender state] == NSOnState];
-	[[self.browseSheet valueForKey:@"_navView"] setValue:showHidden forKey:@"showsHiddenFiles"];
+	[[self.browseSheetOpenPanel valueForKey:@"_navView"] setValue:showHidden forKey:@"showsHiddenFiles"];
 }
 
 
