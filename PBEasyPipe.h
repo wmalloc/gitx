@@ -9,9 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import "GitX_Prefix.pch"
 
-@interface PBEasyPipe : NSObject {
+@interface PBEasyPipe : NSObject
+{
 
 }
+
 + (NSTask *) taskForCommand:(NSString *)cmd withArgs:(NSArray *)args inDir:(NSString *)dir;
 
 + (NSFileHandle*) handleForCommand: (NSString*) cmd withArgs: (NSArray*) args;
@@ -34,6 +36,5 @@
 		byExtendingEnvironment:(NSDictionary *)dict
 				   inputString:(NSString *)input
 				      retValue:(int *)      ret;
-
 
 @end

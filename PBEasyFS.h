@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PBEasyFS : NSObject {
+@interface PBEasyFS : NSObject
+{
 
 }
 + (NSString*) tmpNameWithSuffix: (NSString*) path;

@@ -8,7 +8,6 @@
 
 #import "PBGitRevisionCell.h"
 #import "PBGitRef.h"
-#import "RoundedRectangle.h"
 #import "GitXTextFieldCell.h"
 
 @implementation PBGitRevisionCell
@@ -197,7 +196,8 @@
 	PBGitRef *ref = [refs objectAtIndex:index];
 	
 	NSMutableDictionary* attributes = [self attributesForRefLabelSelected:[self isHighlighted]];
-	NSBezierPath *border = [NSBezierPath bezierPathWithRoundedRect:rect cornerRadius: 2.0];
+    
+	NSBezierPath *border = [NSBezierPath bezierPathWithRoundedRect:rect xRadius:2.0 yRadius:2.0];
 	[[self colorForRef:ref] set];
 	[border fill];
 	

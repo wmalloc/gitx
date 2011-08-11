@@ -15,7 +15,8 @@
 
 @implementation NSFileHandle(NSFileHandleExt)
 
--(NSString*)readLine {
+-(NSString*)readLine
+{
 	// If the socket is closed, return an empty string
 	if ([self fileDescriptor] <= 0)
 		return @"";

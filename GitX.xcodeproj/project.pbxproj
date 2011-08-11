@@ -145,7 +145,6 @@
 		DDB8FEC413999C24001A9EE2 /* PBStashContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */; };
 		F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */; };
 		F513085B0E0740F2000C8BCD /* PBQLOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */; };
-		F5140DC90E8A8EB20091E9F3 /* RoundedRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */; };
 		F523CEB60ED3399200DDD714 /* PBGitIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = F523CEB50ED3399200DDD714 /* PBGitIndexController.m */; };
 		F52BCE030E84208300AA3741 /* PBGitHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */; };
 		F52BCE070E84211300AA3741 /* PBGitHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52BCE060E84211300AA3741 /* PBGitHistoryController.m */; };
@@ -441,8 +440,6 @@
 		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevisionCell.m; sourceTree = "<group>"; };
 		F51308590E0740F2000C8BCD /* PBQLOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQLOutlineView.h; sourceTree = "<group>"; };
 		F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQLOutlineView.m; sourceTree = "<group>"; };
-		F5140DC70E8A8EB20091E9F3 /* RoundedRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedRectangle.h; sourceTree = "<group>"; };
-		F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedRectangle.m; sourceTree = "<group>"; };
 		F523CEB40ED3399100DDD714 /* PBGitIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndexController.h; sourceTree = "<group>"; };
 		F523CEB50ED3399200DDD714 /* PBGitIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndexController.m; sourceTree = "<group>"; };
 		F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitHistoryView.xib; sourceTree = "<group>"; };
@@ -483,8 +480,6 @@
 		F57CC43F0E05E496000472E2 /* PBGitWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitWindowController.h; sourceTree = "<group>"; };
 		F57CC4400E05E496000472E2 /* PBGitWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitWindowController.m; sourceTree = "<group>"; };
 		F580E6AD0E733276009E2D3F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		F5886A0A0ED5D27A0066E74C /* speedtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = speedtest.m; sourceTree = "<group>"; };
-		F5886A120ED5D33D0066E74C /* SpeedTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeedTest-Info.plist"; sourceTree = "<group>"; };
 		F58DB55710566D3500CFDF4A /* PBGitSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSidebarController.h; sourceTree = "<group>"; };
 		F58DB55810566D3500CFDF4A /* PBGitSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSidebarController.m; sourceTree = "<group>"; };
 		F58DB55F10566E3900CFDF4A /* PBGitSidebarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitSidebarView.xib; sourceTree = "<group>"; };
@@ -700,7 +695,6 @@
 			isa = PBXGroup;
 			children = (
 				C5EA6E5413F293F800292110 /* GitX.entitlements */,
-				F5886A080ED5D26B0066E74C /* SpeedTest */,
 				913D5E420E5563FD00CECEA2 /* cli */,
 				D89E9B4C1218C22A0097A90B /* GitXScripting */,
 				F57CC43E0E05E472000472E2 /* Aux */,
@@ -714,7 +708,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				F5886A120ED5D33D0066E74C /* SpeedTest-Info.plist */,
 				F567CC3A106E6B910059BB9D /* GitXTesting-Info.plist */,
 			);
 			name = GitTest;
@@ -993,8 +986,8 @@
 				47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */,
 				F5AD56770E79B78100EDAAFE /* PBCommitList.h */,
 				F5AD56780E79B78100EDAAFE /* PBCommitList.m */,
-				F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */,
 				F56524BA0E02D22D00F03B52 /* NSFileHandleExt.h */,
+				F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */,
 				F562C8850FE1766C000EC528 /* NSString_RegEx.h */,
 				F562C8860FE1766C000EC528 /* NSString_RegEx.m */,
 				F57CC38F0E05DDF2000472E2 /* PBEasyPipe.h */,
@@ -1008,8 +1001,6 @@
 				D8E105461157C18200FC28A4 /* PBQLTextView.m */,
 				91B103CA0E898EC300C84364 /* PBIconAndTextCell.h */,
 				91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */,
-				F5140DC70E8A8EB20091E9F3 /* RoundedRectangle.h */,
-				F5140DC80E8A8EB20091E9F3 /* RoundedRectangle.m */,
 				F56244070E9684B0002B6C44 /* PBUnsortableTableHeader.h */,
 				F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */,
 				F5FC41F20EBCBD4300191D80 /* PBGitXProtocol.h */,
@@ -1027,14 +1018,6 @@
 				31776088133569350025876E /* SearchWebView.m */,
 			);
 			name = Aux;
-			sourceTree = "<group>";
-		};
-		F5886A080ED5D26B0066E74C /* SpeedTest */ = {
-			isa = PBXGroup;
-			children = (
-				F5886A0A0ED5D27A0066E74C /* speedtest.m */,
-			);
-			name = SpeedTest;
 			sourceTree = "<group>";
 		};
 		F58DB55610566D1F00CFDF4A /* Sidebar */ = {
@@ -1411,7 +1394,6 @@
 				F5E927F80E883E7200056E75 /* PBChangedFile.m in Sources */,
 				F5E927FC0E883F0700056E75 /* PBWebChangesController.m in Sources */,
 				91B103CC0E898EC300C84364 /* PBIconAndTextCell.m in Sources */,
-				F5140DC90E8A8EB20091E9F3 /* RoundedRectangle.m in Sources */,
 				F56244090E9684B0002B6C44 /* PBUnsortableTableHeader.m in Sources */,
 				F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */,
 				F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */,
@@ -1818,9 +1800,7 @@
 		F56439F80F792B2100A579C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD_64_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1832,9 +1812,7 @@
 		F56439F90F792B2100A579C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD_64_BIT)",
-				);
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_PREPROCESS = YES;

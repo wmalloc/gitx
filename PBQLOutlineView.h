@@ -9,9 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import "PBGitHistoryController.h"
 
-@interface PBQLOutlineView : NSOutlineView {
-	IBOutlet PBGitHistoryController* controller;
+@interface PBQLOutlineView : NSOutlineView
+{
+@private
+    PBGitHistoryController *_gitHistorycontroller;
 }
 
-@property (retain) PBGitHistoryController* controller;
+@property (retain) IBOutlet PBGitHistoryController *gitHistoryController;
 @end

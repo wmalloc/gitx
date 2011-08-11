@@ -11,6 +11,8 @@
 
 @implementation PBQLOutlineView
 
+@synthesize gitHistoryController = _gitHistorycontroller;
+
 - initWithCoder: (NSCoder *) coder
 {
 	id a = [super initWithCoder:coder];
@@ -28,7 +30,7 @@
 - (void) keyDown: (NSEvent *) event
 {
 	if ([[event characters] isEqualToString:@" "]) {
-		[controller toggleQLPreviewPanel:self];
+		[_gitHistorycontroller toggleQLPreviewPanel:self];
 		return;
 	}
 
@@ -76,7 +78,7 @@
 		}
 	}
 
-	return [controller contextMenuForTreeView];
+	return [_gitHistorycontroller contextMenuForTreeView];
 }
 
 /* Implemented to satisfy datasourcee protocol */
@@ -93,5 +95,11 @@
 - (id)   outlineView: (NSOutlineView *)ov
          objectValueForTableColumn:(NSTableColumn*)col
          byItem:(id)item { return nil; }
-@synthesize controller;
+
+- (void)dealloc
+{
+    [_gitHistorycontroller release];
+    
+    [super dealloc];
+}
 @end

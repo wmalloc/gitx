@@ -12,9 +12,11 @@
 @class PBGitHistoryController;
 
 
-@interface PBQLTextView : NSTextView {
-	IBOutlet PBGitHistoryController *controller;
+@interface PBQLTextView : NSTextView
+{
+@private
+    PBGitHistoryController *_gitHistoryController;
 }
 
-@property (retain) PBGitHistoryController *controller;
+@property (retain) IBOutlet PBGitHistoryController *gitHistoryController;
 @end

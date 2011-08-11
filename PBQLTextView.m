@@ -11,16 +11,22 @@
 
 
 @implementation PBQLTextView
+@synthesize gitHistoryController = _gitHistoryController;
 
 - (void) keyDown: (NSEvent *) event
 {
 	if ([[event characters] isEqualToString:@" "]) {
-		[controller toggleQLPreviewPanel:self];
+		[_gitHistoryController toggleQLPreviewPanel:self];
 		return;
 	}
 	
 	[super keyDown:event];
 }
 
-@synthesize controller;
+- (void)dealloc
+{
+    [_gitHistoryController release];
+    
+    [super dealloc];
+}
 @end
