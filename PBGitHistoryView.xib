@@ -3,41 +3,14 @@
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
 		<string key="IBDocument.SystemVersion">11A511</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1617</string>
+		<string key="IBDocument.InterfaceBuilderVersion">907</string>
 		<string key="IBDocument.AppKitVersion">1138</string>
 		<string key="IBDocument.HIToolboxVersion">566.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="com.apple.InterfaceBuilder.CocoaPlugin">1617</string>
-			<string key="com.apple.WebKitIBPlugin">518</string>
+			<string key="com.apple.InterfaceBuilder.CocoaPlugin">907</string>
+			<string key="com.apple.WebKitIBPlugin">907</string>
 		</dictionary>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>WebView</string>
-			<string>NSButton</string>
-			<string>NSCustomObject</string>
-			<string>NSArrayController</string>
-			<string>NSSplitView</string>
-			<string>NSTableView</string>
-			<string>NSCustomView</string>
-			<string>NSDateFormatter</string>
-			<string>NSSearchField</string>
-			<string>NSTextField</string>
-			<string>NSSearchFieldCell</string>
-			<string>NSTextFieldCell</string>
-			<string>NSTreeController</string>
-			<string>NSButtonCell</string>
-			<string>NSTableColumn</string>
-			<string>NSSegmentedControl</string>
-			<string>NSBox</string>
-			<string>NSView</string>
-			<string>NSOutlineView</string>
-			<string>NSScrollView</string>
-			<string>NSTabViewItem</string>
-			<string>NSProgressIndicator</string>
-			<string>NSSegmentedCell</string>
-			<string>NSScroller</string>
-			<string>NSTableHeaderView</string>
-			<string>NSTabView</string>
-		</array>
+		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs"/>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string>com.apple.WebKitIBPlugin</string>
@@ -107,7 +80,7 @@
 				<string key="NSClassName">GLFileView</string>
 			</object>
 			<object class="NSCustomView" id="319362431">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">4370</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSCustomView" id="172148644">
@@ -127,7 +100,7 @@
 									<object class="NSFont" key="NSSupport" id="924107556">
 										<string key="NSName">LucidaGrande</string>
 										<double key="NSSize">13</double>
-										<int key="NSfFlags">1044</int>
+										<int key="NSfFlags">1040</int>
 									</object>
 									<reference key="NSControlView" ref="802449565"/>
 									<array class="NSMutableArray" key="NSSegmentImages">
@@ -391,7 +364,7 @@
 																	<object class="NSFont" key="NSSupport" id="26">
 																		<string key="NSName">LucidaGrande</string>
 																		<double key="NSSize">11</double>
-																		<int key="NSfFlags">3100</int>
+																		<int key="NSfFlags">3088</int>
 																	</object>
 																	<object class="NSColor" key="NSBackgroundColor" id="703711204">
 																		<int key="NSColorSpace">3</int>
@@ -966,7 +939,7 @@
 																				<object class="NSFont" key="NSSupport" id="22">
 																					<string key="NSName">LucidaGrande</string>
 																					<double key="NSSize">9</double>
-																					<int key="NSfFlags">3614</int>
+																					<int key="NSfFlags">3600</int>
 																				</object>
 																				<reference key="NSControlView" ref="655114161"/>
 																				<bool key="NSDrawsBackground">YES</bool>
@@ -1299,7 +1272,6 @@
 					</object>
 				</array>
 				<string key="NSFrameSize">{955, 434}</string>
-				<reference key="NSSuperview"/>
 				<reference key="NSNextKeyView" ref="172148644"/>
 				<string key="NSClassName">NSView</string>
 			</object>
@@ -1529,14 +1501,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">webController</string>
-						<reference key="source" ref="254268962"/>
-						<reference key="destination" ref="568231003"/>
-					</object>
-					<int key="connectionID">95</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
 						<reference key="source" ref="202620420"/>
 						<reference key="destination" ref="1001"/>
@@ -1558,14 +1522,6 @@
 						<reference key="destination" ref="1001"/>
 					</object>
 					<int key="connectionID">110</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">controller</string>
-						<reference key="source" ref="254268962"/>
-						<reference key="destination" ref="1001"/>
-					</object>
-					<int key="connectionID">111</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1957,14 +1913,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">searchController</string>
-						<reference key="source" ref="254268962"/>
-						<reference key="destination" ref="596748029"/>
-					</object>
-					<int key="connectionID">436</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">contextMenuDelegate</string>
 						<reference key="source" ref="746918365"/>
 						<reference key="destination" ref="892732705"/>
@@ -2130,6 +2078,30 @@
 						<reference key="destination" ref="316497765"/>
 					</object>
 					<int key="connectionID">508</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">webHistoryController</string>
+						<reference key="source" ref="254268962"/>
+						<reference key="destination" ref="568231003"/>
+					</object>
+					<int key="connectionID">509</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">gitHistoryController</string>
+						<reference key="source" ref="254268962"/>
+						<reference key="destination" ref="1001"/>
+					</object>
+					<int key="connectionID">510</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">historySearchController</string>
+						<reference key="source" ref="254268962"/>
+						<reference key="destination" ref="596748029"/>
+					</object>
+					<int key="connectionID">511</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2930,7 +2902,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">508</int>
+			<int key="maxID">511</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
@@ -2940,6 +2912,7 @@
 			<integer value="1050" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
+		<nil key="IBDocument.LastKnownRelativeProjectPath"/>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="AddBranchTemplate">{20, 12}</string>

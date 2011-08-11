@@ -12,9 +12,12 @@
 #import "PBHistorySearchController.h"
 
 @implementation PBCommitList
-
-@synthesize mouseDownPoint;
-@synthesize useAdjustScroll;
+@synthesize webView = _webView;
+@synthesize webHistoryController = _webHistoryController;
+@synthesize gitHistoryController = _gitHistoryController;
+@synthesize historySearchController = _historySearchController;
+@synthesize mouseDownPoint = _mouseDownPoint;
+@synthesize useAdjustScroll = _useAdjustScroll;
 
 - (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL) local
 {
@@ -32,29 +35,29 @@
 	}
 
 	if ([character isEqualToString:@" "]) {
-		if (controller.selectedCommitDetailsIndex == 0) {
+		if (_gitHistoryController.selectedCommitDetailsIndex == 0) {
 			if ([event modifierFlags] & NSShiftKeyMask)
-				[webView scrollPageUp:self];
+				[_webView scrollPageUp:self];
 			else
-				[webView scrollPageDown:self];
+				[_webView scrollPageDown:self];
 		}
 		else
-			[controller toggleQLPreviewPanel:self];
+			[_gitHistoryController toggleQLPreviewPanel:self];
 	}
 	else if ([character rangeOfCharacterFromSet:[NSCharacterSet characterSetWithCharactersInString:@"jkcv"]].location == 0)
-		[webController sendKey: character];
+		[_webHistoryController sendKey: character];
 	else
 		[super keyDown: event];
 }
 
 - (void) copy:(id)sender
 {
-	[controller copyCommitInfo];
+	[_gitHistoryController copyCommitInfo];
 }
 
 - (void) copySHA:(id)sender
 {
-	[controller copyCommitSHA];
+	[_gitHistoryController copyCommitSHA];
 }
 
 // !!! Andre Berg 20100330: Used from -scrollSelectionToTopOfViewFrom: of PBGitHistoryController
@@ -68,7 +71,8 @@
 
     // !!! Andre Berg 20100330: only modify if -scrollSelectionToTopOfViewFrom: has set useAdjustScroll to YES
     // Otherwise we'd also constrain things like middle mouse scrolling.
-    if (useAdjustScroll) {
+    if (_useAdjustScroll)
+    {
         NSInteger rh = [self rowHeight];
         NSInteger ny = (NSInteger)proposedVisibleRect.origin.y % (NSInteger)rh;
         NSInteger adj = rh - ny;
@@ -91,7 +95,7 @@
 
 - (void)mouseDown:(NSEvent *)theEvent
 {
-	mouseDownPoint = [[self window] mouseLocationOutsideOfEventStream];
+	_mouseDownPoint = [[self window] mouseLocationOutsideOfEventStream];
 	[super mouseDown:theEvent];
 }
 
@@ -100,7 +104,7 @@
 								   event:(NSEvent *)dragEvent
 								  offset:(NSPointPointer)dragImageOffset
 {
-	NSPoint location = [self convertPointFromBase:mouseDownPoint];
+	NSPoint location = [self convertPointFromBase:_mouseDownPoint];
 	int row = [self rowAtPoint:location];
 	int column = [self columnAtPoint:location];
 	PBGitRevisionCell *cell = (PBGitRevisionCell *)[self preparedCellAtColumn:column row:row];
@@ -158,7 +162,8 @@
 	BOOL isRowVisible = NSIntersectsRect(rowRect, tableViewClipRect);
 
 	// draw special highlighting if the row is part of search results
-	if (isRowVisible && [searchController isRowInSearchResults:rowIndex]) {
+	if (isRowVisible && [_historySearchController isRowInSearchResults:rowIndex]) 
+    {
 		NSRect highlightRect = NSInsetRect(rowRect, 1.0f, 1.0f);
 		float radius = highlightRect.size.height / 2.0f;
 
@@ -179,14 +184,19 @@
 {
 	// disable highlighting if the selected row is part of search results
 	// instead do the highlighting in drawRow:clipRect: above
-	if ([searchController isRowInSearchResults:[self selectedRow]])
+	if ([_historySearchController isRowInSearchResults:[self selectedRow]])
 		return;
 
 	[super highlightSelectionInClipRect:tableViewClipRect];
 }
 
-@synthesize webView;
-@synthesize webController;
-@synthesize controller;
-@synthesize searchController;
+- (void)dealloc
+{
+    [_webView release];
+    [_webHistoryController release];
+    [_gitHistoryController release];
+    [_historySearchController release];
+    
+    [super dealloc];
+}
 @end

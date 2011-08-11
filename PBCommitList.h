@@ -16,20 +16,23 @@
 // handling and hiliting search results.
 // dataSource: PBRefController
 // delegate: PBGitHistoryController
-@interface PBCommitList : NSTableView {
-	IBOutlet WebView* webView;
-	IBOutlet PBWebHistoryController *webController;
-	IBOutlet PBGitHistoryController *controller;
-	IBOutlet PBHistorySearchController *searchController;
+@interface PBCommitList : NSTableView
+{
+@private
+	WebView* _webView;
+	PBWebHistoryController *_webHistoryController;
+	PBGitHistoryController *_gitHistoryController;
+	PBHistorySearchController *_historySearchController;
 
-    BOOL useAdjustScroll;
-	NSPoint mouseDownPoint;
+    BOOL _useAdjustScroll;
+	NSPoint _mouseDownPoint;
 }
+
+@property (retain) IBOutlet WebView* webView;
+@property (retain) IBOutlet PBWebHistoryController *webHistoryController;
+@property (retain) IBOutlet PBGitHistoryController *gitHistoryController;
+@property (retain) IBOutlet PBHistorySearchController *historySearchController;
 
 @property (readonly) NSPoint mouseDownPoint;
 @property (assign) BOOL useAdjustScroll;
-@property (retain) WebView* webView;
-@property (retain) PBWebHistoryController *webController;
-@property (retain) PBGitHistoryController *controller;
-@property (retain) PBHistorySearchController *searchController;
 @end

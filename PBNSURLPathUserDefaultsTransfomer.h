@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PBNSURLPathUserDefaultsTransfomer : NSValueTransformer {
+@interface PBNSURLPathUserDefaultsTransfomer : NSValueTransformer
+{
 
 }
 

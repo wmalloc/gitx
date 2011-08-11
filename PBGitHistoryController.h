@@ -18,12 +18,11 @@
 @class QLPreviewPanel;
 @class PBCommitList;
 @class GLFileView;
-@class NSString;
-
 @class PBHistorySearchController;
 
 // Controls the split history view from PBGitHistoryView.xib
-@interface PBGitHistoryController : PBViewController PROTOCOL_10_6(NSOutlineViewDelegate){
+@interface PBGitHistoryController : PBViewController PROTOCOL_10_6(NSOutlineViewDelegate)
+{
 	IBOutlet PBRefController *refController;
 	IBOutlet NSSearchField *searchField;
 	IBOutlet NSArrayController* commitController;
