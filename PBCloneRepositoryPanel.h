@@ -8,8 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-
-@interface PBCloneRepositoryPanel : NSWindowController {
+@interface PBCloneRepositoryPanel : NSWindowController
+{
 	NSTextField *repositoryURL;
 	NSTextField *destinationPath;
 	NSTextField *errorMessage;

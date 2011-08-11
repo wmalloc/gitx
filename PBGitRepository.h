@@ -19,7 +19,8 @@ typedef enum branchFilterTypes {
 	kGitXSelectedBranchFilter
 } PBGitXBranchFilterType;
 
-static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type) {
+static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type)
+{
     switch (type) {
         case kGitXAllBranchesFilter:
             return @"All";
@@ -42,7 +43,8 @@ static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type) {
 @class PBStashController;
 @class PBSubmoduleController;
 
-@interface PBGitRepository : NSDocument {
+@interface PBGitRepository : NSDocument
+{
 	PBGitHistoryList* revisionList;
 	PBGitConfig *config;
 

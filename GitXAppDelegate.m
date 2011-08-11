@@ -20,8 +20,6 @@
 
 @implementation GitXAppDelegate
 
-@synthesize window = _window;
-@synthesize firstResponder = _firstResponder;
 @synthesize cloneRepositoryPanel = _cloneRepositoryPanel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 @synthesize managedObjectModel = _managedObjectModel;
@@ -119,11 +117,6 @@
 	// show an open panel for the user to select a repository to view
 	if ([PBGitDefaults showOpenPanelOnLaunch] && !hasOpenedDocuments)
 		[[PBRepositoryDocumentController sharedDocumentController] openDocument:self];
-}
-
-- (void) windowWillClose: sender
-{
-	[_firstResponder terminate: sender];
 }
 
 - (IBAction)openPreferencesWindow:(id)sender
@@ -380,10 +373,8 @@
     Implementation of dealloc, to release the retained variables.
  */
  
-- (void) dealloc {
-
-    [_window release], _window = nil;
-    [_firstResponder release], _firstResponder = nil;
+- (void) dealloc
+{
     [_cloneRepositoryPanel release], _cloneRepositoryPanel = nil;
     [_managedObjectContext release], _managedObjectContext = nil;
     [_persistentStoreCoordinator release], _persistentStoreCoordinator = nil;

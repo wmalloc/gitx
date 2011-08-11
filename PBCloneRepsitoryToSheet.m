@@ -57,24 +57,17 @@
     [cloneToSheet setCanCreateDirectories:YES];
 	[cloneToSheet setAccessoryView:cloneToAccessoryView];
 
-    [cloneToSheet beginSheetForDirectory:nil file:nil types:nil
-						  modalForWindow:[self.repository.windowController window]
-						   modalDelegate:self
-						  didEndSelector:@selector(cloneToSheetDidEnd:returnCode:contextInfo:)
-							 contextInfo:NULL];
+    [cloneToSheet beginSheetModalForWindow:[self.repository windowForSheet] 
+                         completionHandler:^(NSInteger result) {
+                             [cloneToSheet orderOut:self];
+                             
+                             if (result == NSOKButton)
+                             {
+                                 NSURL *url = [cloneToSheet URL];
+                                 DLog(@"clone path = %@", url.path);
+                                 [self.repository cloneRepositoryToPath:url.path bare:self.isBare];
+                             }
+                         }];
 }
 	
-
-- (void) cloneToSheetDidEnd:(NSWindow *)sheet returnCode:(NSInteger)code contextInfo:(void *)info
-{
-    [sheet orderOut:self];
-
-    if (code == NSOKButton) {
-		NSString *clonePath = [(NSOpenPanel *)sheet filename];
-		DLog(@"clone path = %@", clonePath);
-		[self.repository cloneRepositoryToPath:clonePath bare:self.isBare];
-	}
-}
-
-
 @end

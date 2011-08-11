@@ -13,8 +13,7 @@
 
 @interface GitXAppDelegate : NSObject PROTOCOL_10_6(NSApplicationDelegate)
 {
-    NSWindow *_window;
-	id _firstResponder;
+@private
 	NSPersistentStoreCoordinator *_persistentStoreCoordinator;
 	NSManagedObjectModel *_managedObjectModel;
 	NSManagedObjectContext *_managedObjectContext;
@@ -22,8 +21,6 @@
 	PBCloneRepositoryPanel *_cloneRepositoryPanel;
 }
 
-@property (retain) IBOutlet NSWindow *window;
-@property (retain) IBOutlet id firstResponder;
 @property (retain) PBCloneRepositoryPanel *cloneRepositoryPanel;
 
 @property (retain) NSPersistentStoreCoordinator *persistentStoreCoordinator;

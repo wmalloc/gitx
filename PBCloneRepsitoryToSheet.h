@@ -11,7 +11,8 @@
 
 @class PBGitRepository;
 
-@interface PBCloneRepsitoryToSheet : NSWindowController {
+@interface PBCloneRepsitoryToSheet : NSWindowController
+{
 	PBGitRepository *repository;
 
 	BOOL isBare;
