@@ -658,9 +658,7 @@ NSString *PBGitIndexOperationFailed = @"PBGitIndexOperationFailed";
 {
 	NSMutableDictionary *dictionary = [NSMutableDictionary dictionaryWithCapacity:[lines count]];
 
-	NSEnumerator *enumerator = [lines objectEnumerator];
-	NSString *line;
-	while ((line = [enumerator nextObject])) {
+	for (NSString *line in lines) {
         NSArray *lineComp=[line componentsSeparatedByString:@"\t"];
         NSArray *fileStatus=[[lineComp objectAtIndex:0] componentsSeparatedByString:@" "];
 		NSString *fileName = [lineComp objectAtIndex:1];
