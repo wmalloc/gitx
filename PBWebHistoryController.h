@@ -15,4 +15,5 @@
 	IBOutlet PBGitHistoryController* historyController;
 }
 
+@property (retain) PBGitHistoryController* historyController;
 @end

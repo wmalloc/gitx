@@ -262,4 +262,11 @@ NSString * const kGitXProgressErrorInfo          = @"PBGitXProgressErrorInfo";
 }
 
 
+@synthesize controller;
+@synthesize arguments;
+@synthesize title;
+@synthesize description;
+@synthesize gitTask;
+@synthesize returnCode;
+@synthesize taskTimer;
 @end

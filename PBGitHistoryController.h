@@ -108,4 +108,23 @@
 - (BOOL)splitView:(NSSplitView *)sender canCollapseSubview:(NSView *)subview;
 - (BOOL)splitView:(NSSplitView *)splitView shouldCollapseSubview:(NSView *)subview forDoubleClickOnDividerAtIndex:(NSInteger)dividerIndex;
 
+@property (retain) NSSearchField *searchField;
+@property (retain) NSSearchField *filesSearchField;
+@property (retain) NSOutlineView* fileBrowser;
+@property (retain) NSArray *currentFileBrowserSelectionPath;
+@property (retain) PBWebHistoryController *webHistoryController;
+@property (retain) QLPreviewPanel* previewPanel;
+@property (retain) GLFileView *fileView;
+@property (retain) PBGitGradientBarView *upperToolbarView;
+@property (retain) NSButton *mergeButton;
+@property (retain) NSButton *cherryPickButton;
+@property (retain) NSButton *rebaseButton;
+@property (retain) PBGitGradientBarView *scopeBarView;
+@property (retain) NSButton *allBranchesFilterItem;
+@property (retain) NSButton *localRemoteBranchesFilterItem;
+@property (retain) NSButton *selectedBranchFilterItem;
+@property (retain) id webView;
+@property BOOL forceSelectionUpdate;
+@property (retain) PBGitCommit *selectedCommit;
+@property (retain) PBGitCommit *selectedCommitBeforeRefresh;
 @end

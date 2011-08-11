@@ -57,4 +57,5 @@
 }
 
 
+@synthesize diffController;
 @end

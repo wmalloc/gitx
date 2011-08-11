@@ -336,4 +336,7 @@ writeRowsWithIndexes:(NSIndexSet *)rowIndexes
 	return YES;
 }
 
+@synthesize commitController;
+@synthesize unstagedTable;
+@synthesize stagedTable;
 @end

@@ -40,4 +40,5 @@
 - (NSResponder *)firstResponder;
 
 - (IBAction) refresh:(id)sender;
+@property BOOL hasViewLoaded;
 @end

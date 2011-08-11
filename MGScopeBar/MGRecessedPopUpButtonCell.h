@@ -18,4 +18,5 @@
 	NSButton *recessedButton; // we use a separate NSButton to do the bezel-drawing.
 }
 
+@property (retain) NSButton *recessedButton;
 @end

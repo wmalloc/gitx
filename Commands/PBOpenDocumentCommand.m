@@ -23,4 +23,5 @@
 	[[PBRepositoryDocumentController sharedDocumentController] documentForLocation:documentURL];
 }
 
+@synthesize documentURL;
 @end

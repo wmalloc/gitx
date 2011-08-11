@@ -51,4 +51,7 @@
 @property(readonly) NSString* fullPath;
 @property(readonly) NSString* contents;
 
+@property long long _fileSize;
+@property (retain) NSString* localFileName;
+@property (retain) NSDate* localMtime;
 @end

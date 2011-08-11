@@ -22,4 +22,5 @@
 - (id)initWithWindowNibName:(NSString *)windowNibName andController:(PBGitCommitController *)controller;
 - (IBAction)forceCommit:(id)sender;
 
+@property (retain) PBGitCommitController *commitController;
 @end

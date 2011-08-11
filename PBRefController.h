@@ -47,4 +47,8 @@
 - (NSArray *)menuItemsForRow:(NSInteger)rowIndex;
 
 
+@property (retain) __weak PBGitHistoryController *historyController;
+@property (retain) NSArrayController *commitController;
+@property (retain) PBCommitList *commitList;
+@property (retain) NSPopUpButton *branchPopUp;
 @end

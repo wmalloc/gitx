@@ -19,4 +19,6 @@
 
 - (void)drawWithFrame:(NSRect)cellFrame inView:(NSView *)controlView;
 - (NSSize)cellSize;
+@property BOOL mouseDownInButton;
+@property BOOL mouseHoveredInButton;
 @end

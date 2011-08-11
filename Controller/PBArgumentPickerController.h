@@ -22,4 +22,6 @@
 
 - (IBAction) okClicked:sender;
 - (IBAction) cancelClicked:sender;
+@property (retain) PBArgumentPicker *view;
+@property (retain) PBCommandWithParameter *cmdWithParameter;
 @end

@@ -294,4 +294,11 @@
 	[commitSplitView setHidden:NO];
 }
 
+@synthesize commitMessageView;
+@synthesize unstagedFilesController;
+@synthesize cachedFilesController;
+@synthesize commitButton;
+@synthesize indexController;
+@synthesize webController;
+@synthesize commitSplitView;
 @end

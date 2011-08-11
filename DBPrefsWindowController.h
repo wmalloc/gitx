@@ -73,4 +73,11 @@
 
 - (NSString *)defaultViewIdentifier;
 
+@property (retain) NSMutableArray *toolbarIdentifiers;
+@property (retain) NSMutableDictionary *toolbarViews;
+@property (retain) NSMutableDictionary *toolbarItems;
+@property (getter=crossFade,setter=setCrossFade:) BOOL _crossFade;
+@property (getter=shiftSlowsAnimation,setter=setShiftSlowsAnimation:) BOOL _shiftSlowsAnimation;
+@property (retain) NSView *contentSubview;
+@property (retain) NSViewAnimation *viewAnimation;
 @end

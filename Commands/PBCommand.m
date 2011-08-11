@@ -61,4 +61,5 @@
 	[PBRemoteProgressSheet beginRemoteProgressSheetForArguments:[self allParameters] title:self.commandTitle description:self.commandDescription inRepository:self.repository];
 }
 
+@synthesize parameters;
 @end

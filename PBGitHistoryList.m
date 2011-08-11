@@ -370,4 +370,12 @@
 	[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
 }
 
+@synthesize repository;
+@synthesize lastSHA;
+@synthesize lastRefSHAs;
+@synthesize lastBranchFilter;
+@synthesize lastRemoteRef;
+@synthesize resetCommits;
+@synthesize shouldReloadProjectHistory;
+@synthesize graphQueue;
 @end

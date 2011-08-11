@@ -63,4 +63,8 @@ typedef enum historySearchModes {
 
 - (void)setHistorySearch:(NSString *)searchString mode:(NSInteger)mode;
 
+@property (retain) NSIndexSet *results;
+@property (retain) NSTimer *searchTimer;
+@property (retain) NSTask *backgroundSearchTask;
+@property (retain) NSPanel *rewindPanel;
 @end

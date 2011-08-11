@@ -1046,4 +1046,14 @@
 @synthesize delegate;
 
 
+@synthesize _separatorPositions;
+@synthesize _groups;
+@synthesize _accessoryView;
+@synthesize _identifiers;
+@synthesize _selectedItems;
+@synthesize _lastWidth;
+@synthesize _firstCollapsedGroup;
+@synthesize _totalGroupsWidthForPopups;
+@synthesize _totalGroupsWidth;
+@synthesize _smartResizeEnabled;
 @end

@@ -220,4 +220,7 @@
 	[self preferencesChanged];
 }
 
+@synthesize view;
+@synthesize finishedLoading;
+@synthesize callbacks;
 @end

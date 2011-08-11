@@ -691,4 +691,11 @@
 @synthesize groups;
 @synthesize logFormat;
 
+@synthesize historyController;
+@synthesize typeBar;
+@synthesize diffType;
+@synthesize accessoryView;
+@synthesize fileListSplitView;
+@synthesize searchField;
+@synthesize lastFile;
 @end

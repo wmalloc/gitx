@@ -355,4 +355,16 @@
 	[mainView setFrame:mainFrame];
 }
 
+@synthesize contentController;
+@synthesize sidebarController;
+@synthesize sourceListControlsView;
+@synthesize mainSplitView;
+@synthesize sourceSplitView;
+@synthesize contentSplitView;
+@synthesize statusField;
+@synthesize progressIndicator;
+@synthesize terminalItem;
+@synthesize finderItem;
+@synthesize splitViews;
+@synthesize splitViewsSize;
 @end

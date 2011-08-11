@@ -16,4 +16,5 @@
 }
 
 - (void) showDiff:(NSString *)diff;
+@property (retain) PBDiffWindowController *diffController;
 @end

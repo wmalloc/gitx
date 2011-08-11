@@ -48,4 +48,14 @@
 		The identifiers in each sub-array are not in any particular order.
  */
 
+@property (retain) NSMutableArray *_separatorPositions;
+@property (retain) NSMutableArray *_groups;
+@property (retain) NSView *_accessoryView;
+@property (retain) NSMutableDictionary *_identifiers;
+@property (retain) NSMutableArray *_selectedItems;
+@property float _lastWidth;
+@property NSInteger _firstCollapsedGroup;
+@property float _totalGroupsWidthForPopups;
+@property float _totalGroupsWidth;
+@property (getter=smartResizeEnabled) BOOL _smartResizeEnabled;
 @end

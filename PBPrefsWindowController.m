@@ -84,4 +84,11 @@
 	[[gitPathOpenPanel valueForKey:@"_navView"] setValue:showHidden forKey:@"showsHiddenFiles"];
 }
 
+@synthesize generalPrefsView;
+@synthesize integrationPrefsView;
+@synthesize updatesPrefsView;
+@synthesize gitPathController;
+@synthesize badGitPathIcon;
+@synthesize gitPathOpenAccessory;
+@synthesize gitPathOpenPanel;
 @end

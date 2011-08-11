@@ -182,4 +182,5 @@
     }
 }
 
+@synthesize iMouseCell;
 @end

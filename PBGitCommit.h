@@ -67,4 +67,6 @@ extern NSString * const kGitXCommitType;
 @property (readonly) NSArray* treeContents;
 @property (retain) PBGitRepository* repository;
 @property (retain) id lineInfo;
+@property (retain) NSString *_patch;
+@property (retain) NSString *realSHA;
 @end

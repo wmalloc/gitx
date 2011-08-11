@@ -185,4 +185,8 @@
 	[super highlightSelectionInClipRect:tableViewClipRect];
 }
 
+@synthesize webView;
+@synthesize webController;
+@synthesize controller;
+@synthesize searchController;
 @end

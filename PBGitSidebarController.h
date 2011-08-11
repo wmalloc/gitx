@@ -59,4 +59,12 @@
 @property(readonly) PBGitCommitController *commitViewController;
 @property(readonly) PBStashContentController *stashViewController;
 
+@property (retain) NSWindow *window;
+@property (retain) NSOutlineView *sourceView;
+@property (retain) NSPopUpButton *actionButton;
+@property (retain) NSSegmentedControl *remoteControls;
+@property (retain) NSButton* svnFetchButton;
+@property (retain) NSButton* svnRebaseButton;
+@property (retain) NSButton* svnDcommitButton;
+@property (retain) PBSourceViewItem *stage;
 @end

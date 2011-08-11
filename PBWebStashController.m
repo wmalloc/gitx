@@ -24,4 +24,5 @@
 	return [NSArray arrayWithObject:[parents lastObject]];
 }
 
+@synthesize stashController;
 @end

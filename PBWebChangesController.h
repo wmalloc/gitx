@@ -27,4 +27,10 @@
 - (void) setStateMessage:(NSString *)state;
 
 - (void) showMultiple:(NSArray *)files;
+@property (retain) NSArrayController *unstagedFilesController;
+@property (retain) NSArrayController *cachedFilesController;
+@property (retain) PBGitCommitController *controller;
+@property (retain) PBGitIndexController *indexController;
+@property (retain) PBChangedFile *selectedFile;
+@property BOOL selectedFileIsCached;
 @end

@@ -78,4 +78,9 @@ extern NSString *PBGitIndexOperationFailed;
 - (BOOL)applyPatch:(NSString *)hunk stage:(BOOL)stage reverse:(BOOL)reverse;
 - (NSString *)diffForFile:(PBChangedFile *)file staged:(BOOL)staged contextLines:(NSUInteger)context;
 
+@property (retain) PBGitRepository *repository;
+@property (retain) NSURL *workingDirectory;
+@property (retain) NSMutableArray *files;
+@property NSUInteger refreshStatus;
+@property (retain) NSDictionary *amendEnvironment;
 @end

@@ -826,4 +826,23 @@
 	[treeController setContent:[gitTree filteredChildren]];
 }
 
+@synthesize searchField;
+@synthesize filesSearchField;
+@synthesize fileBrowser;
+@synthesize currentFileBrowserSelectionPath;
+@synthesize webHistoryController;
+@synthesize previewPanel;
+@synthesize fileView;
+@synthesize upperToolbarView;
+@synthesize mergeButton;
+@synthesize cherryPickButton;
+@synthesize rebaseButton;
+@synthesize scopeBarView;
+@synthesize allBranchesFilterItem;
+@synthesize localRemoteBranchesFilterItem;
+@synthesize selectedBranchFilterItem;
+@synthesize webView;
+@synthesize forceSelectionUpdate;
+@synthesize selectedCommit;
+@synthesize selectedCommitBeforeRefresh;
 @end

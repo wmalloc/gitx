@@ -48,4 +48,12 @@
 @property (readonly) NSArray *projectCommits;
 @property (assign) BOOL isUpdating;
 
+@property (retain) PBGitRepository *repository;
+@property (retain) NSString *lastSHA;
+@property (retain) NSSet *lastRefSHAs;
+@property NSInteger lastBranchFilter;
+@property (retain) PBGitRef *lastRemoteRef;
+@property BOOL resetCommits;
+@property BOOL shouldReloadProjectHistory;
+@property (retain) NSOperationQueue *graphQueue;
 @end

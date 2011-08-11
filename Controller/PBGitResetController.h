@@ -23,4 +23,5 @@
 - (void) resetToRefish: (id<PBGitRefish>) spec type: (PBResetType) type;
 - (void) resetHardToHead;
 
+@property (retain) PBGitRepository *repository;
 @end

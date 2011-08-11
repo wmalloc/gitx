@@ -49,4 +49,5 @@
 }
 
 
+@synthesize gradient;
 @end

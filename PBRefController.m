@@ -443,4 +443,8 @@
         [PBGitDefaults suppressDialogWarningForDialog:kDialogAcceptDroppedRef];
 }
 
+@synthesize historyController;
+@synthesize commitController;
+@synthesize commitList;
+@synthesize branchPopUp;
 @end

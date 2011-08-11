@@ -33,4 +33,5 @@
 
 - (NSArray *) allParameters;
 - (void) appendParameters:(NSArray *) params;
+@property (retain) NSMutableArray *parameters;
 @end

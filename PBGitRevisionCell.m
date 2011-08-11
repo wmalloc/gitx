@@ -323,4 +323,8 @@
 		[menu addItem:item];
 	return menu;
 }
+@synthesize cellInfo;
+@synthesize textCell;
+@synthesize controller;
+@synthesize contextMenuDelegate;
 @end

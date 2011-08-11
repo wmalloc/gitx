@@ -35,4 +35,5 @@
     [commitController forceCommit:sender];
 }
 
+@synthesize commitController;
 @end

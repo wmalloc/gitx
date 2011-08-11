@@ -421,4 +421,7 @@
 
 
 
+@synthesize window;
+@synthesize firstResponder;
+@synthesize cloneRepositoryPanel;
 @end

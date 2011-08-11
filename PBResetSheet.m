@@ -64,4 +64,8 @@ static const char* StringFromResetType(PBResetType type) {
 	[[self window] orderOut:self];
 }
 
+@synthesize resetType;
+@synthesize resetDesc;
+@synthesize targetRefish;
+@synthesize repository;
 @end

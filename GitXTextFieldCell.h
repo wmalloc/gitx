@@ -14,4 +14,5 @@
 	IBOutlet id<PBRefContextDelegate> contextMenuDelegate;
 }
 
+@property (retain) id<PBRefContextDelegate> contextMenuDelegate;
 @end

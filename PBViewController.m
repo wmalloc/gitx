@@ -59,4 +59,5 @@
 {
 }
 
+@synthesize hasViewLoaded;
 @end

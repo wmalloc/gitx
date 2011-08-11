@@ -59,4 +59,5 @@
 	[super dealloc];
 }
 
+@synthesize repository;
 @end

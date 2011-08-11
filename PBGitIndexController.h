@@ -22,4 +22,7 @@
 - (IBAction) tableClicked:(NSTableView *)tableView;
 
 - (NSMenu *) menuForTable:(NSTableView *)table;
+@property (retain) PBGitCommitController *commitController;
+@property (retain) NSTableView *unstagedTable;
+@property (retain) NSTableView *stagedTable;
 @end

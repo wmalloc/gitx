@@ -122,4 +122,5 @@
     return [NSDictionary dictionaryWithDictionary:result];
 }
 
+@synthesize repositoryPath;
 @end

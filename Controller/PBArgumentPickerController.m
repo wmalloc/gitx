@@ -47,4 +47,6 @@
 }
 
 
+@synthesize view;
+@synthesize cmdWithParameter;
 @end

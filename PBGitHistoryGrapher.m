@@ -71,4 +71,9 @@
 }
 
 
+@synthesize delegate;
+@synthesize currentQueue;
+@synthesize searchSHAs;
+@synthesize grapher;
+@synthesize viewAllBranches;
 @end

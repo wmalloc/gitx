@@ -21,4 +21,6 @@
 @property (nonatomic) SEL iInfoButtonAction;
 @property (assign) NSString *badge;
 
+@property BOOL iMouseDownInInfoButton;
+@property BOOL iMouseHoveredInInfoButton;
 @end

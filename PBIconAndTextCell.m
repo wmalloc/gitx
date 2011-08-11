@@ -121,4 +121,6 @@
 //	return YES;
 //}
 
+@synthesize mouseDownInButton;
+@synthesize mouseHoveredInButton;
 @end

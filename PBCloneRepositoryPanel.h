@@ -41,4 +41,7 @@
 
 @property (assign) BOOL isBare;
 
+@property (retain) NSOpenPanel *browseRepositoryPanel;
+@property (retain) NSOpenPanel *browseDestinationPanel;
+@property (retain) NSString *path;
 @end

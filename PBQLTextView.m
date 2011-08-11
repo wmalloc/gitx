@@ -22,4 +22,5 @@
 	[super keyDown:event];
 }
 
+@synthesize controller;
 @end

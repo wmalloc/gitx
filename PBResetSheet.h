@@ -32,4 +32,8 @@ typedef enum PBResetType {
 - (IBAction)resetBranch:(id)sender;
 - (IBAction)cancel:(id)sender;
 
+@property (retain) NSSegmentedControl* resetType;
+@property (retain) NSTabView* resetDesc;
+@property (retain) id<PBGitRefish> targetRefish;
+@property (retain) PBGitRepository* repository;
 @end

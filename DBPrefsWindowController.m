@@ -418,4 +418,9 @@ static DBPrefsWindowController *_sharedPrefsWindowController = nil;
 
 
 
+@synthesize toolbarIdentifiers;
+@synthesize toolbarViews;
+@synthesize toolbarItems;
+@synthesize contentSubview;
+@synthesize viewAnimation;
 @end

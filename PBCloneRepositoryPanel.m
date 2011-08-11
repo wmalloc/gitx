@@ -213,4 +213,7 @@
 }
 
 
+@synthesize browseRepositoryPanel;
+@synthesize browseDestinationPanel;
+@synthesize path;
 @end

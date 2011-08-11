@@ -25,4 +25,8 @@
 - (void) drawLabelAtIndex:(int)index inRect:(NSRect)rect;
 
 @property(retain) PBGitCommit* objectValue;
+@property (retain) PBGraphCellInfo *cellInfo;
+@property (retain) NSTextFieldCell *textCell;
+@property (retain) PBGitHistoryController *controller;
+@property (retain) id<PBRefContextDelegate> contextMenuDelegate;
 @end

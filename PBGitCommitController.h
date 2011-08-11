@@ -32,4 +32,11 @@
 - (IBAction) commit:(id) sender;
 - (IBAction) forceCommit:(id) sender;
 - (IBAction)signOff:(id)sender;
+@property (retain) NSTextView *commitMessageView;
+@property (retain) NSArrayController *unstagedFilesController;
+@property (retain) NSArrayController *cachedFilesController;
+@property (retain) NSButton *commitButton;
+@property (retain) PBGitIndexController *indexController;
+@property (retain) PBWebChangesController *webController;
+@property (retain) NSSplitView *commitSplitView;
 @end

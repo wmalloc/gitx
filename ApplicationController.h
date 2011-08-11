@@ -36,4 +36,7 @@
 - (IBAction)reportAProblem:(id)sender;
 
 - (IBAction)showCloneRepository:(id)sender;
+@property (retain) NSWindow *window;
+@property (retain) id firstResponder;
+@property (retain) PBCloneRepositoryPanel *cloneRepositoryPanel;
 @end

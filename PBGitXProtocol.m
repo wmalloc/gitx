@@ -92,6 +92,7 @@
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
+@synthesize handle;
 @end
 
 @implementation NSURLRequest (PBGitXProtocol)

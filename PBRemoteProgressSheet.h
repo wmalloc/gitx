@@ -43,4 +43,11 @@ extern NSString * const kGitXProgressErrorInfo;
 @property (assign) IBOutlet NSProgressIndicator *progressIndicator;
 
 
+@property (retain) NSWindowController *controller;
+@property (retain) NSArray  *arguments;
+@property (retain) NSString *title;
+@property (retain) NSString *description;
+@property (retain) NSTask    *gitTask;
+@property NSInteger  returnCode;
+@property (retain) NSTimer *taskTimer;
 @end

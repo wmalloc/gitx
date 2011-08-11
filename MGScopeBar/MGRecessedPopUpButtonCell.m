@@ -51,4 +51,5 @@
 }
 
 
+@synthesize recessedButton;
 @end

@@ -28,4 +28,5 @@
 - (void) stashLocalChanges;
 - (void) clearAllStashes;
 
+@property (retain) PBGitRepository *repository;
 @end

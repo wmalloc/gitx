@@ -12,6 +12,7 @@
 @interface PBGitXProtocol : NSURLProtocol {
 	NSFileHandle *handle;
 }
+@property (retain) NSFileHandle *handle;
 @end
 
 @interface NSURLRequest (PBGitXProtocol)

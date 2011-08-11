@@ -38,4 +38,6 @@
 - (NSArray*) menuItemsForPath:(NSString*)path;
 
 @property (readonly) NSString* diff;
+@property (retain) id<PBRefContextDelegate> contextMenuDelegate;
+@property (retain) NSString* currentSha;
 @end

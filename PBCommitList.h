@@ -28,4 +28,8 @@
 
 @property (readonly) NSPoint mouseDownPoint;
 @property (assign) BOOL useAdjustScroll;
+@property (retain) WebView* webView;
+@property (retain) PBWebHistoryController *webController;
+@property (retain) PBGitHistoryController *controller;
+@property (retain) PBHistorySearchController *searchController;
 @end

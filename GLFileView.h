@@ -52,4 +52,11 @@
 @property(retain) NSMutableArray *groups;
 @property(retain) NSString *logFormat;
 
+@property (retain) PBGitHistoryController* historyController;
+@property (retain) MGScopeBar *typeBar;
+@property (retain) NSString *diffType;
+@property (retain) NSView *accessoryView;
+@property (retain) NSSplitView *fileListSplitView;
+@property (retain) NSSearchField *searchField;
+@property (retain) PBGitTree *lastFile;
 @end

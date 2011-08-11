@@ -29,4 +29,11 @@
 - (IBAction) resetGitPath: sender;
 - (IBAction)resetAllDialogWarnings:(id)sender;
 
+@property (retain) NSView *generalPrefsView;
+@property (retain) NSView *integrationPrefsView;
+@property (retain) NSView *updatesPrefsView;
+@property (retain) NSPathControl *gitPathController;
+@property (retain) NSImageView *badGitPathIcon;
+@property (retain) NSView *gitPathOpenAccessory;
+@property (retain) NSOpenPanel *gitPathOpenPanel;
 @end

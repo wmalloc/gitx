@@ -43,4 +43,7 @@ const CGFloat kMinPaneSize = 32.0;
 	return [splitView frame].size.height - kMinPaneSize;
 }
 
+@synthesize webView;
+@synthesize unstagedController;
+@synthesize stagedController;
 @end

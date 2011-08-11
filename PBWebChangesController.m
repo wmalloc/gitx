@@ -131,4 +131,10 @@
 	[script callWebScriptMethod:@"setState" withArguments: [NSArray arrayWithObject:state]];
 }
 
+@synthesize unstagedFilesController;
+@synthesize cachedFilesController;
+@synthesize controller;
+@synthesize indexController;
+@synthesize selectedFile;
+@synthesize selectedFileIsCached;
 @end

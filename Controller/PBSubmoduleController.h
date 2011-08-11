@@ -34,4 +34,5 @@
 
 - (PBCommand *) commandForOpeningSubmodule:(PBGitSubmodule *) submodule;
 - (PBCommand *) defaultCommandForSubmodule:(PBGitSubmodule *) submodule;
+@property (retain) PBGitRepository *repository;
 @end

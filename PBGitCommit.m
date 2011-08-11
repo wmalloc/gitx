@@ -179,4 +179,6 @@ NSString * const kGitXCommitType = @"commit";
 	return kGitXCommitType;
 }
 
+@synthesize _patch;
+@synthesize realSHA;
 @end

@@ -78,4 +78,5 @@
 	return [historyController menuItemsForPaths:[NSArray arrayWithObject:path]];
 }
 
+@synthesize historyController;
 @end

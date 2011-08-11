@@ -34,4 +34,5 @@
 	return menu;
 }
 
+@synthesize contextMenuDelegate;
 @end

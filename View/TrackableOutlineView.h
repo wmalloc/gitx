@@ -55,4 +55,5 @@
     NSInteger iMouseRow, iMouseCol;
     NSCell *iMouseCell;
 }
+@property (retain) NSCell *iMouseCell;
 @end

@@ -612,4 +612,12 @@ enum  {
     [repository svnDcommit:nil];
 }
 
+@synthesize window;
+@synthesize sourceView;
+@synthesize actionButton;
+@synthesize remoteControls;
+@synthesize svnFetchButton;
+@synthesize svnRebaseButton;
+@synthesize svnDcommitButton;
+@synthesize stage;
 @end

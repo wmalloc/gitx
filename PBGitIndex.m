@@ -478,6 +478,11 @@ NSString *PBGitIndexOperationFailed = @"PBGitIndexOperationFailed";
 	return NO;
 }
 
+@synthesize repository;
+@synthesize workingDirectory;
+@synthesize files;
+@synthesize refreshStatus;
+@synthesize amendEnvironment;
 @end
 
 @implementation PBGitIndex (IndexRefreshMethods)

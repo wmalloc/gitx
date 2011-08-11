@@ -20,4 +20,5 @@
 // get config data: `git config -l`
 - (NSDictionary*) listConfigValuesInDir:(NSString*)inDir;
 
+@property (retain) NSString *repositoryPath;
 @end

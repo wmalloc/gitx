@@ -36,4 +36,7 @@
 	}
 	[super mouseDown:theEvent];
 }
+@synthesize controller;
+@synthesize clickCount;
+@synthesize columnIndex;
 @end

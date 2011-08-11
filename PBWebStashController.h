@@ -13,4 +13,5 @@
 	IBOutlet PBStashContentController *stashController;
 }
 
+@property (retain) PBStashContentController *stashController;
 @end

@@ -107,4 +107,5 @@ static NSString * const kCommandName = @"stash";
 }
 
 
+@synthesize repository;
 @end

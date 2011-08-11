@@ -61,4 +61,16 @@
 - (NSArray *)menuItemsForPaths:(NSArray *)paths;
 - (void)setHistorySearch:(NSString *)searchString mode:(NSInteger)mode;
 
+@property (retain) PBViewController *contentController;
+@property (retain) PBGitSidebarController *sidebarController;
+@property (retain) NSView *sourceListControlsView;
+@property (retain) NSSplitView *mainSplitView;
+@property (retain) NSView *sourceSplitView;
+@property (retain) NSView *contentSplitView;
+@property (retain) NSTextField *statusField;
+@property (retain) NSProgressIndicator *progressIndicator;
+@property (retain) NSToolbarItem *terminalItem;
+@property (retain) NSToolbarItem *finderItem;
+@property (retain) NSArray *splitViews;
+@property (retain) NSMutableArray *splitViewsSize;
 @end

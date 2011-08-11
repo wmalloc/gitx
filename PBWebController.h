@@ -30,4 +30,7 @@
 - (void) closeView;
 - (BOOL) isFeatureEnabled:(NSString *)feature;
 
+@property (retain) WebView* view;
+@property BOOL finishedLoading;
+@property (retain) NSMapTable *callbacks;
 @end

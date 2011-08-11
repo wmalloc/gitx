@@ -93,4 +93,5 @@
 - (id)   outlineView: (NSOutlineView *)ov
          objectValueForTableColumn:(NSTableColumn*)col
          byItem:(id)item { return nil; }
+@synthesize controller;
 @end

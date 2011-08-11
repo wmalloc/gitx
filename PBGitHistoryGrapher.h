@@ -28,4 +28,9 @@
 - (id) initWithBaseCommits:(NSSet *)commits viewAllBranches:(BOOL)viewAll queue:(NSOperationQueue *)queue delegate:(id)theDelegate;
 - (void) graphCommits:(NSArray *)revList;
 
+@property (retain) id delegate;
+@property (retain) NSOperationQueue *currentQueue;
+@property (retain) NSMutableSet *searchSHAs;
+@property (retain) PBGitGrapher *grapher;
+@property BOOL viewAllBranches;
 @end

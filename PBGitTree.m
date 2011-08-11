@@ -381,4 +381,7 @@
 {
     return [sha isEqualTo:[object sha]] && [[self fullPath] isEqualTo:[object fullPath]];
 }
+@synthesize _fileSize;
+@synthesize localFileName;
+@synthesize localMtime;
 @end

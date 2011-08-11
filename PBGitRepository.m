@@ -1369,4 +1369,6 @@ NSString* PBGitRepositoryErrorDomain = @"GitXErrorDomain";
 	//DLog(@"Dealloc of repository");
 	[super finalize];
 }
+@synthesize _headRef;
+@synthesize _headSha;
 @end

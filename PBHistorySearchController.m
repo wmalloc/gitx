@@ -542,4 +542,8 @@
 	[self performSelector:@selector(closeRewindPanel) withObject:nil afterDelay:0.7f];
 }
 
+@synthesize results;
+@synthesize searchTimer;
+@synthesize backgroundSearchTask;
+@synthesize rewindPanel;
 @end

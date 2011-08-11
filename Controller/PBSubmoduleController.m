@@ -131,4 +131,5 @@
 	return shouldBeEnabled;
 }
 
+@synthesize repository;
 @end

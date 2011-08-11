@@ -14,4 +14,5 @@
 }
 
 - (id) initWithDocumentAbsolutePath:(NSString *) path;
+@property (retain) NSURL *documentURL;
 @end

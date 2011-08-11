@@ -156,4 +156,6 @@ static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type) {
 @property (assign) PBGitRevSpecifier *currentBranch;
 @property (assign) NSInteger currentBranchFilter;
 @property (retain) NSMutableDictionary* refs;
+@property (retain) PBGitRevSpecifier *_headRef;
+@property (retain) NSString* _headSha;
 @end

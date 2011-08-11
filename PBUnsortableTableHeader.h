@@ -15,4 +15,7 @@
 	int columnIndex;
 }
 
+@property (retain) NSArrayController *controller;
+@property int clickCount;
+@property int columnIndex;
 @end

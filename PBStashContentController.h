@@ -21,4 +21,7 @@
 
 - (void) showStash:(PBGitStash*)stash;
 
+@property (retain) id webView;
+@property (retain) PBWebStashController *unstagedController;
+@property (retain) PBWebStashController *stagedController;
 @end

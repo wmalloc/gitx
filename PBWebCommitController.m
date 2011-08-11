@@ -358,4 +358,6 @@ contextMenuItemsForElement:(NSDictionary *)element
 	[[self script] callWebScriptMethod:@"enableFeatures" withArguments:nil];
 }
 
+@synthesize contextMenuDelegate;
+@synthesize currentSha;
 @end

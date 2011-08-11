@@ -148,4 +148,6 @@
 
 
 
+@synthesize iMouseDownInInfoButton;
+@synthesize iMouseHoveredInInfoButton;
 @end
