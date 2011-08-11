@@ -6,9 +6,9 @@
 //  Copyright 2008 __MyCompanyName__. All rights reserved.
 //
 
+#import <Quartz/Quartz.h>
 #import "PBGitHistoryController.h"
 #import "PBWebHistoryController.h"
-#import "CWQuickLook.h"
 #import "PBGitGrapher.h"
 #import "PBGitRevisionCell.h"
 #import "PBCommitList.h"
@@ -21,7 +21,6 @@
 #import "PBGitDefaults.h"
 #import "PBGitRevList.h"
 #import "PBHistorySearchController.h"
-#define QLPreviewPanel NSClassFromString(@"QLPreviewPanel")
 #import "PBQLTextView.h"
 #import "GLFileView.h"
 

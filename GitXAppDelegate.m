@@ -6,7 +6,7 @@
 //  Copyright __MyCompanyName__ 2008 . All rights reserved.
 //
 
-#import "ApplicationController.h"
+#import "GitXAppDelegate.h"
 #import "PBGitRevisionCell.h"
 #import "PBGitWindowController.h"
 #import "PBRepositoryDocumentController.h"
@@ -18,9 +18,16 @@
 #import "PBCloneRepositoryPanel.h"
 #import "Sparkle/SUUpdater.h"
 
-@implementation ApplicationController
+@implementation GitXAppDelegate
 
-- (ApplicationController*)init
+@synthesize window = _window;
+@synthesize firstResponder = _firstResponder;
+@synthesize cloneRepositoryPanel = _cloneRepositoryPanel;
+@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@synthesize managedObjectModel = _managedObjectModel;
+@synthesize managedObjectContext = _managedObjectContext;
+
+- (GitXAppDelegate*)init
 {
 #ifdef DEBUG_BUILD
 	[NSApp activateIgnoringOtherApps:YES];
@@ -28,10 +35,6 @@
 
 	if(!(self = [super init]))
 		return nil;
-
-	if(![[NSBundle bundleWithPath:@"/System/Library/Frameworks/Quartz.framework/Frameworks/QuickLookUI.framework"] load])
-		if(![[NSBundle bundleWithPath:@"/System/Library/PrivateFrameworks/QuickLookUI.framework"] load])
-			DLog(@"Could not load QuickLook");
 
 	/* Value Transformers */
 	NSValueTransformer *transformer = [[PBNSURLPathUserDefaultsTransfomer alloc] init];
@@ -120,7 +123,7 @@
 
 - (void) windowWillClose: sender
 {
-	[firstResponder terminate: sender];
+	[_firstResponder terminate: sender];
 }
 
 - (IBAction)openPreferencesWindow:(id)sender
@@ -145,12 +148,12 @@
 	[NSApp orderFrontStandardAboutPanelWithOptions:dict];
 }
 
-- (IBAction) showCloneRepository:(id)sender
+- (IBAction)showCloneRepository:(id)sender
 {
-	if (!cloneRepositoryPanel)
-		cloneRepositoryPanel = [PBCloneRepositoryPanel panel];
+	if (!_cloneRepositoryPanel)
+		_cloneRepositoryPanel = [PBCloneRepositoryPanel panel];
 
-	[cloneRepositoryPanel showWindow:self];
+	[_cloneRepositoryPanel showWindow:self];
 }
 
 - (IBAction)installCliTool:(id)sender;
@@ -202,8 +205,8 @@
     former cannot be found), the system's temporary directory.
  */
 
-- (NSString *)applicationSupportFolder {
-
+- (NSString *)applicationSupportFolder
+{
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
     NSString *basePath = ([paths count] > 0) ? [paths objectAtIndex:0] : NSTemporaryDirectory();
     return [basePath stringByAppendingPathComponent:@"GitTest"];
@@ -215,14 +218,14 @@
     by merging all of the models found in the application bundle.
  */
  
-- (NSManagedObjectModel *)managedObjectModel {
-
-    if (managedObjectModel != nil) {
-        return managedObjectModel;
+- (NSManagedObjectModel *)managedObjectModel
+{
+    if (_managedObjectModel != nil) {
+        return _managedObjectModel;
     }
 	
-    managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];    
-    return managedObjectModel;
+    _managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];    
+    return _managedObjectModel;
 }
 
 
@@ -233,10 +236,10 @@
     if necessary.)
  */
 
-- (NSPersistentStoreCoordinator *) persistentStoreCoordinator {
-
-    if (persistentStoreCoordinator != nil) {
-        return persistentStoreCoordinator;
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator
+{
+    if (_persistentStoreCoordinator != nil) {
+        return _persistentStoreCoordinator;
     }
 
     NSFileManager *fileManager;
@@ -251,12 +254,12 @@
     }
     
     url = [NSURL fileURLWithPath: [applicationSupportFolder stringByAppendingPathComponent: @"GitTest.xml"]];
-    persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: [self managedObjectModel]];
-    if (![persistentStoreCoordinator addPersistentStoreWithType:NSXMLStoreType configuration:nil URL:url options:nil error:&error]){
+    _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel: [self managedObjectModel]];
+    if (![_persistentStoreCoordinator addPersistentStoreWithType:NSXMLStoreType configuration:nil URL:url options:nil error:&error]){
         [[NSApplication sharedApplication] presentError:error];
     }    
 
-    return persistentStoreCoordinator;
+    return _persistentStoreCoordinator;
 }
 
 
@@ -267,17 +270,17 @@
  
 - (NSManagedObjectContext *) managedObjectContext {
 
-    if (managedObjectContext != nil) {
-        return managedObjectContext;
+    if (_managedObjectContext != nil) {
+        return _managedObjectContext;
     }
 
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
     if (coordinator != nil) {
-        managedObjectContext = [[NSManagedObjectContext alloc] init];
-        [managedObjectContext setPersistentStoreCoordinator: coordinator];
+        _managedObjectContext = [[NSManagedObjectContext alloc] init];
+        [_managedObjectContext setPersistentStoreCoordinator: coordinator];
     }
     
-    return managedObjectContext;
+    return _managedObjectContext;
 }
 
 
@@ -312,15 +315,18 @@
     before the application terminates.
  */
  
-- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender {
+- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
+{
 
     NSError *error;
     int reply = NSTerminateNow;
     
-    if (managedObjectContext != nil) {
-        if ([managedObjectContext commitEditing]) {
-            if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-				
+    if (_managedObjectContext != nil)
+    {
+        if ([_managedObjectContext commitEditing])
+        {
+            if ([_managedObjectContext hasChanges] && ![_managedObjectContext save:&error])
+            {
                 // This error handling simply presents error information in a panel with an 
                 // "Ok" button, which does not include any attempt at error recovery (meaning, 
                 // attempting to fix the error.)  As a result, this implementation will 
@@ -376,9 +382,12 @@
  
 - (void) dealloc {
 
-    [managedObjectContext release], managedObjectContext = nil;
-    [persistentStoreCoordinator release], persistentStoreCoordinator = nil;
-    [managedObjectModel release], managedObjectModel = nil;
+    [_window release], _window = nil;
+    [_firstResponder release], _firstResponder = nil;
+    [_cloneRepositoryPanel release], _cloneRepositoryPanel = nil;
+    [_managedObjectContext release], _managedObjectContext = nil;
+    [_persistentStoreCoordinator release], _persistentStoreCoordinator = nil;
+    [_managedObjectModel release], _managedObjectModel = nil;
     [super dealloc];
 }
 
@@ -418,10 +427,4 @@
 {
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/laullon/gitx/issues"]];
 }
-
-
-
-@synthesize window;
-@synthesize firstResponder;
-@synthesize cloneRepositoryPanel;
 @end
