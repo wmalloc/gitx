@@ -6,7 +6,6 @@
 //  Copyright 2008 __MyCompanyName__. All rights reserved.
 //
 
-#import <Quartz/Quartz.h>
 #import "PBGitHistoryController.h"
 #import "PBWebHistoryController.h"
 #import "PBGitGrapher.h"

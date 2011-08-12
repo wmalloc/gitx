@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Quartz/Quartz.h>
 #import "PBGitCommit.h"
 #import "PBGitTree.h"
 #import "PBViewController.h"
@@ -21,7 +22,7 @@
 @class PBHistorySearchController;
 
 // Controls the split history view from PBGitHistoryView.xib
-@interface PBGitHistoryController : PBViewController PROTOCOL_10_6(NSOutlineViewDelegate)
+@interface PBGitHistoryController : PBViewController PROTOCOL_10_6(NSOutlineViewDelegate, QLPreviewPanelDelegate, QLPreviewPanelDataSource)
 {
 	IBOutlet PBRefController *refController;
 	IBOutlet NSSearchField *searchField;
