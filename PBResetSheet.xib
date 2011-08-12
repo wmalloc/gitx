@@ -311,7 +311,7 @@ dCBhbmQgSEVBRCBoYXMgbG9jYWwgY2hhbmdlcywgcmVzZXQgaXMgYWJvcnRlZC4KA</string>
 						<object class="NSSegmentedControl" id="861282253">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{185, 138}, {275, 25}}</string>
+							<string key="NSFrame">{{188, 138}, {271, 25}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="858336503"/>
@@ -320,11 +320,7 @@ dCBhbmQgSEVBRCBoYXMgbG9jYWwgY2hhbmdlcywgcmVzZXQgaXMgYWJvcnRlZC4KA</string>
 							<object class="NSSegmentedCell" key="NSCell" id="1033359670">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">0</int>
-								<object class="NSFont" key="NSSupport" id="801576130">
-									<string key="NSName">LucidaGrande</string>
-									<double key="NSSize">13</double>
-									<int key="NSfFlags">16</int>
-								</object>
+								<reference key="NSSupport" ref="545954420"/>
 								<reference key="NSControlView" ref="861282253"/>
 								<array class="NSMutableArray" key="NSSegmentImages">
 									<object class="NSSegmentItem">
@@ -351,7 +347,7 @@ dCBhbmQgSEVBRCBoYXMgbG9jYWwgY2hhbmdlcywgcmVzZXQgaXMgYWJvcnRlZC4KA</string>
 									</object>
 								</array>
 								<int key="NSSelectedSegment">1</int>
-								<int key="NSSegmentStyle">2</int>
+								<int key="NSSegmentStyle">4</int>
 							</object>
 						</object>
 						<object class="NSTextField" id="931319512">
@@ -367,7 +363,11 @@ dCBhbmQgSEVBRCBoYXMgbG9jYWwgY2hhbmdlcywgcmVzZXQgaXMgYWJvcnRlZC4KA</string>
 								<int key="NSCellFlags">68288064</int>
 								<int key="NSCellFlags2">272630784</int>
 								<string key="NSContents">Reset type:</string>
-								<reference key="NSSupport" ref="801576130"/>
+								<object class="NSFont" key="NSSupport">
+									<string key="NSName">LucidaGrande</string>
+									<double key="NSSize">13</double>
+									<int key="NSfFlags">16</int>
+								</object>
 								<reference key="NSControlView" ref="931319512"/>
 								<bool key="NSDrawsBackground">YES</bool>
 								<reference key="NSBackgroundColor" ref="186361434"/>

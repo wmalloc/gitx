@@ -11,7 +11,10 @@
 #import "PBGitGraphLine.h"
 #import "PBGraphCellInfo.h"
 
-@interface PBGitGrapher : NSObject {
+void add_line(struct PBGitGraphLine *lines, int *nLines, int upper, int from, int to, int index);
+
+@interface PBGitGrapher : NSObject
+{
 	PBGraphCellInfo *previous;
 	void *pl;
 	int curLane;
