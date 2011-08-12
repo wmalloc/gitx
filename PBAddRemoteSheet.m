@@ -60,17 +60,6 @@
 	[NSApp beginSheet:[self window] modalForWindow:[self.repository.windowController window] modalDelegate:self didEndSelector:nil contextInfo:NULL];
 }
 
-
-- (void) browseSheetDidEnd:(NSWindow *)sheet returnCode:(NSInteger)code contextInfo:(void *)info
-{
-    [sheet orderOut:self];
-
-    if (code == NSOKButton)
-		[self.remoteURLTextField setStringValue:[(NSOpenPanel *)sheet filename]];
-
-	[self openAddRemoteSheet];
-}
-
 #pragma mark IBActions
 
 - (IBAction) browseFolders:(id)sender
@@ -87,11 +76,17 @@
     [browseSheetOpenPanel setCanCreateDirectories:NO];
 	[browseSheetOpenPanel setAccessoryView:browseAccessoryView];
 
-    [browseSheetOpenPanel beginSheetForDirectory:nil file:nil types:nil
-						 modalForWindow:[self.repository windowForSheet]
-						  modalDelegate:self
-						 didEndSelector:@selector(browseSheetDidEnd:returnCode:contextInfo:)
-							contextInfo:NULL];
+    [browseSheetOpenPanel beginSheetModalForWindow:[self.repository windowForSheet]
+                                 completionHandler:^(NSInteger result) {
+                                     [browseSheetOpenPanel orderOut:self];
+                                     
+                                     if (result == NSOKButton)
+                                     {
+                                         [self.remoteURLTextField setStringValue:[[browseSheetOpenPanel URL] path]];
+                                     }
+                                     
+                                     [self openAddRemoteSheet];
+                                 }];
 }
 
 
