@@ -15,7 +15,8 @@
 
 @class PBRefMenuItem;
 
-@interface PBRefController : NSObject <PBRefContextDelegate> {
+@interface PBRefController : NSObject <PBRefContextDelegate>
+{
 	IBOutlet __weak PBGitHistoryController *historyController;
 	IBOutlet NSArrayController *commitController;
 	IBOutlet PBCommitList *commitList;
@@ -47,7 +48,7 @@
 - (NSArray *)menuItemsForRow:(NSInteger)rowIndex;
 
 
-@property (retain) __weak PBGitHistoryController *historyController;
+@property (assign) __weak PBGitHistoryController *historyController;
 @property (retain) NSArrayController *commitController;
 @property (retain) PBCommitList *commitList;
 @property (retain) NSPopUpButton *branchPopUp;

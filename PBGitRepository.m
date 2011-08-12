@@ -40,8 +40,11 @@ NSString* PBGitRepositoryErrorDomain = @"GitXErrorDomain";
 @synthesize resetController;
 @synthesize revisionList, branches, currentBranch, refs, hasChanged, config;
 @synthesize currentBranchFilter;
+@synthesize headRef = _headRef;
+@synthesize headSha = _headSha;
 
-- (NSMenu *) menu {
+- (NSMenu *)menu
+{
 	NSMenu *menu = [[NSMenu alloc] init];
 	NSMutableArray *items = [[NSMutableArray alloc] init];
 	[items addObjectsFromArray:[self.submoduleController menuItems]];
@@ -121,14 +124,15 @@ NSString* PBGitRepositoryErrorDomain = @"GitXErrorDomain";
 //this works much better.
 - (BOOL)readFromURL:(NSURL *)absoluteURL ofType:(NSString *)typeName error:(NSError **)outError
 {
-	@try {
-	if (![PBGitBinary path])
-	{
-		if (outError) {
-			NSDictionary* userInfo = [NSDictionary dictionaryWithObject:[PBGitBinary notFoundError]
-																 forKey:NSLocalizedRecoverySuggestionErrorKey];
-			*outError = [NSError errorWithDomain:PBGitRepositoryErrorDomain code:0 userInfo:userInfo];
-		}
+	@try
+    {
+        if (![PBGitBinary path])
+        {
+            if (outError) {
+                NSDictionary* userInfo = [NSDictionary dictionaryWithObject:[PBGitBinary notFoundError]
+                                                                     forKey:NSLocalizedRecoverySuggestionErrorKey];
+                *outError = [NSError errorWithDomain:PBGitRepositoryErrorDomain code:0 userInfo:userInfo];
+            }
 		return NO;
 	}
 
@@ -1369,6 +1373,4 @@ NSString* PBGitRepositoryErrorDomain = @"GitXErrorDomain";
 	//DLog(@"Dealloc of repository");
 	[super finalize];
 }
-@synthesize _headRef;
-@synthesize _headSha;
 @end

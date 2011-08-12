@@ -7,7 +7,6 @@
 //
 
 #import "PBGitRevList.h"
-#import "PBGitRepository.h"
 #import "PBGitCommit.h"
 #import "PBGitGrapher.h"
 #import "PBGitRevSpecifier.h"
@@ -19,23 +18,16 @@
 
 using namespace std;
 
-
 @interface PBGitRevList ()
-
 @property (assign) BOOL isParsing;
-
 @end
-
 
 #define kRevListThreadKey @"thread"
 #define kRevListRevisionsKey @"revisions"
 
-
 @implementation PBGitRevList
-
 @synthesize commits;
 @synthesize isParsing;
-
 
 - (id) initWithRepository:(PBGitRepository *)repo rev:(PBGitRevSpecifier *)rev shouldGraph:(BOOL)graph
 {
@@ -45,7 +37,6 @@ using namespace std;
 
 	return self;
 }
-
 
 - (void) loadRevisons
 {

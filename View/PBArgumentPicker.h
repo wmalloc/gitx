@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface PBArgumentPicker : NSView {
+@interface PBArgumentPicker : NSView
+{
 	IBOutlet NSTextField *textField;
 	IBOutlet NSTextField *label;
 	IBOutlet NSButton *okButton;

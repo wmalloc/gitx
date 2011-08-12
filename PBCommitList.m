@@ -19,7 +19,7 @@
 @synthesize mouseDownPoint = _mouseDownPoint;
 @synthesize useAdjustScroll = _useAdjustScroll;
 
-- (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL) local
+- (NSDragOperation)draggingSourceOperationMaskForLocal:(BOOL)local
 {
 	return NSDragOperationCopy;
 }
@@ -34,28 +34,29 @@
 		return;
 	}
 
-	if ([character isEqualToString:@" "]) {
-		if (_gitHistoryController.selectedCommitDetailsIndex == 0) {
+	if([character isEqualToString:@" "])
+    {
+		if (_gitHistoryController.selectedCommitDetailsIndex == 0)
+        {
 			if ([event modifierFlags] & NSShiftKeyMask)
 				[_webView scrollPageUp:self];
 			else
 				[_webView scrollPageDown:self];
-		}
-		else
+		} else {
 			[_gitHistoryController toggleQLPreviewPanel:self];
-	}
-	else if ([character rangeOfCharacterFromSet:[NSCharacterSet characterSetWithCharactersInString:@"jkcv"]].location == 0)
+        }
+	} else if ([character rangeOfCharacterFromSet:[NSCharacterSet characterSetWithCharactersInString:@"jkcv"]].location == 0)
 		[_webHistoryController sendKey: character];
 	else
 		[super keyDown: event];
 }
 
-- (void) copy:(id)sender
+- (void)copy:(id)sender
 {
 	[_gitHistoryController copyCommitInfo];
 }
 
-- (void) copySHA:(id)sender
+- (void)copySHA:(id)sender
 {
 	[_gitHistoryController copyCommitSHA];
 }
@@ -64,8 +65,8 @@
 // so that when the history controller udpates the branch filter the origin of the superview gets
 // shifted into multiples of the row height. Otherwise the top selected row will always be off by
 // a little bit depending on how much the bottom half of the split view is dragged down.
-- (NSRect)adjustScroll:(NSRect)proposedVisibleRect {
-
+- (NSRect)adjustScroll:(NSRect)proposedVisibleRect
+{
     //DLog(@"[%@ %s]: proposedVisibleRect: %@", [self class], _cmd, NSStringFromRect(proposedVisibleRect));
     NSRect newRect = proposedVisibleRect;
 

@@ -18,7 +18,7 @@
 	[openPanel setCanChooseFiles:YES];
 	[openPanel setCanChooseDirectories:YES];
     [openPanel setAllowedFileTypes:extensions];
-    
+
 	return [openPanel runModal];
 }
 

@@ -55,7 +55,7 @@ static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type)
 	NSMutableDictionary *refs;
 
 	PBGitRevSpecifier *_headRef; // Caching
-	NSString* _headSha;
+	NSString * _headSha;
 	
 	PBStashController *stashController;
 	PBSubmoduleController *submoduleController;
@@ -64,6 +64,16 @@ static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type)
 @property (nonatomic, retain, readonly) PBStashController *stashController;
 @property (nonatomic, retain, readonly) PBSubmoduleController *submoduleController;
 @property (nonatomic, retain, readonly) PBGitResetController *resetController;
+@property (assign) BOOL hasChanged;
+@property (readonly) PBGitWindowController *windowController;
+@property (readonly) PBGitConfig *config;
+@property (retain) PBGitHistoryList *revisionList;
+@property (assign) NSMutableArray* branches;
+@property (assign) PBGitRevSpecifier *currentBranch;
+@property (assign) NSInteger currentBranchFilter;
+@property (retain) NSMutableDictionary* refs;
+@property (retain) PBGitRevSpecifier *headRef;
+@property (retain) NSString* headSha;
 
 - (void) cloneRepositoryToPath:(NSString *)path bare:(BOOL)isBare;
 - (void) beginAddRemote:(NSString *)remoteName forURL:(NSString *)remoteURL;
@@ -148,16 +158,5 @@ static NSString * PBStringFromBranchFilterType(PBGitXBranchFilterType type)
 - (void)findInModeScriptCommand:(NSScriptCommand *)command;
 
 - (NSMenu *) menu;
-+(bool)isLocalBranch:(NSString *)branch branchNameInto:(NSString **)name;
-
-@property (assign) BOOL hasChanged;
-@property (readonly) PBGitWindowController *windowController;
-@property (readonly) PBGitConfig *config;
-@property (retain) PBGitHistoryList *revisionList;
-@property (assign) NSMutableArray* branches;
-@property (assign) PBGitRevSpecifier *currentBranch;
-@property (assign) NSInteger currentBranchFilter;
-@property (retain) NSMutableDictionary* refs;
-@property (retain) PBGitRevSpecifier *_headRef;
-@property (retain) NSString* _headSha;
++ (bool)isLocalBranch:(NSString *)branch branchNameInto:(NSString **)name;
 @end
