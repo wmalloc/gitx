@@ -81,6 +81,9 @@
 		65D58BC7132D48C2003F7290 /* PBResetSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D58BC6132D48C0003F7290 /* PBResetSheet.m */; };
 		770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* GitXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* GitXAppDelegate.m */; };
+		846C05FB13FA37D000D88D0B /* gitx.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C05FA13FA37D000D88D0B /* gitx.m */; };
+		846C060213FA383C00D88D0B /* GitX.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 846C05FE13FA383C00D88D0B /* GitX.sdef */; };
+		846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */; };
 		848801BD13F3947E00FC2F62 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848801BC13F3947E00FC2F62 /* Quartz.framework */; };
 		89087CA613A3E46B00911503 /* PBWebCommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89087CA513A3E46B00911503 /* PBWebCommitController.m */; };
 		8998B1C613A55B3500121729 /* PBWebStashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8998B1C513A55B3500121729 /* PBWebStashController.m */; };
@@ -90,7 +93,6 @@
 		911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */; };
 		911111F80E594F3F00BF76B4 /* PBRepositoryDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */; };
 		911112370E5A097800BF76B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911112360E5A097800BF76B4 /* Security.framework */; };
-		913D5E4D0E55644E00CECEA2 /* gitx.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D5E440E55640C00CECEA2 /* gitx.m */; };
 		913D5E500E55645900CECEA2 /* gitx in Resources */ = {isa = PBXBuildFile; fileRef = 913D5E490E55644600CECEA2 /* gitx */; };
 		91B103CC0E898EC300C84364 /* PBIconAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */; };
 		93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB42C10EAB7B2200530609 /* PBGitDefaults.m */; };
@@ -130,8 +132,6 @@
 		D8E3B2B810DC9FB2001096A3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */; };
 		D8E3B34D10DCA958001096A3 /* PBCreateTagSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E3B34C10DCA958001096A3 /* PBCreateTagSheet.m */; };
 		D8EB616A122F643E00FCCAF4 /* GitXRelativeDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EB6169122F643E00FCCAF4 /* GitXRelativeDateFormatter.m */; };
-		D8F01C4B12182F19007F729F /* GitX.sdef in Resources */ = {isa = PBXBuildFile; fileRef = D8F01C4A12182F19007F729F /* GitX.sdef */; };
-		D8F01D531218A164007F729F /* NSApplication+GitXScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F01D521218A164007F729F /* NSApplication+GitXScripting.m */; };
 		D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D8F4AB7812298CE200D6D53C /* rewindImage.pdf */; };
 		D8FDD9F711432A12005647F6 /* PBCloneRepositoryPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FDD9F511432A12005647F6 /* PBCloneRepositoryPanel.xib */; };
 		D8FDDA6A114335E8005647F6 /* PBGitSVBranchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA5D114335E8005647F6 /* PBGitSVBranchItem.m */; };
@@ -337,6 +337,12 @@
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* GitXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXAppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* GitXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXAppDelegate.m; sourceTree = "<group>"; };
+		846C05FA13FA37D000D88D0B /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx.m; sourceTree = "<group>"; };
+		846C05FD13FA383C00D88D0B /* GitX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX.h; sourceTree = "<group>"; };
+		846C05FE13FA383C00D88D0B /* GitX.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GitX.sdef; sourceTree = "<group>"; };
+		846C05FF13FA383C00D88D0B /* GitXScriptingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXScriptingConstants.h; sourceTree = "<group>"; };
+		846C060013FA383C00D88D0B /* NSApplication+GitXScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GitXScripting.h"; sourceTree = "<group>"; };
+		846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GitXScripting.m"; sourceTree = "<group>"; };
 		848801BC13F3947E00FC2F62 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = ../../../../System/Library/Frameworks/Quartz.framework; sourceTree = "<group>"; };
 		89087CA413A3E46500911503 /* PBWebCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebCommitController.h; sourceTree = "<group>"; };
 		89087CA513A3E46B00911503 /* PBWebCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebCommitController.m; sourceTree = "<group>"; };
@@ -348,7 +354,6 @@
 		911111F60E594F3F00BF76B4 /* PBRepositoryDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRepositoryDocumentController.h; sourceTree = "<group>"; };
 		911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRepositoryDocumentController.m; sourceTree = "<group>"; };
 		911112360E5A097800BF76B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
-		913D5E440E55640C00CECEA2 /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx.m; sourceTree = "<group>"; };
 		913D5E490E55644600CECEA2 /* gitx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B103CA0E898EC300C84364 /* PBIconAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIconAndTextCell.h; sourceTree = "<group>"; };
 		91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconAndTextCell.m; sourceTree = "<group>"; };
@@ -396,7 +401,6 @@
 		D85B93F610E51279007F3C28 /* PBGitRefish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRefish.h; sourceTree = "<group>"; };
 		D87129FE122B14EC00012334 /* GitXTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXTextFieldCell.h; sourceTree = "<group>"; };
 		D87129FF122B14EC00012334 /* GitXTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXTextFieldCell.m; sourceTree = "<group>"; };
-		D89E9B4F1218C2750097A90B /* GitXScriptingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXScriptingConstants.h; sourceTree = "<group>"; };
 		D8A4BB6D11337D5C00E92D51 /* PBGitGradientBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGradientBarView.h; sourceTree = "<group>"; };
 		D8A4BB6E11337D5C00E92D51 /* PBGitGradientBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitGradientBarView.m; sourceTree = "<group>"; };
 		D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CherryPickTemplate.png; path = Images/CherryPickTemplate.png; sourceTree = "<group>"; };
@@ -413,10 +417,6 @@
 		D8E3B38110DD4E2C001096A3 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCreateTagSheet.xib; sourceTree = "<group>"; };
 		D8EB6168122F643E00FCCAF4 /* GitXRelativeDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXRelativeDateFormatter.h; sourceTree = "<group>"; };
 		D8EB6169122F643E00FCCAF4 /* GitXRelativeDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXRelativeDateFormatter.m; sourceTree = "<group>"; };
-		D8F01C4A12182F19007F729F /* GitX.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GitX.sdef; sourceTree = "<group>"; };
-		D8F01D511218A164007F729F /* NSApplication+GitXScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GitXScripting.h"; sourceTree = "<group>"; };
-		D8F01D521218A164007F729F /* NSApplication+GitXScripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GitXScripting.m"; sourceTree = "<group>"; };
-		D8F01D841218A406007F729F /* GitX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX.h; sourceTree = "<group>"; };
 		D8F4AB7812298CE200D6D53C /* rewindImage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = rewindImage.pdf; path = Images/rewindImage.pdf; sourceTree = "<group>"; };
 		D8FDD9F611432A12005647F6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCloneRepositoryPanel.xib; sourceTree = "<group>"; };
 		D8FDDA5C114335E8005647F6 /* PBGitSVBranchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVBranchItem.h; sourceTree = "<group>"; };
@@ -698,8 +698,8 @@
 			isa = PBXGroup;
 			children = (
 				C5EA6E5413F293F800292110 /* GitX.entitlements */,
-				913D5E420E5563FD00CECEA2 /* cli */,
-				D89E9B4C1218C22A0097A90B /* GitXScripting */,
+				846C05F913FA37D000D88D0B /* cli */,
+				846C05FC13FA383C00D88D0B /* GitXScripting */,
 				F57CC43E0E05E472000472E2 /* Aux */,
 				F57CC3850E05DDC1000472E2 /* Controllers */,
 				F56174540E05887E001DCD79 /* Git */,
@@ -768,7 +768,6 @@
 				D26DC6440E782C9000C777B2 /* GitX.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				D8F01C4A12182F19007F729F /* GitX.sdef */,
 				F5B721C20E05CF7E00AF29DC /* MainMenu.xib */,
 				911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */,
 				F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */,
@@ -850,6 +849,26 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		846C05F913FA37D000D88D0B /* cli */ = {
+			isa = PBXGroup;
+			children = (
+				846C05FA13FA37D000D88D0B /* gitx.m */,
+			);
+			path = cli;
+			sourceTree = "<group>";
+		};
+		846C05FC13FA383C00D88D0B /* GitXScripting */ = {
+			isa = PBXGroup;
+			children = (
+				846C05FD13FA383C00D88D0B /* GitX.h */,
+				846C05FE13FA383C00D88D0B /* GitX.sdef */,
+				846C05FF13FA383C00D88D0B /* GitXScriptingConstants.h */,
+				846C060013FA383C00D88D0B /* NSApplication+GitXScripting.h */,
+				846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */,
+			);
+			path = GitXScripting;
+			sourceTree = "<group>";
+		};
 		8998B1AB13A55A9B00121729 /* Stash */ = {
 			isa = PBXGroup;
 			children = (
@@ -859,14 +878,6 @@
 				8998B1C513A55B3500121729 /* PBWebStashController.m */,
 			);
 			name = Stash;
-			sourceTree = "<group>";
-		};
-		913D5E420E5563FD00CECEA2 /* cli */ = {
-			isa = PBXGroup;
-			children = (
-				913D5E440E55640C00CECEA2 /* gitx.m */,
-			);
-			name = cli;
 			sourceTree = "<group>";
 		};
 		D82F435F111B9C6D00A25A39 /* Sheets */ = {
@@ -892,17 +903,6 @@
 				65D58BC6132D48C0003F7290 /* PBResetSheet.m */,
 			);
 			name = Sheets;
-			sourceTree = "<group>";
-		};
-		D89E9B4C1218C22A0097A90B /* GitXScripting */ = {
-			isa = PBXGroup;
-			children = (
-				D8F01D841218A406007F729F /* GitX.h */,
-				D89E9B4F1218C2750097A90B /* GitXScriptingConstants.h */,
-				D8F01D511218A164007F729F /* NSApplication+GitXScripting.h */,
-				D8F01D521218A164007F729F /* NSApplication+GitXScripting.m */,
-			);
-			name = GitXScripting;
 			sourceTree = "<group>";
 		};
 		D8FDDA58114335B0005647F6 /* Source View Items */ = {
@@ -1277,7 +1277,6 @@
 				D8A4BD091134AD2900E92D51 /* RebaseTemplate.png in Resources */,
 				D828AEEC112F411100F09D11 /* CloneRepositoryTemplate.png in Resources */,
 				D8022FE811E124A0003C21F6 /* PBGitXMessageSheet.xib in Resources */,
-				D8F01C4B12182F19007F729F /* GitX.sdef in Resources */,
 				D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */,
 				31460CD4124185BA00B90AED /* ReadMe.txt in Resources */,
 				31460CD5124185BA00B90AED /* Source Code License.rtf in Resources */,
@@ -1302,6 +1301,7 @@
 				316E7203131EE9C600AFBB36 /* sidebar_Template.png in Resources */,
 				65D58BC4132D27A8003F7290 /* PBResetSheet.xib in Resources */,
 				DDB8FEC413999C24001A9EE2 /* PBStashContentView.xib in Resources */,
+				846C060213FA383C00D88D0B /* GitX.sdef in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1437,7 +1437,6 @@
 				D8E105471157C18200FC28A4 /* PBQLTextView.m in Sources */,
 				D8022FED11E124C8003C21F6 /* PBGitXMessageSheet.m in Sources */,
 				D8EB616A122F643E00FCCAF4 /* GitXRelativeDateFormatter.m in Sources */,
-				D8F01D531218A164007F729F /* NSApplication+GitXScripting.m in Sources */,
 				D8B4DC571220D1E4004166D6 /* PBHistorySearchController.m in Sources */,
 				D8712A00122B14EC00012334 /* GitXTextFieldCell.m in Sources */,
 				310DC1D81240599E0017A0F7 /* GLFileView.m in Sources */,
@@ -1465,6 +1464,7 @@
 				DDB8FE0113998CE2001A9EE2 /* PBStashContentController.m in Sources */,
 				89087CA613A3E46B00911503 /* PBWebCommitController.m in Sources */,
 				8998B1C613A55B3500121729 /* PBWebStashController.m in Sources */,
+				846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1474,7 +1474,7 @@
 			files = (
 				F53C4DF90E97FCAD0022AD59 /* PBEasyPipe.m in Sources */,
 				F53C4DF80E97FCA70022AD59 /* PBGitBinary.m in Sources */,
-				913D5E4D0E55644E00CECEA2 /* gitx.m in Sources */,
+				846C05FB13FA37D000D88D0B /* gitx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
