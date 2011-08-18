@@ -273,6 +273,10 @@
 		846C060013FA383C00D88D0B /* NSApplication+GitXScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GitXScripting.h"; sourceTree = "<group>"; };
 		846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GitXScripting.m"; sourceTree = "<group>"; };
 		848801BC13F3947E00FC2F62 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = ../../../../System/Library/Frameworks/Quartz.framework; sourceTree = "<group>"; };
+		84B8EB4613FCC572009AEA57 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		84B8EB4713FCC572009AEA57 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		84B8EB4813FCC572009AEA57 /* Install.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Install.xcconfig; sourceTree = "<group>"; };
+		84B8EB4913FCC572009AEA57 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		84C1C74A13FCA86900FAC131 /* GitXRelativeDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXRelativeDateFormatter.h; sourceTree = "<group>"; };
 		84C1C74B13FCA86900FAC131 /* GitXRelativeDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXRelativeDateFormatter.m; sourceTree = "<group>"; };
 		84C1C74C13FCA86900FAC131 /* GitXTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXTextFieldCell.h; sourceTree = "<group>"; };
@@ -660,6 +664,7 @@
 				846C05F913FA37D000D88D0B /* cli */,
 				84C1C8A413FCBD0000FAC131 /* gitx_asskpasswd */,
 				84C1C8A713FCBF6E00FAC131 /* Resources */,
+				84B8EB4513FCC572009AEA57 /* Configurations */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				F567CC3A106E6B910059BB9D /* GitXTesting-Info.plist */,
@@ -706,6 +711,17 @@
 				846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */,
 			);
 			path = GitXScripting;
+			sourceTree = "<group>";
+		};
+		84B8EB4513FCC572009AEA57 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				84B8EB4613FCC572009AEA57 /* Common.xcconfig */,
+				84B8EB4713FCC572009AEA57 /* Debug.xcconfig */,
+				84B8EB4813FCC572009AEA57 /* Install.xcconfig */,
+				84B8EB4913FCC572009AEA57 /* Release.xcconfig */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 		84C1C74913FCA86900FAC131 /* Aux */ = {
@@ -1824,6 +1840,7 @@
 		};
 		26FC0A890875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B8EB4713FCC572009AEA57 /* Debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1843,6 +1860,7 @@
 		};
 		26FC0A8A0875C7B200E6366F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B8EB4913FCC572009AEA57 /* Release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
