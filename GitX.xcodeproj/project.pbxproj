@@ -220,13 +220,6 @@
 			remoteGlobalIDString = 551BF110112F371800265053;
 			remoteInfo = gitx_askpasswd;
 		};
-		84C1C79A13FCA86900FAC131 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D1107320486CEB800E47090;
-			remoteInfo = MGScopeBar;
-		};
 		913D5E590E5564F400CECEA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
@@ -281,16 +274,11 @@
 		84C1C74B13FCA86900FAC131 /* GitXRelativeDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXRelativeDateFormatter.m; sourceTree = "<group>"; };
 		84C1C74C13FCA86900FAC131 /* GitXTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXTextFieldCell.h; sourceTree = "<group>"; };
 		84C1C74D13FCA86900FAC131 /* GitXTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXTextFieldCell.m; sourceTree = "<group>"; };
-		84C1C75013FCA86900FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84C1C75213FCA86900FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		84C1C75313FCA86900FAC131 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C1C75413FCA86900FAC131 /* MGRecessedPopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRecessedPopUpButtonCell.h; sourceTree = "<group>"; };
 		84C1C75513FCA86900FAC131 /* MGRecessedPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRecessedPopUpButtonCell.m; sourceTree = "<group>"; };
 		84C1C75613FCA86900FAC131 /* MGScopeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBar.h; sourceTree = "<group>"; };
 		84C1C75713FCA86900FAC131 /* MGScopeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGScopeBar.m; sourceTree = "<group>"; };
-		84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MGScopeBar.xcodeproj; sourceTree = "<group>"; };
 		84C1C75B13FCA86900FAC131 /* MGScopeBarDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBarDelegateProtocol.h; sourceTree = "<group>"; };
-		84C1C75C13FCA86900FAC131 /* MGScopeBar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBar_Prefix.pch; sourceTree = "<group>"; };
 		84C1C75D13FCA86900FAC131 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		84C1C75E13FCA86900FAC131 /* Source Code License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
 		84C1C75F13FCA86900FAC131 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
@@ -768,29 +756,16 @@
 		84C1C74E13FCA86900FAC131 /* MGScopeBar */ = {
 			isa = PBXGroup;
 			children = (
-				84C1C74F13FCA86900FAC131 /* InfoPlist.strings */,
-				84C1C75113FCA86900FAC131 /* MainMenu.xib */,
-				84C1C75313FCA86900FAC131 /* Info.plist */,
 				84C1C75413FCA86900FAC131 /* MGRecessedPopUpButtonCell.h */,
 				84C1C75513FCA86900FAC131 /* MGRecessedPopUpButtonCell.m */,
 				84C1C75613FCA86900FAC131 /* MGScopeBar.h */,
 				84C1C75713FCA86900FAC131 /* MGScopeBar.m */,
-				84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */,
 				84C1C75B13FCA86900FAC131 /* MGScopeBarDelegateProtocol.h */,
-				84C1C75C13FCA86900FAC131 /* MGScopeBar_Prefix.pch */,
 				84C1C75D13FCA86900FAC131 /* ReadMe.txt */,
 				84C1C75E13FCA86900FAC131 /* Source Code License.rtf */,
 				84C1C75F13FCA86900FAC131 /* TODO */,
 			);
 			path = MGScopeBar;
-			sourceTree = "<group>";
-		};
-		84C1C75913FCA86900FAC131 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84C1C79B13FCA86900FAC131 /* MGScopeBar.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		84C1C79D13FCB85E00FAC131 /* Controllers */ = {
@@ -1304,12 +1279,6 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* GitTest */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 84C1C75913FCA86900FAC131 /* Products */;
-					ProjectRef = 84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* GitX */,
@@ -1319,16 +1288,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		84C1C79B13FCA86900FAC131 /* MGScopeBar.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = MGScopeBar.app;
-			remoteRef = 84C1C79A13FCA86900FAC131 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -1608,22 +1567,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84C1C74F13FCA86900FAC131 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84C1C75013FCA86900FAC131 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		84C1C75113FCA86900FAC131 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84C1C75213FCA86900FAC131 /* English */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		84C1C8BF13FCC0EE00FAC131 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
