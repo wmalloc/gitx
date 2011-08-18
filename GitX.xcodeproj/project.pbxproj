@@ -29,7 +29,6 @@
 		21230D821284D1CC0046E5A1 /* stash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21230D811284D1CC0046E5A1 /* stash-icon.png */; };
 		21230D9C128552720046E5A1 /* PBCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230D9B128552720046E5A1 /* PBCommand.m */; };
 		21230D9F128552FA0046E5A1 /* PBStashCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230D9E128552FA0046E5A1 /* PBStashCommandFactory.m */; };
-		21230DAA1285550B0046E5A1 /* PBCommandMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230DA91285550B0046E5A1 /* PBCommandMenuItem.m */; };
 		21230ED21285EB5A0046E5A1 /* PBArgumentPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21230ED11285EB5A0046E5A1 /* PBArgumentPicker.xib */; };
 		21230ED91285EDAF0046E5A1 /* PBArgumentPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230ED81285EDAF0046E5A1 /* PBArgumentPicker.m */; };
 		21230EE21285EFB20046E5A1 /* PBArgumentPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230EE11285EFB20046E5A1 /* PBArgumentPickerController.m */; };
@@ -133,13 +132,33 @@
 		84C1C82513FCB85F00FAC131 /* PBSourceViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7F613FCB85F00FAC131 /* PBSourceViewItem.m */; };
 		84C1C82613FCB85F00FAC131 /* PBStashContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7FA13FCB85F00FAC131 /* PBStashContentController.m */; };
 		84C1C82713FCB85F00FAC131 /* PBWebStashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7FC13FCB85F00FAC131 /* PBWebStashController.m */; };
+		84C1C85913FCB9F400FAC131 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C82B13FCB9F400FAC131 /* PBCommitMessageView.m */; };
+		84C1C85A13FCB9F400FAC131 /* PBFileChangesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C82D13FCB9F400FAC131 /* PBFileChangesTableView.m */; };
+		84C1C85C13FCB9F400FAC131 /* PBGitGrapher.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83313FCB9F400FAC131 /* PBGitGrapher.mm */; };
+		84C1C85D13FCB9F400FAC131 /* PBGitLane.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83513FCB9F400FAC131 /* PBGitLane.mm */; };
+		84C1C85E13FCB9F400FAC131 /* PBGitRevisionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83713FCB9F400FAC131 /* PBGitRevisionCell.m */; };
+		84C1C85F13FCB9F400FAC131 /* PBGraphCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83913FCB9F400FAC131 /* PBGraphCellInfo.m */; };
+		84C1C86013FCB9F400FAC131 /* PBCommandMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83B13FCB9F400FAC131 /* PBCommandMenuItem.m */; };
+		84C1C86113FCB9F400FAC131 /* PBGitCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83D13FCB9F400FAC131 /* PBGitCommit.m */; };
+		84C1C86213FCB9F400FAC131 /* PBGitHistoryGrapher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C83F13FCB9F400FAC131 /* PBGitHistoryGrapher.m */; };
+		84C1C86313FCB9F400FAC131 /* PBGitHistoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C84113FCB9F400FAC131 /* PBGitHistoryList.m */; };
+		84C1C86413FCB9F400FAC131 /* PBGitRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C84313FCB9F400FAC131 /* PBGitRef.m */; };
+		84C1C86513FCB9F400FAC131 /* PBGitRevList.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C84613FCB9F400FAC131 /* PBGitRevList.mm */; };
+		84C1C86613FCB9F400FAC131 /* PBGitRevSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C84813FCB9F400FAC131 /* PBGitRevSpecifier.m */; };
+		84C1C86713FCB9F400FAC131 /* PBGitTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C84A13FCB9F400FAC131 /* PBGitTree.m */; };
+		84C1C86813FCB9F400FAC131 /* PBRefMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C84D13FCB9F400FAC131 /* PBRefMenuItem.m */; };
+		84C1C86913FCB9F400FAC131 /* PBChangedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C85013FCB9F400FAC131 /* PBChangedFile.m */; };
+		84C1C86A13FCB9F400FAC131 /* PBGitIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C85213FCB9F400FAC131 /* PBGitIndex.m */; };
+		84C1C86B13FCB9F400FAC131 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C85413FCB9F400FAC131 /* PBGitBinary.m */; };
+		84C1C86C13FCB9F400FAC131 /* PBGitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C85613FCB9F400FAC131 /* PBGitConfig.m */; };
+		84C1C86D13FCB9F400FAC131 /* PBGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C85813FCB9F400FAC131 /* PBGitRepository.m */; };
+		84C1C86E13FCBA1800FAC131 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C85413FCB9F400FAC131 /* PBGitBinary.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */; };
 		911112370E5A097800BF76B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911112360E5A097800BF76B4 /* Security.framework */; };
 		913D5E500E55645900CECEA2 /* gitx in Resources */ = {isa = PBXBuildFile; fileRef = 913D5E490E55644600CECEA2 /* gitx */; };
-		93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */; };
 		D26DC6450E782C9000C777B2 /* GitX.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* GitX.icns */; };
 		D8022FE811E124A0003C21F6 /* PBGitXMessageSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8022FE711E124A0003C21F6 /* PBGitXMessageSheet.xib */; };
 		D8083C47111F136400337480 /* PBAddRemoteSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8083C45111F136400337480 /* PBAddRemoteSheet.xib */; };
@@ -148,8 +167,6 @@
 		D828A5F31128AE7200F09D11 /* PullTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5F01128AE7200F09D11 /* PullTemplate.png */; };
 		D828A5F41128AE7200F09D11 /* PushTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5F11128AE7200F09D11 /* PushTemplate.png */; };
 		D828AEEC112F411100F09D11 /* CloneRepositoryTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828AEEB112F411100F09D11 /* CloneRepositoryTemplate.png */; };
-		D8295D2A1130A1DC00C838E8 /* PBGitHistoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = D8295D291130A1DC00C838E8 /* PBGitHistoryList.m */; };
-		D8295DE01130E43900C838E8 /* PBGitHistoryGrapher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8295DDF1130E43900C838E8 /* PBGitHistoryGrapher.m */; };
 		D8357535112640F100DE249D /* PBRemoteProgressSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C1B77110E875CF009B7F8B /* PBRemoteProgressSheet.xib */; };
 		D85810551127476E007F254B /* StageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D85810541127476E007F254B /* StageView.png */; };
 		D858108311274D28007F254B /* Branch.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108011274D28007F254B /* Branch.png */; };
@@ -165,36 +182,19 @@
 		D8FDD9F711432A12005647F6 /* PBCloneRepositoryPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FDD9F511432A12005647F6 /* PBCloneRepositoryPanel.xib */; };
 		D8FDDBF41143F318005647F6 /* AddRemote.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FDDBF31143F318005647F6 /* AddRemote.png */; };
 		DDB8FEC413999C24001A9EE2 /* PBStashContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */; };
-		F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */; };
 		F52BCE030E84208300AA3741 /* PBGitHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */; };
-		F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C4DF60E97FC630022AD59 /* PBGitBinary.m */; };
-		F53C4DF80E97FCA70022AD59 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C4DF60E97FC630022AD59 /* PBGitBinary.m */; };
-		F53FF2050E7ABB5300389171 /* PBGitRevSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */; };
-		F56174570E058893001DCD79 /* PBGitTree.m in Sources */ = {isa = PBXBuildFile; fileRef = F56174560E058893001DCD79 /* PBGitTree.m */; };
-		F56524F00E02D45200F03B52 /* PBGitCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = F56524EF0E02D45200F03B52 /* PBGitCommit.m */; };
 		F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56526230E03D85900F03B52 /* WebKit.framework */; };
 		F569AE930F2CBD7C00C2FFA7 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F569AE920F2CBD7C00C2FFA7 /* Credits.html */; };
 		F56ADDD90ED19F9E002AC78F /* AddBranchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */; };
 		F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */; };
-		F56CC7320E65E0E5004307B4 /* PBGraphCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */; };
-		F574A2910EAE2FF4003F2CB1 /* PBGitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FCCBA80EA8AF450061B02B /* PBGitConfig.m */; };
 		F580E6AE0E733276009E2D3F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
 		F580E6B10E73328C009E2D3F /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
 		F59116E60E843BB50072CCB1 /* PBGitCommitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */; };
-		F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */; };
-		F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F5945E160E02B0C200706420 /* PBGitRepository.m */; };
-		F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F1DD4105C4FF300115F88 /* PBGitIndex.m */; };
 		F5B721C40E05CF7E00AF29DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B721C20E05CF7E00AF29DC /* MainMenu.xib */; };
-		F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C007740E731B48007B84B2 /* PBGitRef.m */; };
-		F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */; };
 		F5E424110EA3E4D60046E362 /* PBDiffWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */; };
 		F5E4DBFB0EAB58D90013FAFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E4DBFA0EAB58D90013FAFC /* SystemConfiguration.framework */; };
-		F5E927F80E883E7200056E75 /* PBChangedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E927F70E883E7200056E75 /* PBChangedFile.m */; };
 		F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A1A0E88550E00056E75 /* empty_file.png */; };
 		F5E92A230E88569500056E75 /* new_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A220E88569500056E75 /* new_file.png */; };
-		F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */; };
-		F5FF4E180E0829C20006317A /* PBGitRevList.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5FF4E170E0829C20006317A /* PBGitRevList.mm */; };
-		F5FF4E7A0E082E440006317A /* PBGitGrapher.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5FF4E790E082E440006317A /* PBGitGrapher.mm */; };
 		FA8DFF3E131AEE2700C0F289 /* Start_iTerm2.applescript in Resources */ = {isa = PBXBuildFile; fileRef = FA8DFF37131AEDD400C0F289 /* Start_iTerm2.applescript */; };
 /* End PBXBuildFile section */
 
@@ -258,8 +258,6 @@
 		21230D9D128552FA0046E5A1 /* PBStashCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBStashCommandFactory.h; sourceTree = "<group>"; };
 		21230D9E128552FA0046E5A1 /* PBStashCommandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBStashCommandFactory.m; sourceTree = "<group>"; };
 		21230DA0128553120046E5A1 /* PBCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommandFactory.h; sourceTree = "<group>"; };
-		21230DA81285550B0046E5A1 /* PBCommandMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommandMenuItem.h; sourceTree = "<group>"; };
-		21230DA91285550B0046E5A1 /* PBCommandMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommandMenuItem.m; sourceTree = "<group>"; };
 		21230ED11285EB5A0046E5A1 /* PBArgumentPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBArgumentPicker.xib; sourceTree = "<group>"; };
 		21230ED71285EDAF0046E5A1 /* PBArgumentPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBArgumentPicker.h; sourceTree = "<group>"; };
 		21230ED81285EDAF0046E5A1 /* PBArgumentPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBArgumentPicker.m; sourceTree = "<group>"; };
@@ -454,14 +452,55 @@
 		84C1C7FA13FCB85F00FAC131 /* PBStashContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBStashContentController.m; sourceTree = "<group>"; };
 		84C1C7FB13FCB85F00FAC131 /* PBWebStashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebStashController.h; sourceTree = "<group>"; };
 		84C1C7FC13FCB85F00FAC131 /* PBWebStashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebStashController.m; sourceTree = "<group>"; };
+		84C1C82A13FCB9F400FAC131 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
+		84C1C82B13FCB9F400FAC131 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageView.m; sourceTree = "<group>"; };
+		84C1C82C13FCB9F400FAC131 /* PBFileChangesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFileChangesTableView.h; sourceTree = "<group>"; };
+		84C1C82D13FCB9F400FAC131 /* PBFileChangesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFileChangesTableView.m; sourceTree = "<group>"; };
+		84C1C83013FCB9F400FAC131 /* PBGitGraphLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGraphLine.h; sourceTree = "<group>"; };
+		84C1C83113FCB9F400FAC131 /* PBGitGraphLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitGraphLine.m; sourceTree = "<group>"; };
+		84C1C83213FCB9F400FAC131 /* PBGitGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGrapher.h; sourceTree = "<group>"; };
+		84C1C83313FCB9F400FAC131 /* PBGitGrapher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitGrapher.mm; sourceTree = "<group>"; };
+		84C1C83413FCB9F400FAC131 /* PBGitLane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitLane.h; sourceTree = "<group>"; };
+		84C1C83513FCB9F400FAC131 /* PBGitLane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitLane.mm; sourceTree = "<group>"; };
+		84C1C83613FCB9F400FAC131 /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevisionCell.h; sourceTree = "<group>"; };
+		84C1C83713FCB9F400FAC131 /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevisionCell.m; sourceTree = "<group>"; };
+		84C1C83813FCB9F400FAC131 /* PBGraphCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGraphCellInfo.h; sourceTree = "<group>"; };
+		84C1C83913FCB9F400FAC131 /* PBGraphCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGraphCellInfo.m; sourceTree = "<group>"; };
+		84C1C83A13FCB9F400FAC131 /* PBCommandMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommandMenuItem.h; sourceTree = "<group>"; };
+		84C1C83B13FCB9F400FAC131 /* PBCommandMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommandMenuItem.m; sourceTree = "<group>"; };
+		84C1C83C13FCB9F400FAC131 /* PBGitCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitCommit.h; sourceTree = "<group>"; };
+		84C1C83D13FCB9F400FAC131 /* PBGitCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitCommit.m; sourceTree = "<group>"; };
+		84C1C83E13FCB9F400FAC131 /* PBGitHistoryGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryGrapher.h; sourceTree = "<group>"; };
+		84C1C83F13FCB9F400FAC131 /* PBGitHistoryGrapher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryGrapher.m; sourceTree = "<group>"; };
+		84C1C84013FCB9F400FAC131 /* PBGitHistoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryList.h; sourceTree = "<group>"; };
+		84C1C84113FCB9F400FAC131 /* PBGitHistoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryList.m; sourceTree = "<group>"; };
+		84C1C84213FCB9F400FAC131 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRef.h; sourceTree = "<group>"; };
+		84C1C84313FCB9F400FAC131 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRef.m; sourceTree = "<group>"; };
+		84C1C84413FCB9F400FAC131 /* PBGitRefish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRefish.h; sourceTree = "<group>"; };
+		84C1C84513FCB9F400FAC131 /* PBGitRevList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevList.h; sourceTree = "<group>"; };
+		84C1C84613FCB9F400FAC131 /* PBGitRevList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitRevList.mm; sourceTree = "<group>"; };
+		84C1C84713FCB9F400FAC131 /* PBGitRevSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevSpecifier.h; sourceTree = "<group>"; };
+		84C1C84813FCB9F400FAC131 /* PBGitRevSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevSpecifier.m; sourceTree = "<group>"; };
+		84C1C84913FCB9F400FAC131 /* PBGitTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitTree.h; sourceTree = "<group>"; };
+		84C1C84A13FCB9F400FAC131 /* PBGitTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitTree.m; sourceTree = "<group>"; };
+		84C1C84B13FCB9F400FAC131 /* PBRefContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefContextDelegate.h; sourceTree = "<group>"; };
+		84C1C84C13FCB9F400FAC131 /* PBRefMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefMenuItem.h; sourceTree = "<group>"; };
+		84C1C84D13FCB9F400FAC131 /* PBRefMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefMenuItem.m; sourceTree = "<group>"; };
+		84C1C84F13FCB9F400FAC131 /* PBChangedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBChangedFile.h; sourceTree = "<group>"; };
+		84C1C85013FCB9F400FAC131 /* PBChangedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBChangedFile.m; sourceTree = "<group>"; };
+		84C1C85113FCB9F400FAC131 /* PBGitIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndex.h; sourceTree = "<group>"; };
+		84C1C85213FCB9F400FAC131 /* PBGitIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndex.m; sourceTree = "<group>"; };
+		84C1C85313FCB9F400FAC131 /* PBGitBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitBinary.h; sourceTree = "<group>"; };
+		84C1C85413FCB9F400FAC131 /* PBGitBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitBinary.m; sourceTree = "<group>"; };
+		84C1C85513FCB9F400FAC131 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitConfig.h; sourceTree = "<group>"; };
+		84C1C85613FCB9F400FAC131 /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitConfig.m; sourceTree = "<group>"; };
+		84C1C85713FCB9F400FAC131 /* PBGitRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRepository.h; sourceTree = "<group>"; };
+		84C1C85813FCB9F400FAC131 /* PBGitRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRepository.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* GitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911111E10E58BD5A00BF76B4 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RepositoryWindow.xib; sourceTree = "<group>"; };
 		911112360E5A097800BF76B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		913D5E490E55644600CECEA2 /* gitx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
-		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageView.m; sourceTree = "<group>"; };
-		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitConfig.m; sourceTree = "<group>"; };
 		C5EA6E5413F293F800292110 /* GitX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GitX.entitlements; sourceTree = "<group>"; };
 		D26DC6440E782C9000C777B2 /* GitX.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GitX.icns; sourceTree = "<group>"; };
 		D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
@@ -472,16 +511,11 @@
 		D828A5F01128AE7200F09D11 /* PullTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PullTemplate.png; path = Images/PullTemplate.png; sourceTree = "<group>"; };
 		D828A5F11128AE7200F09D11 /* PushTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PushTemplate.png; path = Images/PushTemplate.png; sourceTree = "<group>"; };
 		D828AEEB112F411100F09D11 /* CloneRepositoryTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloneRepositoryTemplate.png; path = Images/CloneRepositoryTemplate.png; sourceTree = "<group>"; };
-		D8295D281130A1DC00C838E8 /* PBGitHistoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryList.h; sourceTree = "<group>"; };
-		D8295D291130A1DC00C838E8 /* PBGitHistoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryList.m; sourceTree = "<group>"; };
-		D8295DDE1130E43900C838E8 /* PBGitHistoryGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryGrapher.h; sourceTree = "<group>"; };
-		D8295DDF1130E43900C838E8 /* PBGitHistoryGrapher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryGrapher.m; sourceTree = "<group>"; };
 		D854949310D5C3E20083B917 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCreateBranchSheet.xib; sourceTree = "<group>"; };
 		D85810541127476E007F254B /* StageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StageView.png; path = Images/StageView.png; sourceTree = "<group>"; };
 		D858108011274D28007F254B /* Branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Branch.png; path = Images/Branch.png; sourceTree = "<group>"; };
 		D858108111274D28007F254B /* RemoteBranch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RemoteBranch.png; path = Images/RemoteBranch.png; sourceTree = "<group>"; };
 		D858108211274D28007F254B /* Tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tag.png; path = Images/Tag.png; sourceTree = "<group>"; };
-		D85B93F610E51279007F3C28 /* PBGitRefish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRefish.h; sourceTree = "<group>"; };
 		D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CherryPickTemplate.png; path = Images/CherryPickTemplate.png; sourceTree = "<group>"; };
 		D8A4BD051134AD2900E92D51 /* MergeTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MergeTemplate.png; path = Images/MergeTemplate.png; sourceTree = "<group>"; };
 		D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RebaseTemplate.png; path = Images/RebaseTemplate.png; sourceTree = "<group>"; };
@@ -492,57 +526,24 @@
 		D8FDD9F611432A12005647F6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCloneRepositoryPanel.xib; sourceTree = "<group>"; };
 		D8FDDBF31143F318005647F6 /* AddRemote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddRemote.png; path = Images/AddRemote.png; sourceTree = "<group>"; };
 		DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBStashContentView.xib; sourceTree = "<group>"; };
-		F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevisionCell.h; sourceTree = "<group>"; };
-		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevisionCell.m; sourceTree = "<group>"; };
 		F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitHistoryView.xib; sourceTree = "<group>"; };
-		F53C4DF50E97FC630022AD59 /* PBGitBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitBinary.h; sourceTree = "<group>"; };
-		F53C4DF60E97FC630022AD59 /* PBGitBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitBinary.m; sourceTree = "<group>"; };
-		F53FF2030E7ABB5300389171 /* PBGitRevSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevSpecifier.h; sourceTree = "<group>"; };
-		F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevSpecifier.m; sourceTree = "<group>"; };
-		F56174550E058893001DCD79 /* PBGitTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitTree.h; sourceTree = "<group>"; };
-		F56174560E058893001DCD79 /* PBGitTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitTree.m; sourceTree = "<group>"; };
-		F56524EE0E02D45200F03B52 /* PBGitCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitCommit.h; sourceTree = "<group>"; };
-		F56524EF0E02D45200F03B52 /* PBGitCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitCommit.m; sourceTree = "<group>"; };
 		F56526230E03D85900F03B52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		F567CC3A106E6B910059BB9D /* GitXTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitXTesting-Info.plist"; sourceTree = "<group>"; };
 		F569AE920F2CBD7C00C2FFA7 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddBranchTemplate.png; path = Images/AddBranchTemplate.png; sourceTree = "<group>"; };
 		F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddLabelTemplate.png; path = Images/AddLabelTemplate.png; sourceTree = "<group>"; };
-		F56CC7270E65E0AD004307B4 /* PBGitGraphLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGraphLine.h; sourceTree = "<group>"; };
-		F56CC7300E65E0E5004307B4 /* PBGraphCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGraphCellInfo.h; sourceTree = "<group>"; };
-		F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGraphCellInfo.m; sourceTree = "<group>"; };
 		F57240BA0E9678EA00D8EE66 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleted_file.png; path = Images/deleted_file.png; sourceTree = "<group>"; };
 		F580E6AD0E733276009E2D3F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		F58DB55F10566E3900CFDF4A /* PBGitSidebarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitSidebarView.xib; sourceTree = "<group>"; };
 		F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitCommitView.xib; sourceTree = "<group>"; };
-		F593DF760E9E636C003A8559 /* PBFileChangesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFileChangesTableView.h; sourceTree = "<group>"; };
-		F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFileChangesTableView.m; sourceTree = "<group>"; };
-		F5945E150E02B0C200706420 /* PBGitRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRepository.h; sourceTree = "<group>"; };
-		F5945E160E02B0C200706420 /* PBGitRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRepository.m; sourceTree = "<group>"; };
-		F59F1DD3105C4FF300115F88 /* PBGitIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndex.h; sourceTree = "<group>"; };
-		F59F1DD4105C4FF300115F88 /* PBGitIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndex.m; sourceTree = "<group>"; };
 		F5B721C30E05CF7E00AF29DC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		F5C007730E731B48007B84B2 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRef.h; sourceTree = "<group>"; };
-		F5C007740E731B48007B84B2 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRef.m; sourceTree = "<group>"; };
 		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgit2.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C6F68B0E65FF9300478D97 /* PBGitLane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitLane.h; sourceTree = "<group>"; };
-		F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitLane.mm; sourceTree = "<group>"; };
-		F5D2DC850EA401A80034AD24 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitConfig.h; sourceTree = "<group>"; };
 		F5D619ED0EAE62EA00341D73 /* html */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBDiffWindow.xib; sourceTree = "<group>"; };
 		F5E4DBFA0EAB58D90013FAFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
-		F5E927F60E883E7200056E75 /* PBChangedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBChangedFile.h; sourceTree = "<group>"; };
-		F5E927F70E883E7200056E75 /* PBChangedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBChangedFile.m; sourceTree = "<group>"; };
 		F5E92A1A0E88550E00056E75 /* empty_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty_file.png; path = Images/empty_file.png; sourceTree = "<group>"; };
 		F5E92A220E88569500056E75 /* new_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_file.png; path = Images/new_file.png; sourceTree = "<group>"; };
 		F5F7D0641062E7940072C81C /* UpdateKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UpdateKey.pem; sourceTree = "<group>"; };
-		F5FC43C30EBD050800191D80 /* PBRefContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefContextDelegate.h; sourceTree = "<group>"; };
-		F5FC43FC0EBD08EE00191D80 /* PBRefMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefMenuItem.h; sourceTree = "<group>"; };
-		F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefMenuItem.m; sourceTree = "<group>"; };
-		F5FF4E160E0829C20006317A /* PBGitRevList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevList.h; sourceTree = "<group>"; };
-		F5FF4E170E0829C20006317A /* PBGitRevList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitRevList.mm; sourceTree = "<group>"; };
-		F5FF4E780E082E440006317A /* PBGitGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGrapher.h; sourceTree = "<group>"; };
-		F5FF4E790E082E440006317A /* PBGitGrapher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitGrapher.mm; sourceTree = "<group>"; };
 		FA8DFF37131AEDD400C0F289 /* Start_iTerm2.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Start_iTerm2.applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -710,7 +711,7 @@
 				846C05FC13FA383C00D88D0B /* GitXScripting */,
 				84C1C74913FCA86900FAC131 /* Aux */,
 				84C1C79D13FCB85E00FAC131 /* Controllers */,
-				F56174540E05887E001DCD79 /* Git */,
+				84C1C82813FCB9F400FAC131 /* Git */,
 				F5D619ED0EAE62EA00341D73 /* html */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -1079,86 +1080,87 @@
 			path = Stash;
 			sourceTree = "<group>";
 		};
-		F56174540E05887E001DCD79 /* Git */ = {
+		84C1C82813FCB9F400FAC131 /* Git */ = {
 			isa = PBXGroup;
 			children = (
-				F59F1DD2105C4FDE00115F88 /* Index */,
-				F5E927E30E883D6800056E75 /* Commit */,
-				F5E927E10E883D2E00056E75 /* History */,
-				F5945E150E02B0C200706420 /* PBGitRepository.h */,
-				F5945E160E02B0C200706420 /* PBGitRepository.m */,
-				F53C4DF50E97FC630022AD59 /* PBGitBinary.h */,
-				F53C4DF60E97FC630022AD59 /* PBGitBinary.m */,
-				F5D2DC850EA401A80034AD24 /* PBGitConfig.h */,
-				93FCCBA80EA8AF450061B02B /* PBGitConfig.m */,
+				84C1C82913FCB9F400FAC131 /* Commit */,
+				84C1C82E13FCB9F400FAC131 /* History */,
+				84C1C84E13FCB9F400FAC131 /* Index */,
+				84C1C85313FCB9F400FAC131 /* PBGitBinary.h */,
+				84C1C85413FCB9F400FAC131 /* PBGitBinary.m */,
+				84C1C85513FCB9F400FAC131 /* PBGitConfig.h */,
+				84C1C85613FCB9F400FAC131 /* PBGitConfig.m */,
+				84C1C85713FCB9F400FAC131 /* PBGitRepository.h */,
+				84C1C85813FCB9F400FAC131 /* PBGitRepository.m */,
 			);
-			name = Git;
+			path = Git;
 			sourceTree = "<group>";
 		};
-		F59F1DD2105C4FDE00115F88 /* Index */ = {
+		84C1C82913FCB9F400FAC131 /* Commit */ = {
 			isa = PBXGroup;
 			children = (
-				F5E927F60E883E7200056E75 /* PBChangedFile.h */,
-				F5E927F70E883E7200056E75 /* PBChangedFile.m */,
-				F59F1DD3105C4FF300115F88 /* PBGitIndex.h */,
-				F59F1DD4105C4FF300115F88 /* PBGitIndex.m */,
+				84C1C82A13FCB9F400FAC131 /* PBCommitMessageView.h */,
+				84C1C82B13FCB9F400FAC131 /* PBCommitMessageView.m */,
+				84C1C82C13FCB9F400FAC131 /* PBFileChangesTableView.h */,
+				84C1C82D13FCB9F400FAC131 /* PBFileChangesTableView.m */,
 			);
-			name = Index;
+			path = Commit;
 			sourceTree = "<group>";
 		};
-		F5C6F6750E65FE2B00478D97 /* Graphing */ = {
+		84C1C82E13FCB9F400FAC131 /* History */ = {
 			isa = PBXGroup;
 			children = (
-				F5FF4E780E082E440006317A /* PBGitGrapher.h */,
-				F5FF4E790E082E440006317A /* PBGitGrapher.mm */,
-				F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */,
-				F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */,
-				F56CC7270E65E0AD004307B4 /* PBGitGraphLine.h */,
-				F56CC7300E65E0E5004307B4 /* PBGraphCellInfo.h */,
-				F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */,
-				F5C6F68B0E65FF9300478D97 /* PBGitLane.h */,
-				F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */,
+				84C1C82F13FCB9F400FAC131 /* Graphing */,
+				84C1C83A13FCB9F400FAC131 /* PBCommandMenuItem.h */,
+				84C1C83B13FCB9F400FAC131 /* PBCommandMenuItem.m */,
+				84C1C83C13FCB9F400FAC131 /* PBGitCommit.h */,
+				84C1C83D13FCB9F400FAC131 /* PBGitCommit.m */,
+				84C1C83E13FCB9F400FAC131 /* PBGitHistoryGrapher.h */,
+				84C1C83F13FCB9F400FAC131 /* PBGitHistoryGrapher.m */,
+				84C1C84013FCB9F400FAC131 /* PBGitHistoryList.h */,
+				84C1C84113FCB9F400FAC131 /* PBGitHistoryList.m */,
+				84C1C84213FCB9F400FAC131 /* PBGitRef.h */,
+				84C1C84313FCB9F400FAC131 /* PBGitRef.m */,
+				84C1C84413FCB9F400FAC131 /* PBGitRefish.h */,
+				84C1C84513FCB9F400FAC131 /* PBGitRevList.h */,
+				84C1C84613FCB9F400FAC131 /* PBGitRevList.mm */,
+				84C1C84713FCB9F400FAC131 /* PBGitRevSpecifier.h */,
+				84C1C84813FCB9F400FAC131 /* PBGitRevSpecifier.m */,
+				84C1C84913FCB9F400FAC131 /* PBGitTree.h */,
+				84C1C84A13FCB9F400FAC131 /* PBGitTree.m */,
+				84C1C84B13FCB9F400FAC131 /* PBRefContextDelegate.h */,
+				84C1C84C13FCB9F400FAC131 /* PBRefMenuItem.h */,
+				84C1C84D13FCB9F400FAC131 /* PBRefMenuItem.m */,
 			);
-			name = Graphing;
+			path = History;
 			sourceTree = "<group>";
 		};
-		F5E927E10E883D2E00056E75 /* History */ = {
+		84C1C82F13FCB9F400FAC131 /* Graphing */ = {
 			isa = PBXGroup;
 			children = (
-				F5C6F6750E65FE2B00478D97 /* Graphing */,
-				D85B93F610E51279007F3C28 /* PBGitRefish.h */,
-				F56524EE0E02D45200F03B52 /* PBGitCommit.h */,
-				F56524EF0E02D45200F03B52 /* PBGitCommit.m */,
-				F5C007730E731B48007B84B2 /* PBGitRef.h */,
-				F5C007740E731B48007B84B2 /* PBGitRef.m */,
-				D8295D281130A1DC00C838E8 /* PBGitHistoryList.h */,
-				D8295D291130A1DC00C838E8 /* PBGitHistoryList.m */,
-				F5FF4E160E0829C20006317A /* PBGitRevList.h */,
-				F5FF4E170E0829C20006317A /* PBGitRevList.mm */,
-				D8295DDE1130E43900C838E8 /* PBGitHistoryGrapher.h */,
-				D8295DDF1130E43900C838E8 /* PBGitHistoryGrapher.m */,
-				F53FF2030E7ABB5300389171 /* PBGitRevSpecifier.h */,
-				F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */,
-				F56174550E058893001DCD79 /* PBGitTree.h */,
-				F56174560E058893001DCD79 /* PBGitTree.m */,
-				F5FC43C30EBD050800191D80 /* PBRefContextDelegate.h */,
-				F5FC43FC0EBD08EE00191D80 /* PBRefMenuItem.h */,
-				F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */,
-				21230DA81285550B0046E5A1 /* PBCommandMenuItem.h */,
-				21230DA91285550B0046E5A1 /* PBCommandMenuItem.m */,
+				84C1C83013FCB9F400FAC131 /* PBGitGraphLine.h */,
+				84C1C83113FCB9F400FAC131 /* PBGitGraphLine.m */,
+				84C1C83213FCB9F400FAC131 /* PBGitGrapher.h */,
+				84C1C83313FCB9F400FAC131 /* PBGitGrapher.mm */,
+				84C1C83413FCB9F400FAC131 /* PBGitLane.h */,
+				84C1C83513FCB9F400FAC131 /* PBGitLane.mm */,
+				84C1C83613FCB9F400FAC131 /* PBGitRevisionCell.h */,
+				84C1C83713FCB9F400FAC131 /* PBGitRevisionCell.m */,
+				84C1C83813FCB9F400FAC131 /* PBGraphCellInfo.h */,
+				84C1C83913FCB9F400FAC131 /* PBGraphCellInfo.m */,
 			);
-			name = History;
+			path = Graphing;
 			sourceTree = "<group>";
 		};
-		F5E927E30E883D6800056E75 /* Commit */ = {
+		84C1C84E13FCB9F400FAC131 /* Index */ = {
 			isa = PBXGroup;
 			children = (
-				93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */,
-				93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */,
-				F593DF760E9E636C003A8559 /* PBFileChangesTableView.h */,
-				F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */,
+				84C1C84F13FCB9F400FAC131 /* PBChangedFile.h */,
+				84C1C85013FCB9F400FAC131 /* PBChangedFile.m */,
+				84C1C85113FCB9F400FAC131 /* PBGitIndex.h */,
+				84C1C85213FCB9F400FAC131 /* PBGitIndex.m */,
 			);
-			name = Commit;
+			path = Index;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1399,30 +1401,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				F574A2910EAE2FF4003F2CB1 /* PBGitConfig.m in Sources */,
 				770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */,
-				F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */,
-				F56524F00E02D45200F03B52 /* PBGitCommit.m in Sources */,
-				F56174570E058893001DCD79 /* PBGitTree.m in Sources */,
-				F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */,
-				F5FF4E180E0829C20006317A /* PBGitRevList.mm in Sources */,
-				F5FF4E7A0E082E440006317A /* PBGitGrapher.mm in Sources */,
-				F56CC7320E65E0E5004307B4 /* PBGraphCellInfo.m in Sources */,
-				F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */,
-				F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */,
-				F53FF2050E7ABB5300389171 /* PBGitRevSpecifier.m in Sources */,
-				F5E927F80E883E7200056E75 /* PBChangedFile.m in Sources */,
-				F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */,
-				F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */,
-				93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */,
-				F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */,
-				F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */,
-				D8295D2A1130A1DC00C838E8 /* PBGitHistoryList.m in Sources */,
-				D8295DE01130E43900C838E8 /* PBGitHistoryGrapher.m in Sources */,
 				21230D351284C5080046E5A1 /* PBGitStash.m in Sources */,
 				21230D9C128552720046E5A1 /* PBCommand.m in Sources */,
 				21230D9F128552FA0046E5A1 /* PBStashCommandFactory.m in Sources */,
-				21230DAA1285550B0046E5A1 /* PBCommandMenuItem.m in Sources */,
 				21230ED91285EDAF0046E5A1 /* PBArgumentPicker.m in Sources */,
 				21230EE21285EFB20046E5A1 /* PBArgumentPickerController.m in Sources */,
 				21230F7D1285FC6A0046E5A1 /* PBCommandWithParameter.m in Sources */,
@@ -1496,6 +1478,26 @@
 				84C1C82513FCB85F00FAC131 /* PBSourceViewItem.m in Sources */,
 				84C1C82613FCB85F00FAC131 /* PBStashContentController.m in Sources */,
 				84C1C82713FCB85F00FAC131 /* PBWebStashController.m in Sources */,
+				84C1C85913FCB9F400FAC131 /* PBCommitMessageView.m in Sources */,
+				84C1C85A13FCB9F400FAC131 /* PBFileChangesTableView.m in Sources */,
+				84C1C85C13FCB9F400FAC131 /* PBGitGrapher.mm in Sources */,
+				84C1C85D13FCB9F400FAC131 /* PBGitLane.mm in Sources */,
+				84C1C85E13FCB9F400FAC131 /* PBGitRevisionCell.m in Sources */,
+				84C1C85F13FCB9F400FAC131 /* PBGraphCellInfo.m in Sources */,
+				84C1C86013FCB9F400FAC131 /* PBCommandMenuItem.m in Sources */,
+				84C1C86113FCB9F400FAC131 /* PBGitCommit.m in Sources */,
+				84C1C86213FCB9F400FAC131 /* PBGitHistoryGrapher.m in Sources */,
+				84C1C86313FCB9F400FAC131 /* PBGitHistoryList.m in Sources */,
+				84C1C86413FCB9F400FAC131 /* PBGitRef.m in Sources */,
+				84C1C86513FCB9F400FAC131 /* PBGitRevList.mm in Sources */,
+				84C1C86613FCB9F400FAC131 /* PBGitRevSpecifier.m in Sources */,
+				84C1C86713FCB9F400FAC131 /* PBGitTree.m in Sources */,
+				84C1C86813FCB9F400FAC131 /* PBRefMenuItem.m in Sources */,
+				84C1C86913FCB9F400FAC131 /* PBChangedFile.m in Sources */,
+				84C1C86A13FCB9F400FAC131 /* PBGitIndex.m in Sources */,
+				84C1C86B13FCB9F400FAC131 /* PBGitBinary.m in Sources */,
+				84C1C86C13FCB9F400FAC131 /* PBGitConfig.m in Sources */,
+				84C1C86D13FCB9F400FAC131 /* PBGitRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1503,9 +1505,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53C4DF80E97FCA70022AD59 /* PBGitBinary.m in Sources */,
 				846C05FB13FA37D000D88D0B /* gitx.m in Sources */,
 				84C1C79C13FCA8C300FAC131 /* PBEasyPipe.m in Sources */,
+				84C1C86E13FCBA1800FAC131 /* PBGitBinary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
