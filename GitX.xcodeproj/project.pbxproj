@@ -21,23 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		056438B70ED0C40B00985397 /* DetailViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 056438B60ED0C40B00985397 /* DetailViewTemplate.png */; };
-		21230D821284D1CC0046E5A1 /* stash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21230D811284D1CC0046E5A1 /* stash-icon.png */; };
-		2123121E128735E90046E5A1 /* submodule-notmatching-index.png in Resources */ = {isa = PBXBuildFile; fileRef = 2123121B128735E90046E5A1 /* submodule-notmatching-index.png */; };
-		2123121F128735E90046E5A1 /* submodule-matching-index.png in Resources */ = {isa = PBXBuildFile; fileRef = 2123121C128735E90046E5A1 /* submodule-matching-index.png */; };
-		21231220128735E90046E5A1 /* submodule-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2123121D128735E90046E5A1 /* submodule-empty.png */; };
-		212A49A312A31292009DAFAD /* renamed_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49A212A31292009DAFAD /* renamed_file.png */; };
-		212A49A512A312B2009DAFAD /* unversioned_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49A412A312B2009DAFAD /* unversioned_file.png */; };
-		212A49A712A312BE009DAFAD /* added_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49A612A312BE009DAFAD /* added_file.png */; };
-		212A49AA12A31328009DAFAD /* conflicted_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49A812A31328009DAFAD /* conflicted_file.png */; };
-		212A49AB12A31328009DAFAD /* deleted_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49A912A31328009DAFAD /* deleted_file.png */; };
-		212A49AD12A31350009DAFAD /* ignored_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49AC12A31350009DAFAD /* ignored_file.png */; };
-		212A49AF12A3135C009DAFAD /* modified_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 212A49AE12A3135C009DAFAD /* modified_file.png */; };
 		311D4F561370C9A50061CFD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F551370C9A50061CFD3 /* Security.framework */; };
 		311D4F5B1370CD150061CFD3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F5A1370CD150061CFD3 /* ScriptingBridge.framework */; };
 		311D4F5D1370CDA80061CFD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F5C1370CDA80061CFD3 /* QuartzCore.framework */; };
-		3BC07F4C0ED5A5C5009A7768 /* HistoryViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */; };
-		3BC07F4D0ED5A5C5009A7768 /* CommitViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */; };
 		551BF176112F3F4B00265053 /* gitx_askpasswd in Resources */ = {isa = PBXBuildFile; fileRef = 551BF111112F371800265053 /* gitx_askpasswd */; };
 		846C05FB13FA37D000D88D0B /* gitx.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C05FA13FA37D000D88D0B /* gitx.m */; };
 		846C060213FA383C00D88D0B /* GitX.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 846C05FE13FA383C00D88D0B /* GitX.sdef */; };
@@ -170,32 +156,60 @@
 		84C1C8F513FCC0EF00FAC131 /* PBStashContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C8DF13FCC0EF00FAC131 /* PBStashContentView.xib */; };
 		84C1C8F613FCC0EF00FAC131 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C8E113FCC0EF00FAC131 /* Preferences.xib */; };
 		84C1C8F713FCC0EF00FAC131 /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C8E313FCC0EF00FAC131 /* RepositoryWindow.xib */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		84C1C99B13FCC2BC00FAC131 /* AddBranchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96513FCC2BC00FAC131 /* AddBranchTemplate.png */; };
+		84C1C99D13FCC2BC00FAC131 /* AddLabelTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96713FCC2BC00FAC131 /* AddLabelTemplate.png */; };
+		84C1C9A013FCC2BC00FAC131 /* AddRemote.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96A13FCC2BC00FAC131 /* AddRemote.png */; };
+		84C1C9A113FCC2BC00FAC131 /* AddRemoteBranchFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96B13FCC2BC00FAC131 /* AddRemoteBranchFireworksTemplate.png */; };
+		84C1C9A213FCC2BC00FAC131 /* AddRemoteBranchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96C13FCC2BC00FAC131 /* AddRemoteBranchTemplate.png */; };
+		84C1C9A313FCC2BC00FAC131 /* Branch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96D13FCC2BC00FAC131 /* Branch.png */; };
+		84C1C9A413FCC2BC00FAC131 /* CherryPickTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96E13FCC2BC00FAC131 /* CherryPickTemplate.png */; };
+		84C1C9A513FCC2BC00FAC131 /* CloneRepositoryFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C96F13FCC2BC00FAC131 /* CloneRepositoryFireworksTemplate.png */; };
+		84C1C9A613FCC2BC00FAC131 /* CloneRepositoryTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97013FCC2BC00FAC131 /* CloneRepositoryTemplate.png */; };
+		84C1C9A713FCC2BC00FAC131 /* CommitViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97113FCC2BC00FAC131 /* CommitViewTemplate.png */; };
+		84C1C9A913FCC2BC00FAC131 /* DetailViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97313FCC2BC00FAC131 /* DetailViewTemplate.png */; };
+		84C1C9AA13FCC2BC00FAC131 /* FetchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97413FCC2BC00FAC131 /* FetchTemplate.png */; };
+		84C1C9AB13FCC2BC00FAC131 /* added_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97613FCC2BC00FAC131 /* added_file.png */; };
+		84C1C9AC13FCC2BC00FAC131 /* conflicted_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97713FCC2BC00FAC131 /* conflicted_file.png */; };
+		84C1C9AD13FCC2BC00FAC131 /* deleted_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97813FCC2BC00FAC131 /* deleted_file.png */; };
+		84C1C9AE13FCC2BC00FAC131 /* ignored_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97913FCC2BC00FAC131 /* ignored_file.png */; };
+		84C1C9AF13FCC2BC00FAC131 /* modified_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97A13FCC2BC00FAC131 /* modified_file.png */; };
+		84C1C9B013FCC2BC00FAC131 /* renamed_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97B13FCC2BC00FAC131 /* renamed_file.png */; };
+		84C1C9B113FCC2BC00FAC131 /* unversioned_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97C13FCC2BC00FAC131 /* unversioned_file.png */; };
+		84C1C9B213FCC2BC00FAC131 /* HistoryViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97D13FCC2BC00FAC131 /* HistoryViewTemplate.png */; };
+		84C1C9B413FCC2BC00FAC131 /* MergeTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C97F13FCC2BC00FAC131 /* MergeTemplate.png */; };
+		84C1C9B513FCC2BC00FAC131 /* PullFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98013FCC2BC00FAC131 /* PullFireworksTemplate.png */; };
+		84C1C9B613FCC2BC00FAC131 /* PullPopUpFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98113FCC2BC00FAC131 /* PullPopUpFireworksTemplate.png */; };
+		84C1C9B713FCC2BC00FAC131 /* PullPopUpTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98213FCC2BC00FAC131 /* PullPopUpTemplate.png */; };
+		84C1C9B813FCC2BC00FAC131 /* PullTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98313FCC2BC00FAC131 /* PullTemplate.png */; };
+		84C1C9B913FCC2BC00FAC131 /* PushFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98413FCC2BC00FAC131 /* PushFireworksTemplate.png */; };
+		84C1C9BA13FCC2BC00FAC131 /* PushPopUpFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98513FCC2BC00FAC131 /* PushPopUpFireworksTemplate.png */; };
+		84C1C9BB13FCC2BC00FAC131 /* PushPopUpTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98613FCC2BC00FAC131 /* PushPopUpTemplate.png */; };
+		84C1C9BC13FCC2BC00FAC131 /* PushTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98713FCC2BC00FAC131 /* PushTemplate.png */; };
+		84C1C9BD13FCC2BC00FAC131 /* RebaseFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98813FCC2BC00FAC131 /* RebaseFireworksTemplate.png */; };
+		84C1C9BE13FCC2BC00FAC131 /* RebasePopUpFireworksTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98913FCC2BC00FAC131 /* RebasePopUpFireworksTemplate.png */; };
+		84C1C9BF13FCC2BC00FAC131 /* RebasePopUpTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98A13FCC2BC00FAC131 /* RebasePopUpTemplate.png */; };
+		84C1C9C013FCC2BC00FAC131 /* RebaseTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98B13FCC2BC00FAC131 /* RebaseTemplate.png */; };
+		84C1C9C113FCC2BC00FAC131 /* RemoteBranch.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98C13FCC2BC00FAC131 /* RemoteBranch.png */; };
+		84C1C9C213FCC2BC00FAC131 /* StageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98D13FCC2BC00FAC131 /* StageView.png */; };
+		84C1C9C313FCC2BC00FAC131 /* Tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C98E13FCC2BC00FAC131 /* Tag.png */; };
+		84C1C9C513FCC2BC00FAC131 /* branch.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99013FCC2BC00FAC131 /* branch.tiff */; };
+		84C1C9C613FCC2BC00FAC131 /* deleted_file_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99113FCC2BC00FAC131 /* deleted_file_full.png */; };
+		84C1C9C713FCC2BC00FAC131 /* empty_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99213FCC2BC00FAC131 /* empty_file.png */; };
+		84C1C9C913FCC2BC00FAC131 /* folder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99413FCC2BC00FAC131 /* folder.tiff */; };
+		84C1C9CB13FCC2BC00FAC131 /* new_file.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99613FCC2BC00FAC131 /* new_file.png */; };
+		84C1C9CC13FCC2BC00FAC131 /* remote.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99713FCC2BC00FAC131 /* remote.tiff */; };
+		84C1C9CD13FCC2BC00FAC131 /* rewindImage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99813FCC2BC00FAC131 /* rewindImage.pdf */; };
+		84C1C9CE13FCC2BC00FAC131 /* site_download_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C99913FCC2BC00FAC131 /* site_download_background.png */; };
+		84C1C9D113FCC31E00FAC131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C9D013FCC31E00FAC131 /* main.m */; };
+		84C1C9D313FCC3A300FAC131 /* tag.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 84C1C9D213FCC3A300FAC131 /* tag.tiff */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		911112370E5A097800BF76B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911112360E5A097800BF76B4 /* Security.framework */; };
 		913D5E500E55645900CECEA2 /* gitx in Resources */ = {isa = PBXBuildFile; fileRef = 913D5E490E55644600CECEA2 /* gitx */; };
-		D828A5F21128AE7200F09D11 /* FetchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5EF1128AE7200F09D11 /* FetchTemplate.png */; };
-		D828A5F31128AE7200F09D11 /* PullTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5F01128AE7200F09D11 /* PullTemplate.png */; };
-		D828A5F41128AE7200F09D11 /* PushTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5F11128AE7200F09D11 /* PushTemplate.png */; };
-		D828AEEC112F411100F09D11 /* CloneRepositoryTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828AEEB112F411100F09D11 /* CloneRepositoryTemplate.png */; };
-		D85810551127476E007F254B /* StageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D85810541127476E007F254B /* StageView.png */; };
-		D858108311274D28007F254B /* Branch.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108011274D28007F254B /* Branch.png */; };
-		D858108411274D28007F254B /* RemoteBranch.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108111274D28007F254B /* RemoteBranch.png */; };
-		D858108511274D28007F254B /* Tag.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108211274D28007F254B /* Tag.png */; };
-		D8A4BD071134AD2900E92D51 /* CherryPickTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */; };
-		D8A4BD081134AD2900E92D51 /* MergeTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD051134AD2900E92D51 /* MergeTemplate.png */; };
-		D8A4BD091134AD2900E92D51 /* RebaseTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */; };
 		D8E3B2B810DC9FB2001096A3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */; };
-		D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D8F4AB7812298CE200D6D53C /* rewindImage.pdf */; };
-		D8FDDBF41143F318005647F6 /* AddRemote.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FDDBF31143F318005647F6 /* AddRemote.png */; };
 		F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56526230E03D85900F03B52 /* WebKit.framework */; };
-		F56ADDD90ED19F9E002AC78F /* AddBranchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */; };
-		F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */; };
 		F580E6AE0E733276009E2D3F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
 		F580E6B10E73328C009E2D3F /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
 		F5E4DBFB0EAB58D90013FAFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E4DBFA0EAB58D90013FAFC /* SystemConfiguration.framework */; };
-		F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A1A0E88550E00056E75 /* empty_file.png */; };
-		F5E92A230E88569500056E75 /* new_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A220E88569500056E75 /* new_file.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,28 +257,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		056438B60ED0C40B00985397 /* DetailViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailViewTemplate.png; path = Images/DetailViewTemplate.png; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		21230D811284D1CC0046E5A1 /* stash-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stash-icon.png"; sourceTree = "<group>"; };
-		2123121B128735E90046E5A1 /* submodule-notmatching-index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submodule-notmatching-index.png"; sourceTree = "<group>"; };
-		2123121C128735E90046E5A1 /* submodule-matching-index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submodule-matching-index.png"; sourceTree = "<group>"; };
-		2123121D128735E90046E5A1 /* submodule-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submodule-empty.png"; sourceTree = "<group>"; };
-		212A49A212A31292009DAFAD /* renamed_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renamed_file.png; sourceTree = "<group>"; };
-		212A49A412A312B2009DAFAD /* unversioned_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unversioned_file.png; sourceTree = "<group>"; };
-		212A49A612A312BE009DAFAD /* added_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = added_file.png; sourceTree = "<group>"; };
-		212A49A812A31328009DAFAD /* conflicted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conflicted_file.png; sourceTree = "<group>"; };
-		212A49A912A31328009DAFAD /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleted_file.png; sourceTree = "<group>"; };
-		212A49AC12A31350009DAFAD /* ignored_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ignored_file.png; sourceTree = "<group>"; };
-		212A49AE12A3135C009DAFAD /* modified_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modified_file.png; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		311D4F551370C9A50061CFD3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		311D4F5A1370CD150061CFD3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		311D4F5C1370CDA80061CFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX_Prefix.pch; sourceTree = "<group>"; };
-		3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HistoryViewTemplate.png; path = Images/HistoryViewTemplate.png; sourceTree = "<group>"; };
-		3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CommitViewTemplate.png; path = Images/CommitViewTemplate.png; sourceTree = "<group>"; };
 		551BF111112F371800265053 /* gitx_askpasswd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx_askpasswd; sourceTree = BUILT_PRODUCTS_DIR; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		846C05FA13FA37D000D88D0B /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx.m; sourceTree = "<group>"; };
@@ -486,7 +485,7 @@
 		84C1C8A513FCBD0000FAC131 /* gitx_askpasswd_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx_askpasswd_main.m; sourceTree = "<group>"; };
 		84C1C8A813FCBF6F00FAC131 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		84C1C8A913FCBF6F00FAC131 /* GitX.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GitX.icns; sourceTree = "<group>"; };
-		84C1C8AA13FCBF6F00FAC131 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		84C1C8AA13FCBF6F00FAC131 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C1C8AC13FCBF6F00FAC131 /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Updates.png; sourceTree = "<group>"; };
 		84C1C8AD13FCBF6F00FAC131 /* Start_iTerm2.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Start_iTerm2.applescript; sourceTree = "<group>"; };
 		84C1C8AE13FCBF6F00FAC131 /* UpdateKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UpdateKey.pem; sourceTree = "<group>"; };
@@ -514,36 +513,64 @@
 		84C1C8E013FCC0EF00FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBStashContentView.xib; sourceTree = "<group>"; };
 		84C1C8E213FCC0EF00FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		84C1C8E413FCC0EF00FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RepositoryWindow.xib; sourceTree = "<group>"; };
+		84C1C96513FCC2BC00FAC131 /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddBranchTemplate.png; sourceTree = "<group>"; };
+		84C1C96713FCC2BC00FAC131 /* AddLabelTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddLabelTemplate.png; sourceTree = "<group>"; };
+		84C1C96A13FCC2BC00FAC131 /* AddRemote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddRemote.png; sourceTree = "<group>"; };
+		84C1C96B13FCC2BC00FAC131 /* AddRemoteBranchFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddRemoteBranchFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C96C13FCC2BC00FAC131 /* AddRemoteBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddRemoteBranchTemplate.png; sourceTree = "<group>"; };
+		84C1C96D13FCC2BC00FAC131 /* Branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Branch.png; sourceTree = "<group>"; };
+		84C1C96E13FCC2BC00FAC131 /* CherryPickTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CherryPickTemplate.png; sourceTree = "<group>"; };
+		84C1C96F13FCC2BC00FAC131 /* CloneRepositoryFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloneRepositoryFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C97013FCC2BC00FAC131 /* CloneRepositoryTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloneRepositoryTemplate.png; sourceTree = "<group>"; };
+		84C1C97113FCC2BC00FAC131 /* CommitViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommitViewTemplate.png; sourceTree = "<group>"; };
+		84C1C97313FCC2BC00FAC131 /* DetailViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailViewTemplate.png; sourceTree = "<group>"; };
+		84C1C97413FCC2BC00FAC131 /* FetchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FetchTemplate.png; sourceTree = "<group>"; };
+		84C1C97613FCC2BC00FAC131 /* added_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = added_file.png; sourceTree = "<group>"; };
+		84C1C97713FCC2BC00FAC131 /* conflicted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conflicted_file.png; sourceTree = "<group>"; };
+		84C1C97813FCC2BC00FAC131 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleted_file.png; sourceTree = "<group>"; };
+		84C1C97913FCC2BC00FAC131 /* ignored_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ignored_file.png; sourceTree = "<group>"; };
+		84C1C97A13FCC2BC00FAC131 /* modified_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = modified_file.png; sourceTree = "<group>"; };
+		84C1C97B13FCC2BC00FAC131 /* renamed_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renamed_file.png; sourceTree = "<group>"; };
+		84C1C97C13FCC2BC00FAC131 /* unversioned_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unversioned_file.png; sourceTree = "<group>"; };
+		84C1C97D13FCC2BC00FAC131 /* HistoryViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HistoryViewTemplate.png; sourceTree = "<group>"; };
+		84C1C97F13FCC2BC00FAC131 /* MergeTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MergeTemplate.png; sourceTree = "<group>"; };
+		84C1C98013FCC2BC00FAC131 /* PullFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PullFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C98113FCC2BC00FAC131 /* PullPopUpFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PullPopUpFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C98213FCC2BC00FAC131 /* PullPopUpTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PullPopUpTemplate.png; sourceTree = "<group>"; };
+		84C1C98313FCC2BC00FAC131 /* PullTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PullTemplate.png; sourceTree = "<group>"; };
+		84C1C98413FCC2BC00FAC131 /* PushFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PushFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C98513FCC2BC00FAC131 /* PushPopUpFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PushPopUpFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C98613FCC2BC00FAC131 /* PushPopUpTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PushPopUpTemplate.png; sourceTree = "<group>"; };
+		84C1C98713FCC2BC00FAC131 /* PushTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PushTemplate.png; sourceTree = "<group>"; };
+		84C1C98813FCC2BC00FAC131 /* RebaseFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RebaseFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C98913FCC2BC00FAC131 /* RebasePopUpFireworksTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RebasePopUpFireworksTemplate.png; sourceTree = "<group>"; };
+		84C1C98A13FCC2BC00FAC131 /* RebasePopUpTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RebasePopUpTemplate.png; sourceTree = "<group>"; };
+		84C1C98B13FCC2BC00FAC131 /* RebaseTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RebaseTemplate.png; sourceTree = "<group>"; };
+		84C1C98C13FCC2BC00FAC131 /* RemoteBranch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RemoteBranch.png; sourceTree = "<group>"; };
+		84C1C98D13FCC2BC00FAC131 /* StageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StageView.png; sourceTree = "<group>"; };
+		84C1C98E13FCC2BC00FAC131 /* Tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tag.png; sourceTree = "<group>"; };
+		84C1C99013FCC2BC00FAC131 /* branch.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = branch.tiff; sourceTree = "<group>"; };
+		84C1C99113FCC2BC00FAC131 /* deleted_file_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleted_file_full.png; sourceTree = "<group>"; };
+		84C1C99213FCC2BC00FAC131 /* empty_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_file.png; sourceTree = "<group>"; };
+		84C1C99413FCC2BC00FAC131 /* folder.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = folder.tiff; sourceTree = "<group>"; };
+		84C1C99613FCC2BC00FAC131 /* new_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_file.png; sourceTree = "<group>"; };
+		84C1C99713FCC2BC00FAC131 /* remote.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = remote.tiff; sourceTree = "<group>"; };
+		84C1C99813FCC2BC00FAC131 /* rewindImage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = rewindImage.pdf; sourceTree = "<group>"; };
+		84C1C99913FCC2BC00FAC131 /* site_download_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = site_download_background.png; sourceTree = "<group>"; };
+		84C1C9D013FCC31E00FAC131 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C1C9D213FCC3A300FAC131 /* tag.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = tag.tiff; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* GitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911112360E5A097800BF76B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		913D5E490E55644600CECEA2 /* gitx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EA6E5413F293F800292110 /* GitX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GitX.entitlements; sourceTree = "<group>"; };
 		D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
-		D828A5EF1128AE7200F09D11 /* FetchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FetchTemplate.png; path = Images/FetchTemplate.png; sourceTree = "<group>"; };
-		D828A5F01128AE7200F09D11 /* PullTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PullTemplate.png; path = Images/PullTemplate.png; sourceTree = "<group>"; };
-		D828A5F11128AE7200F09D11 /* PushTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PushTemplate.png; path = Images/PushTemplate.png; sourceTree = "<group>"; };
-		D828AEEB112F411100F09D11 /* CloneRepositoryTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloneRepositoryTemplate.png; path = Images/CloneRepositoryTemplate.png; sourceTree = "<group>"; };
-		D85810541127476E007F254B /* StageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StageView.png; path = Images/StageView.png; sourceTree = "<group>"; };
-		D858108011274D28007F254B /* Branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Branch.png; path = Images/Branch.png; sourceTree = "<group>"; };
-		D858108111274D28007F254B /* RemoteBranch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RemoteBranch.png; path = Images/RemoteBranch.png; sourceTree = "<group>"; };
-		D858108211274D28007F254B /* Tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tag.png; path = Images/Tag.png; sourceTree = "<group>"; };
-		D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CherryPickTemplate.png; path = Images/CherryPickTemplate.png; sourceTree = "<group>"; };
-		D8A4BD051134AD2900E92D51 /* MergeTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MergeTemplate.png; path = Images/MergeTemplate.png; sourceTree = "<group>"; };
-		D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RebaseTemplate.png; path = Images/RebaseTemplate.png; sourceTree = "<group>"; };
 		D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
-		D8F4AB7812298CE200D6D53C /* rewindImage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = rewindImage.pdf; path = Images/rewindImage.pdf; sourceTree = "<group>"; };
-		D8FDDBF31143F318005647F6 /* AddRemote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddRemote.png; path = Images/AddRemote.png; sourceTree = "<group>"; };
 		F56526230E03D85900F03B52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		F567CC3A106E6B910059BB9D /* GitXTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitXTesting-Info.plist"; sourceTree = "<group>"; };
-		F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddBranchTemplate.png; path = Images/AddBranchTemplate.png; sourceTree = "<group>"; };
-		F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddLabelTemplate.png; path = Images/AddLabelTemplate.png; sourceTree = "<group>"; };
-		F57240BA0E9678EA00D8EE66 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleted_file.png; path = Images/deleted_file.png; sourceTree = "<group>"; };
 		F580E6AD0E733276009E2D3F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		F5C580E40EDA250900995434 /* libgit2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgit2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D619ED0EAE62EA00341D73 /* html */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		F5E4DBFA0EAB58D90013FAFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
-		F5E92A1A0E88550E00056E75 /* empty_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty_file.png; path = Images/empty_file.png; sourceTree = "<group>"; };
-		F5E92A220E88569500056E75 /* new_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_file.png; path = Images/new_file.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -618,20 +645,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		212A499412A3121D009DAFAD /* File Markers */ = {
-			isa = PBXGroup;
-			children = (
-				212A49A812A31328009DAFAD /* conflicted_file.png */,
-				212A49A912A31328009DAFAD /* deleted_file.png */,
-				212A49A612A312BE009DAFAD /* added_file.png */,
-				212A49A412A312B2009DAFAD /* unversioned_file.png */,
-				212A49A212A31292009DAFAD /* renamed_file.png */,
-				212A49AC12A31350009DAFAD /* ignored_file.png */,
-				212A49AE12A3135C009DAFAD /* modified_file.png */,
-			);
-			path = "File Markers";
-			sourceTree = "<group>";
-		};
 		29B97314FDCFA39411CA2CEA /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,35 +670,10 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				212A499412A3121D009DAFAD /* File Markers */,
-				2123121B128735E90046E5A1 /* submodule-notmatching-index.png */,
-				2123121C128735E90046E5A1 /* submodule-matching-index.png */,
-				2123121D128735E90046E5A1 /* submodule-empty.png */,
-				D858108011274D28007F254B /* Branch.png */,
-				D858108111274D28007F254B /* RemoteBranch.png */,
-				D858108211274D28007F254B /* Tag.png */,
-				D8F4AB7812298CE200D6D53C /* rewindImage.pdf */,
-				D85810541127476E007F254B /* StageView.png */,
-				D8FDDBF31143F318005647F6 /* AddRemote.png */,
-				D828A5EF1128AE7200F09D11 /* FetchTemplate.png */,
-				D828A5F01128AE7200F09D11 /* PullTemplate.png */,
-				D828A5F11128AE7200F09D11 /* PushTemplate.png */,
-				D828AEEB112F411100F09D11 /* CloneRepositoryTemplate.png */,
-				3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */,
-				D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */,
-				D8A4BD051134AD2900E92D51 /* MergeTemplate.png */,
-				D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */,
-				3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */,
-				F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */,
-				F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */,
-				056438B60ED0C40B00985397 /* DetailViewTemplate.png */,
-				21230D811284D1CC0046E5A1 /* stash-icon.png */,
-				F57240BA0E9678EA00D8EE66 /* deleted_file.png */,
-				F5E92A1A0E88550E00056E75 /* empty_file.png */,
+				84C1C9D013FCC31E00FAC131 /* main.m */,
 				32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-				F5E92A220E88569500056E75 /* new_file.png */,
 				D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */,
+				84C1C8AA13FCBF6F00FAC131 /* Info.plist */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -1119,6 +1107,7 @@
 		84C1C8A713FCBF6E00FAC131 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84C1C96413FCC2BC00FAC131 /* Images */,
 				84C1C8BF13FCC0EE00FAC131 /* InfoPlist.strings */,
 				84C1C8C113FCC0EE00FAC131 /* MainMenu.xib */,
 				84C1C8C313FCC0EE00FAC131 /* PBAddRemoteSheet.xib */,
@@ -1140,7 +1129,6 @@
 				84C1C8E313FCC0EF00FAC131 /* RepositoryWindow.xib */,
 				84C1C8A813FCBF6F00FAC131 /* Credits.html */,
 				84C1C8A913FCBF6F00FAC131 /* GitX.icns */,
-				84C1C8AA13FCBF6F00FAC131 /* Info.plist */,
 				84C1C8AB13FCBF6F00FAC131 /* Preferences Icons */,
 				84C1C8AD13FCBF6F00FAC131 /* Start_iTerm2.applescript */,
 				84C1C8AE13FCBF6F00FAC131 /* UpdateKey.pem */,
@@ -1159,6 +1147,66 @@
 				84C1C8AC13FCBF6F00FAC131 /* Updates.png */,
 			);
 			path = "Preferences Icons";
+			sourceTree = "<group>";
+		};
+		84C1C96413FCC2BC00FAC131 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C96513FCC2BC00FAC131 /* AddBranchTemplate.png */,
+				84C1C96713FCC2BC00FAC131 /* AddLabelTemplate.png */,
+				84C1C96A13FCC2BC00FAC131 /* AddRemote.png */,
+				84C1C96B13FCC2BC00FAC131 /* AddRemoteBranchFireworksTemplate.png */,
+				84C1C96C13FCC2BC00FAC131 /* AddRemoteBranchTemplate.png */,
+				84C1C96D13FCC2BC00FAC131 /* Branch.png */,
+				84C1C96E13FCC2BC00FAC131 /* CherryPickTemplate.png */,
+				84C1C96F13FCC2BC00FAC131 /* CloneRepositoryFireworksTemplate.png */,
+				84C1C97013FCC2BC00FAC131 /* CloneRepositoryTemplate.png */,
+				84C1C97113FCC2BC00FAC131 /* CommitViewTemplate.png */,
+				84C1C97313FCC2BC00FAC131 /* DetailViewTemplate.png */,
+				84C1C97413FCC2BC00FAC131 /* FetchTemplate.png */,
+				84C1C97513FCC2BC00FAC131 /* File Markers */,
+				84C1C97D13FCC2BC00FAC131 /* HistoryViewTemplate.png */,
+				84C1C97F13FCC2BC00FAC131 /* MergeTemplate.png */,
+				84C1C98013FCC2BC00FAC131 /* PullFireworksTemplate.png */,
+				84C1C98113FCC2BC00FAC131 /* PullPopUpFireworksTemplate.png */,
+				84C1C98213FCC2BC00FAC131 /* PullPopUpTemplate.png */,
+				84C1C98313FCC2BC00FAC131 /* PullTemplate.png */,
+				84C1C98413FCC2BC00FAC131 /* PushFireworksTemplate.png */,
+				84C1C98513FCC2BC00FAC131 /* PushPopUpFireworksTemplate.png */,
+				84C1C98613FCC2BC00FAC131 /* PushPopUpTemplate.png */,
+				84C1C98713FCC2BC00FAC131 /* PushTemplate.png */,
+				84C1C98813FCC2BC00FAC131 /* RebaseFireworksTemplate.png */,
+				84C1C98913FCC2BC00FAC131 /* RebasePopUpFireworksTemplate.png */,
+				84C1C98A13FCC2BC00FAC131 /* RebasePopUpTemplate.png */,
+				84C1C98B13FCC2BC00FAC131 /* RebaseTemplate.png */,
+				84C1C98C13FCC2BC00FAC131 /* RemoteBranch.png */,
+				84C1C98D13FCC2BC00FAC131 /* StageView.png */,
+				84C1C98E13FCC2BC00FAC131 /* Tag.png */,
+				84C1C9D213FCC3A300FAC131 /* tag.tiff */,
+				84C1C99013FCC2BC00FAC131 /* branch.tiff */,
+				84C1C99113FCC2BC00FAC131 /* deleted_file_full.png */,
+				84C1C99213FCC2BC00FAC131 /* empty_file.png */,
+				84C1C99413FCC2BC00FAC131 /* folder.tiff */,
+				84C1C99613FCC2BC00FAC131 /* new_file.png */,
+				84C1C99713FCC2BC00FAC131 /* remote.tiff */,
+				84C1C99813FCC2BC00FAC131 /* rewindImage.pdf */,
+				84C1C99913FCC2BC00FAC131 /* site_download_background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		84C1C97513FCC2BC00FAC131 /* File Markers */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C97613FCC2BC00FAC131 /* added_file.png */,
+				84C1C97713FCC2BC00FAC131 /* conflicted_file.png */,
+				84C1C97813FCC2BC00FAC131 /* deleted_file.png */,
+				84C1C97913FCC2BC00FAC131 /* ignored_file.png */,
+				84C1C97A13FCC2BC00FAC131 /* modified_file.png */,
+				84C1C97B13FCC2BC00FAC131 /* renamed_file.png */,
+				84C1C97C13FCC2BC00FAC131 /* unversioned_file.png */,
+			);
+			path = "File Markers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1271,39 +1319,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */,
 				913D5E500E55645900CECEA2 /* gitx in Resources */,
 				551BF176112F3F4B00265053 /* gitx_askpasswd in Resources */,
-				F5E92A230E88569500056E75 /* new_file.png in Resources */,
-				056438B70ED0C40B00985397 /* DetailViewTemplate.png in Resources */,
-				F56ADDD90ED19F9E002AC78F /* AddBranchTemplate.png in Resources */,
-				F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */,
-				3BC07F4C0ED5A5C5009A7768 /* HistoryViewTemplate.png in Resources */,
-				3BC07F4D0ED5A5C5009A7768 /* CommitViewTemplate.png in Resources */,
-				D85810551127476E007F254B /* StageView.png in Resources */,
-				D858108311274D28007F254B /* Branch.png in Resources */,
-				D858108411274D28007F254B /* RemoteBranch.png in Resources */,
-				D858108511274D28007F254B /* Tag.png in Resources */,
-				D828A5F21128AE7200F09D11 /* FetchTemplate.png in Resources */,
-				D828A5F31128AE7200F09D11 /* PullTemplate.png in Resources */,
-				D828A5F41128AE7200F09D11 /* PushTemplate.png in Resources */,
-				D8FDDBF41143F318005647F6 /* AddRemote.png in Resources */,
-				D8A4BD071134AD2900E92D51 /* CherryPickTemplate.png in Resources */,
-				D8A4BD081134AD2900E92D51 /* MergeTemplate.png in Resources */,
-				D8A4BD091134AD2900E92D51 /* RebaseTemplate.png in Resources */,
-				D828AEEC112F411100F09D11 /* CloneRepositoryTemplate.png in Resources */,
-				D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */,
-				21230D821284D1CC0046E5A1 /* stash-icon.png in Resources */,
-				2123121E128735E90046E5A1 /* submodule-notmatching-index.png in Resources */,
-				2123121F128735E90046E5A1 /* submodule-matching-index.png in Resources */,
-				21231220128735E90046E5A1 /* submodule-empty.png in Resources */,
-				212A49A312A31292009DAFAD /* renamed_file.png in Resources */,
-				212A49A512A312B2009DAFAD /* unversioned_file.png in Resources */,
-				212A49A712A312BE009DAFAD /* added_file.png in Resources */,
-				212A49AA12A31328009DAFAD /* conflicted_file.png in Resources */,
-				212A49AB12A31328009DAFAD /* deleted_file.png in Resources */,
-				212A49AD12A31350009DAFAD /* ignored_file.png in Resources */,
-				212A49AF12A3135C009DAFAD /* modified_file.png in Resources */,
 				846C060213FA383C00D88D0B /* GitX.sdef in Resources */,
 				84C1C8B413FCBF6F00FAC131 /* Credits.html in Resources */,
 				84C1C8B513FCBF6F00FAC131 /* GitX.icns in Resources */,
@@ -1333,6 +1350,51 @@
 				84C1C8F513FCC0EF00FAC131 /* PBStashContentView.xib in Resources */,
 				84C1C8F613FCC0EF00FAC131 /* Preferences.xib in Resources */,
 				84C1C8F713FCC0EF00FAC131 /* RepositoryWindow.xib in Resources */,
+				84C1C99B13FCC2BC00FAC131 /* AddBranchTemplate.png in Resources */,
+				84C1C99D13FCC2BC00FAC131 /* AddLabelTemplate.png in Resources */,
+				84C1C9A013FCC2BC00FAC131 /* AddRemote.png in Resources */,
+				84C1C9A113FCC2BC00FAC131 /* AddRemoteBranchFireworksTemplate.png in Resources */,
+				84C1C9A213FCC2BC00FAC131 /* AddRemoteBranchTemplate.png in Resources */,
+				84C1C9A313FCC2BC00FAC131 /* Branch.png in Resources */,
+				84C1C9A413FCC2BC00FAC131 /* CherryPickTemplate.png in Resources */,
+				84C1C9A513FCC2BC00FAC131 /* CloneRepositoryFireworksTemplate.png in Resources */,
+				84C1C9A613FCC2BC00FAC131 /* CloneRepositoryTemplate.png in Resources */,
+				84C1C9A713FCC2BC00FAC131 /* CommitViewTemplate.png in Resources */,
+				84C1C9A913FCC2BC00FAC131 /* DetailViewTemplate.png in Resources */,
+				84C1C9AA13FCC2BC00FAC131 /* FetchTemplate.png in Resources */,
+				84C1C9AB13FCC2BC00FAC131 /* added_file.png in Resources */,
+				84C1C9AC13FCC2BC00FAC131 /* conflicted_file.png in Resources */,
+				84C1C9AD13FCC2BC00FAC131 /* deleted_file.png in Resources */,
+				84C1C9AE13FCC2BC00FAC131 /* ignored_file.png in Resources */,
+				84C1C9AF13FCC2BC00FAC131 /* modified_file.png in Resources */,
+				84C1C9B013FCC2BC00FAC131 /* renamed_file.png in Resources */,
+				84C1C9B113FCC2BC00FAC131 /* unversioned_file.png in Resources */,
+				84C1C9B213FCC2BC00FAC131 /* HistoryViewTemplate.png in Resources */,
+				84C1C9B413FCC2BC00FAC131 /* MergeTemplate.png in Resources */,
+				84C1C9B513FCC2BC00FAC131 /* PullFireworksTemplate.png in Resources */,
+				84C1C9B613FCC2BC00FAC131 /* PullPopUpFireworksTemplate.png in Resources */,
+				84C1C9B713FCC2BC00FAC131 /* PullPopUpTemplate.png in Resources */,
+				84C1C9B813FCC2BC00FAC131 /* PullTemplate.png in Resources */,
+				84C1C9B913FCC2BC00FAC131 /* PushFireworksTemplate.png in Resources */,
+				84C1C9BA13FCC2BC00FAC131 /* PushPopUpFireworksTemplate.png in Resources */,
+				84C1C9BB13FCC2BC00FAC131 /* PushPopUpTemplate.png in Resources */,
+				84C1C9BC13FCC2BC00FAC131 /* PushTemplate.png in Resources */,
+				84C1C9BD13FCC2BC00FAC131 /* RebaseFireworksTemplate.png in Resources */,
+				84C1C9BE13FCC2BC00FAC131 /* RebasePopUpFireworksTemplate.png in Resources */,
+				84C1C9BF13FCC2BC00FAC131 /* RebasePopUpTemplate.png in Resources */,
+				84C1C9C013FCC2BC00FAC131 /* RebaseTemplate.png in Resources */,
+				84C1C9C113FCC2BC00FAC131 /* RemoteBranch.png in Resources */,
+				84C1C9C213FCC2BC00FAC131 /* StageView.png in Resources */,
+				84C1C9C313FCC2BC00FAC131 /* Tag.png in Resources */,
+				84C1C9C513FCC2BC00FAC131 /* branch.tiff in Resources */,
+				84C1C9C613FCC2BC00FAC131 /* deleted_file_full.png in Resources */,
+				84C1C9C713FCC2BC00FAC131 /* empty_file.png in Resources */,
+				84C1C9C913FCC2BC00FAC131 /* folder.tiff in Resources */,
+				84C1C9CB13FCC2BC00FAC131 /* new_file.png in Resources */,
+				84C1C9CC13FCC2BC00FAC131 /* remote.tiff in Resources */,
+				84C1C9CD13FCC2BC00FAC131 /* rewindImage.pdf in Resources */,
+				84C1C9CE13FCC2BC00FAC131 /* site_download_background.png in Resources */,
+				84C1C9D313FCC3A300FAC131 /* tag.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1398,7 +1460,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */,
 				84C1C78113FCA86900FAC131 /* GitXRelativeDateFormatter.m in Sources */,
 				84C1C78213FCA86900FAC131 /* GitXTextFieldCell.m in Sources */,
@@ -1496,6 +1557,7 @@
 				84C1C8A113FCBCAE00FAC131 /* PBGitSubmodule.m in Sources */,
 				84C1C8A213FCBCAE00FAC131 /* PBArgumentPicker.m in Sources */,
 				84C1C8A313FCBCAE00FAC131 /* TrackableOutlineView.m in Sources */,
+				84C1C9D113FCC31E00FAC131 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
