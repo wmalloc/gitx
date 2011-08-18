@@ -1382,11 +1382,11 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/GitX.sdef",
+				"$(SRCROOT)/GitXScripting/GitX.sdef",
 			);
 			name = "Scripting Bridge Header Script ";
 			outputPaths = (
-				"$(SRCROOT)/GitX.h",
+				"$(SRCROOT)/GitXScripting/GitX.h",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
