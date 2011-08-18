@@ -21,12 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02B41A5E123E307200DFC531 /* PBCommitHookFailedSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B41A5D123E307200DFC531 /* PBCommitHookFailedSheet.m */; };
 		02B41A60123E307F00DFC531 /* PBCommitHookFailedSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B41A5F123E307F00DFC531 /* PBCommitHookFailedSheet.xib */; };
 		056438B70ED0C40B00985397 /* DetailViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 056438B60ED0C40B00985397 /* DetailViewTemplate.png */; };
 		21025C1212947AB200D87200 /* sourceListAction.png in Resources */ = {isa = PBXBuildFile; fileRef = 21025C1012947AB200D87200 /* sourceListAction.png */; };
 		21025C1312947AB200D87200 /* sourceListActionOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 21025C1112947AB200D87200 /* sourceListActionOver.png */; };
-		21230CB11284B26A0046E5A1 /* PBGitMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230CB01284B26A0046E5A1 /* PBGitMenuItem.m */; };
 		21230D351284C5080046E5A1 /* PBGitStash.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230D341284C5080046E5A1 /* PBGitStash.m */; };
 		21230D821284D1CC0046E5A1 /* stash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21230D811284D1CC0046E5A1 /* stash-icon.png */; };
 		21230D9C128552720046E5A1 /* PBCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 21230D9B128552720046E5A1 /* PBCommand.m */; };
@@ -54,7 +52,6 @@
 		217FF0BB12A1CB3300785A65 /* PBGitResetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FF0B712A1CB3300785A65 /* PBGitResetController.m */; };
 		217FF0BE12A1CB3E00785A65 /* PBRevealWithFinderCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FF0BC12A1CB3E00785A65 /* PBRevealWithFinderCommand.m */; };
 		21CF0B24129C7ED90065B37C /* TrackableOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CF0B23129C7ED90065B37C /* TrackableOutlineView.m */; };
-		310DC1D81240599E0017A0F7 /* GLFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 310DC1D71240599E0017A0F7 /* GLFileView.m */; };
 		311D4F561370C9A50061CFD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F551370C9A50061CFD3 /* Security.framework */; };
 		311D4F5B1370CD150061CFD3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F5A1370CD150061CFD3 /* ScriptingBridge.framework */; };
 		311D4F5D1370CDA80061CFD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F5C1370CDA80061CFD3 /* QuartzCore.framework */; };
@@ -64,16 +61,12 @@
 		31DAA7ED1317737100463846 /* gitx_l_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 31DAA7EC1317737100463846 /* gitx_l_pub.pem */; };
 		3BC07F4C0ED5A5C5009A7768 /* HistoryViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */; };
 		3BC07F4D0ED5A5C5009A7768 /* CommitViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */; };
-		47DBDB580E94EDE700671A1E /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */; };
-		47DBDB670E94EE8B00671A1E /* PBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */; };
 		47DBDB6A0E94EF6500671A1E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDB680E94EF6500671A1E /* Preferences.xib */; };
 		47DBDBB10E94F6CA00671A1E /* Updates.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDBB00E94F6CA00671A1E /* Updates.png */; };
 		551BF11E112F376C00265053 /* gitx_askpasswd_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 551BF11D112F376C00265053 /* gitx_askpasswd_main.m */; };
 		551BF176112F3F4B00265053 /* gitx_askpasswd in Resources */ = {isa = PBXBuildFile; fileRef = 551BF111112F371800265053 /* gitx_askpasswd */; };
 		65D58BC4132D27A8003F7290 /* PBResetSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D58BC3132D27A7003F7290 /* PBResetSheet.xib */; };
-		65D58BC7132D48C2003F7290 /* PBResetSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D58BC6132D48C0003F7290 /* PBResetSheet.m */; };
 		770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */; };
-		77C8280E06725ACE000B614F /* GitXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* GitXAppDelegate.m */; };
 		846C05FB13FA37D000D88D0B /* gitx.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C05FA13FA37D000D88D0B /* gitx.m */; };
 		846C060213FA383C00D88D0B /* GitX.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 846C05FE13FA383C00D88D0B /* GitX.sdef */; };
 		846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */; };
@@ -97,28 +90,60 @@
 		84C1C79713FCA86900FAC131 /* PBUnsortableTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77913FCA86900FAC131 /* PBUnsortableTableHeader.m */; };
 		84C1C79813FCA86900FAC131 /* SearchWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77B13FCA86900FAC131 /* SearchWebView.m */; };
 		84C1C79C13FCA8C300FAC131 /* PBEasyPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76B13FCA86900FAC131 /* PBEasyPipe.m */; };
-		89087CA613A3E46B00911503 /* PBWebCommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89087CA513A3E46B00911503 /* PBWebCommitController.m */; };
-		8998B1C613A55B3500121729 /* PBWebStashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8998B1C513A55B3500121729 /* PBWebStashController.m */; };
+		84C1C7FD13FCB85F00FAC131 /* PBGitCommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7A013FCB85E00FAC131 /* PBGitCommitController.m */; };
+		84C1C7FE13FCB85F00FAC131 /* PBGitIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7A213FCB85E00FAC131 /* PBGitIndexController.m */; };
+		84C1C7FF13FCB85F00FAC131 /* PBWebChangesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7A413FCB85E00FAC131 /* PBWebChangesController.m */; };
+		84C1C80013FCB85F00FAC131 /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7A613FCB85E00FAC131 /* DBPrefsWindowController.m */; };
+		84C1C80113FCB85F00FAC131 /* PBDiffWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7A913FCB85E00FAC131 /* PBDiffWindowController.m */; };
+		84C1C80213FCB85F00FAC131 /* PBWebDiffController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7AB13FCB85E00FAC131 /* PBWebDiffController.m */; };
+		84C1C80313FCB85F00FAC131 /* GLFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7AE13FCB85E00FAC131 /* GLFileView.m */; };
+		84C1C80413FCB85F00FAC131 /* GitXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7B013FCB85E00FAC131 /* GitXAppDelegate.m */; };
+		84C1C80513FCB85F00FAC131 /* PBGitHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7B313FCB85E00FAC131 /* PBGitHistoryController.m */; };
+		84C1C80613FCB85F00FAC131 /* PBHistorySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7B513FCB85E00FAC131 /* PBHistorySearchController.m */; };
+		84C1C80713FCB85F00FAC131 /* PBRefController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7B713FCB85E00FAC131 /* PBRefController.m */; };
+		84C1C80813FCB85F00FAC131 /* PBWebHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7B913FCB85E00FAC131 /* PBWebHistoryController.m */; };
+		84C1C80913FCB85F00FAC131 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7BB13FCB85E00FAC131 /* PBGitDefaults.m */; };
+		84C1C80A13FCB85F00FAC131 /* PBGitWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7BD13FCB85E00FAC131 /* PBGitWindowController.m */; };
+		84C1C80B13FCB85F00FAC131 /* PBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7BF13FCB85E00FAC131 /* PBPrefsWindowController.m */; };
+		84C1C80C13FCB85F00FAC131 /* PBRepositoryDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7C113FCB85E00FAC131 /* PBRepositoryDocumentController.m */; };
+		84C1C80D13FCB85F00FAC131 /* PBServicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7C313FCB85E00FAC131 /* PBServicesController.m */; };
+		84C1C80E13FCB85F00FAC131 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7C513FCB85E00FAC131 /* PBViewController.m */; };
+		84C1C80F13FCB85F00FAC131 /* PBWebCommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7C713FCB85E00FAC131 /* PBWebCommitController.m */; };
+		84C1C81013FCB85F00FAC131 /* PBWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7C913FCB85E00FAC131 /* PBWebController.m */; };
+		84C1C81113FCB85F00FAC131 /* PBAddRemoteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7CC13FCB85E00FAC131 /* PBAddRemoteSheet.m */; };
+		84C1C81213FCB85F00FAC131 /* PBCloneRepositoryPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7CE13FCB85E00FAC131 /* PBCloneRepositoryPanel.m */; };
+		84C1C81313FCB85F00FAC131 /* PBCloneRepsitoryToSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7D013FCB85E00FAC131 /* PBCloneRepsitoryToSheet.m */; };
+		84C1C81413FCB85F00FAC131 /* PBCommitHookFailedSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7D213FCB85E00FAC131 /* PBCommitHookFailedSheet.m */; };
+		84C1C81513FCB85F00FAC131 /* PBCreateBranchSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7D413FCB85E00FAC131 /* PBCreateBranchSheet.m */; };
+		84C1C81613FCB85F00FAC131 /* PBCreateTagSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7D613FCB85E00FAC131 /* PBCreateTagSheet.m */; };
+		84C1C81713FCB85F00FAC131 /* PBGitXMessageSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7D813FCB85E00FAC131 /* PBGitXMessageSheet.m */; };
+		84C1C81813FCB85F00FAC131 /* PBRemoteProgressSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7DA13FCB85E00FAC131 /* PBRemoteProgressSheet.m */; };
+		84C1C81913FCB85F00FAC131 /* PBResetSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7DC13FCB85E00FAC131 /* PBResetSheet.m */; };
+		84C1C81A13FCB85F00FAC131 /* PBGitSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7DF13FCB85F00FAC131 /* PBGitSidebarController.m */; };
+		84C1C81B13FCB85F00FAC131 /* PBSourceViewBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7E113FCB85F00FAC131 /* PBSourceViewBadge.m */; };
+		84C1C81C13FCB85F00FAC131 /* PBSourceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7E313FCB85F00FAC131 /* PBSourceViewCell.m */; };
+		84C1C81D13FCB85F00FAC131 /* PBGitMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7E613FCB85F00FAC131 /* PBGitMenuItem.m */; };
+		84C1C81E13FCB85F00FAC131 /* PBGitSVBranchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7E813FCB85F00FAC131 /* PBGitSVBranchItem.m */; };
+		84C1C81F13FCB85F00FAC131 /* PBGitSVFolderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7EA13FCB85F00FAC131 /* PBGitSVFolderItem.m */; };
+		84C1C82013FCB85F00FAC131 /* PBGitSVOtherRevItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7EC13FCB85F00FAC131 /* PBGitSVOtherRevItem.m */; };
+		84C1C82113FCB85F00FAC131 /* PBGitSVRemoteBranchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7EE13FCB85F00FAC131 /* PBGitSVRemoteBranchItem.m */; };
+		84C1C82213FCB85F00FAC131 /* PBGitSVRemoteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7F013FCB85F00FAC131 /* PBGitSVRemoteItem.m */; };
+		84C1C82313FCB85F00FAC131 /* PBGitSVStageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7F213FCB85F00FAC131 /* PBGitSVStageItem.m */; };
+		84C1C82413FCB85F00FAC131 /* PBGitSVTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7F413FCB85F00FAC131 /* PBGitSVTagItem.m */; };
+		84C1C82513FCB85F00FAC131 /* PBSourceViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7F613FCB85F00FAC131 /* PBSourceViewItem.m */; };
+		84C1C82613FCB85F00FAC131 /* PBStashContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7FA13FCB85F00FAC131 /* PBStashContentController.m */; };
+		84C1C82713FCB85F00FAC131 /* PBWebStashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C7FC13FCB85F00FAC131 /* PBWebStashController.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		911111E20E58BD5A00BF76B4 /* RepositoryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */; };
-		911111F80E594F3F00BF76B4 /* PBRepositoryDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */; };
 		911112370E5A097800BF76B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911112360E5A097800BF76B4 /* Security.framework */; };
 		913D5E500E55645900CECEA2 /* gitx in Resources */ = {isa = PBXBuildFile; fileRef = 913D5E490E55644600CECEA2 /* gitx */; };
-		93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB42C10EAB7B2200530609 /* PBGitDefaults.m */; };
 		93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */; };
 		D26DC6450E782C9000C777B2 /* GitX.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* GitX.icns */; };
 		D8022FE811E124A0003C21F6 /* PBGitXMessageSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8022FE711E124A0003C21F6 /* PBGitXMessageSheet.xib */; };
-		D8022FED11E124C8003C21F6 /* PBGitXMessageSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8022FEC11E124C8003C21F6 /* PBGitXMessageSheet.m */; };
-		D8083A43111E045D00337480 /* PBRemoteProgressSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8083A42111E045D00337480 /* PBRemoteProgressSheet.m */; };
-		D8083C44111F106800337480 /* PBAddRemoteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8083C43111F106800337480 /* PBAddRemoteSheet.m */; };
 		D8083C47111F136400337480 /* PBAddRemoteSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8083C45111F136400337480 /* PBAddRemoteSheet.xib */; };
-		D8083DC4111F90F300337480 /* PBCloneRepsitoryToSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8083DC3111F90F300337480 /* PBCloneRepsitoryToSheet.m */; };
 		D8083DCD111F918900337480 /* PBCloneRepsitoryToSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8083DCB111F918900337480 /* PBCloneRepsitoryToSheet.xib */; };
-		D8083E03111FA33700337480 /* PBCloneRepositoryPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8083E02111FA33700337480 /* PBCloneRepositoryPanel.m */; };
-		D828A40D1127B18700F09D11 /* PBSourceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D828A40C1127B18700F09D11 /* PBSourceViewCell.m */; };
-		D828A4111127B1C400F09D11 /* PBSourceViewBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = D828A4101127B1C400F09D11 /* PBSourceViewBadge.m */; };
 		D828A5F21128AE7200F09D11 /* FetchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5EF1128AE7200F09D11 /* FetchTemplate.png */; };
 		D828A5F31128AE7200F09D11 /* PullTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5F01128AE7200F09D11 /* PullTemplate.png */; };
 		D828A5F41128AE7200F09D11 /* PushTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D828A5F11128AE7200F09D11 /* PushTemplate.png */; };
@@ -126,7 +151,6 @@
 		D8295D2A1130A1DC00C838E8 /* PBGitHistoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = D8295D291130A1DC00C838E8 /* PBGitHistoryList.m */; };
 		D8295DE01130E43900C838E8 /* PBGitHistoryGrapher.m in Sources */ = {isa = PBXBuildFile; fileRef = D8295DDF1130E43900C838E8 /* PBGitHistoryGrapher.m */; };
 		D8357535112640F100DE249D /* PBRemoteProgressSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8C1B77110E875CF009B7F8B /* PBRemoteProgressSheet.xib */; };
-		D854948610D5C01B0083B917 /* PBCreateBranchSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D854948510D5C01B0083B917 /* PBCreateBranchSheet.m */; };
 		D85810551127476E007F254B /* StageView.png in Resources */ = {isa = PBXBuildFile; fileRef = D85810541127476E007F254B /* StageView.png */; };
 		D858108311274D28007F254B /* Branch.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108011274D28007F254B /* Branch.png */; };
 		D858108411274D28007F254B /* RemoteBranch.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108111274D28007F254B /* RemoteBranch.png */; };
@@ -136,45 +160,27 @@
 		D8A4BD071134AD2900E92D51 /* CherryPickTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */; };
 		D8A4BD081134AD2900E92D51 /* MergeTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD051134AD2900E92D51 /* MergeTemplate.png */; };
 		D8A4BD091134AD2900E92D51 /* RebaseTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */; };
-		D8B4DC571220D1E4004166D6 /* PBHistorySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4DC561220D1E4004166D6 /* PBHistorySearchController.m */; };
 		D8E3B2B810DC9FB2001096A3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */; };
-		D8E3B34D10DCA958001096A3 /* PBCreateTagSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E3B34C10DCA958001096A3 /* PBCreateTagSheet.m */; };
 		D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D8F4AB7812298CE200D6D53C /* rewindImage.pdf */; };
 		D8FDD9F711432A12005647F6 /* PBCloneRepositoryPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FDD9F511432A12005647F6 /* PBCloneRepositoryPanel.xib */; };
-		D8FDDA6A114335E8005647F6 /* PBGitSVBranchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA5D114335E8005647F6 /* PBGitSVBranchItem.m */; };
-		D8FDDA6B114335E8005647F6 /* PBGitSVFolderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA5F114335E8005647F6 /* PBGitSVFolderItem.m */; };
-		D8FDDA6C114335E8005647F6 /* PBGitSVOtherRevItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA61114335E8005647F6 /* PBGitSVOtherRevItem.m */; };
-		D8FDDA6D114335E8005647F6 /* PBGitSVRemoteBranchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA63114335E8005647F6 /* PBGitSVRemoteBranchItem.m */; };
-		D8FDDA6E114335E8005647F6 /* PBGitSVRemoteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA65114335E8005647F6 /* PBGitSVRemoteItem.m */; };
-		D8FDDA6F114335E8005647F6 /* PBGitSVStageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA67114335E8005647F6 /* PBGitSVStageItem.m */; };
-		D8FDDA70114335E8005647F6 /* PBGitSVTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA69114335E8005647F6 /* PBGitSVTagItem.m */; };
 		D8FDDBF41143F318005647F6 /* AddRemote.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FDDBF31143F318005647F6 /* AddRemote.png */; };
-		DDB8FE0113998CE2001A9EE2 /* PBStashContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8FE0013998CE2001A9EE2 /* PBStashContentController.m */; };
 		DDB8FEC413999C24001A9EE2 /* PBStashContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */; };
 		F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */; };
-		F523CEB60ED3399200DDD714 /* PBGitIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = F523CEB50ED3399200DDD714 /* PBGitIndexController.m */; };
 		F52BCE030E84208300AA3741 /* PBGitHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */; };
-		F52BCE070E84211300AA3741 /* PBGitHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52BCE060E84211300AA3741 /* PBGitHistoryController.m */; };
 		F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C4DF60E97FC630022AD59 /* PBGitBinary.m */; };
 		F53C4DF80E97FCA70022AD59 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C4DF60E97FC630022AD59 /* PBGitBinary.m */; };
 		F53FF2050E7ABB5300389171 /* PBGitRevSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */; };
 		F56174570E058893001DCD79 /* PBGitTree.m in Sources */ = {isa = PBXBuildFile; fileRef = F56174560E058893001DCD79 /* PBGitTree.m */; };
 		F56524F00E02D45200F03B52 /* PBGitCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = F56524EF0E02D45200F03B52 /* PBGitCommit.m */; };
 		F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56526230E03D85900F03B52 /* WebKit.framework */; };
-		F565262B0E03D89B00F03B52 /* PBWebHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */; };
 		F569AE930F2CBD7C00C2FFA7 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F569AE920F2CBD7C00C2FFA7 /* Credits.html */; };
 		F56ADDD90ED19F9E002AC78F /* AddBranchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */; };
 		F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */; };
 		F56CC7320E65E0E5004307B4 /* PBGraphCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */; };
-		F574A2850EAE2EAC003F2CB1 /* PBRefController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574A2840EAE2EAC003F2CB1 /* PBRefController.m */; };
 		F574A2910EAE2FF4003F2CB1 /* PBGitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FCCBA80EA8AF450061B02B /* PBGitConfig.m */; };
-		F57CC4410E05E496000472E2 /* PBGitWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57CC4400E05E496000472E2 /* PBGitWindowController.m */; };
 		F580E6AE0E733276009E2D3F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
 		F580E6B10E73328C009E2D3F /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
-		F58DB55910566D3500CFDF4A /* PBGitSidebarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DB55810566D3500CFDF4A /* PBGitSidebarController.m */; };
-		F58DB5E8105671B600CFDF4A /* PBSourceViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F58DB5E7105671B600CFDF4A /* PBSourceViewItem.m */; };
 		F59116E60E843BB50072CCB1 /* PBGitCommitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */; };
-		F59116E90E843BCB0072CCB1 /* PBGitCommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59116E80E843BCB0072CCB1 /* PBGitCommitController.m */; };
 		F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */; };
 		F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F5945E160E02B0C200706420 /* PBGitRepository.m */; };
 		F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F1DD4105C4FF300115F88 /* PBGitIndex.m */; };
@@ -182,17 +188,11 @@
 		F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C007740E731B48007B84B2 /* PBGitRef.m */; };
 		F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */; };
 		F5E424110EA3E4D60046E362 /* PBDiffWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */; };
-		F5E424150EA3E4E10046E362 /* PBDiffWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */; };
-		F5E424180EA3E4EB0046E362 /* PBWebDiffController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E424160EA3E4EB0046E362 /* PBWebDiffController.m */; };
 		F5E4DBFB0EAB58D90013FAFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E4DBFA0EAB58D90013FAFC /* SystemConfiguration.framework */; };
-		F5E926060E8827D300056E75 /* PBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E926050E8827D300056E75 /* PBViewController.m */; };
 		F5E927F80E883E7200056E75 /* PBChangedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E927F70E883E7200056E75 /* PBChangedFile.m */; };
-		F5E927FC0E883F0700056E75 /* PBWebChangesController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E927FB0E883F0700056E75 /* PBWebChangesController.m */; };
 		F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A1A0E88550E00056E75 /* empty_file.png */; };
 		F5E92A230E88569500056E75 /* new_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A220E88569500056E75 /* new_file.png */; };
-		F5EF8C8E0E9D4A5D0050906B /* PBWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */; };
 		F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */; };
-		F5FE6C030EB13BC900F30D12 /* PBServicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE6C020EB13BC900F30D12 /* PBServicesController.m */; };
 		F5FF4E180E0829C20006317A /* PBGitRevList.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5FF4E170E0829C20006317A /* PBGitRevList.mm */; };
 		F5FF4E7A0E082E440006317A /* PBGitGrapher.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5FF4E790E082E440006317A /* PBGitGrapher.mm */; };
 		FA8DFF3E131AEE2700C0F289 /* Start_iTerm2.applescript in Resources */ = {isa = PBXBuildFile; fileRef = FA8DFF37131AEDD400C0F289 /* Start_iTerm2.applescript */; };
@@ -243,16 +243,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		02B41A5C123E307200DFC531 /* PBCommitHookFailedSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitHookFailedSheet.h; sourceTree = "<group>"; };
-		02B41A5D123E307200DFC531 /* PBCommitHookFailedSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitHookFailedSheet.m; sourceTree = "<group>"; };
 		02B41A5F123E307F00DFC531 /* PBCommitHookFailedSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBCommitHookFailedSheet.xib; sourceTree = "<group>"; };
 		056438B60ED0C40B00985397 /* DetailViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DetailViewTemplate.png; path = Images/DetailViewTemplate.png; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		21025C1012947AB200D87200 /* sourceListAction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourceListAction.png; sourceTree = "<group>"; };
 		21025C1112947AB200D87200 /* sourceListActionOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourceListActionOver.png; sourceTree = "<group>"; };
-		21230CAF1284B26A0046E5A1 /* PBGitMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitMenuItem.h; sourceTree = "<group>"; };
-		21230CB01284B26A0046E5A1 /* PBGitMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitMenuItem.m; sourceTree = "<group>"; };
 		21230D331284C5080046E5A1 /* PBGitStash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitStash.h; sourceTree = "<group>"; };
 		21230D341284C5080046E5A1 /* PBGitStash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitStash.m; sourceTree = "<group>"; };
 		21230D4D1284C92E0046E5A1 /* PBPresentable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPresentable.h; sourceTree = "<group>"; };
@@ -301,8 +297,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		310DC1D61240599E0017A0F7 /* GLFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFileView.h; sourceTree = "<group>"; };
-		310DC1D71240599E0017A0F7 /* GLFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFileView.m; sourceTree = "<group>"; };
 		311D4F551370C9A50061CFD3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		311D4F571370CC640061CFD3 /* build_libgit2.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
 		311D4F5A1370CD150061CFD3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
@@ -313,21 +307,13 @@
 		32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX_Prefix.pch; sourceTree = "<group>"; };
 		3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HistoryViewTemplate.png; path = Images/HistoryViewTemplate.png; sourceTree = "<group>"; };
 		3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CommitViewTemplate.png; path = Images/CommitViewTemplate.png; sourceTree = "<group>"; };
-		47DBDB560E94EDE700671A1E /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPrefsWindowController.h; sourceTree = "<group>"; };
-		47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrefsWindowController.m; sourceTree = "<group>"; };
-		47DBDB650E94EE8B00671A1E /* PBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPrefsWindowController.h; sourceTree = "<group>"; };
-		47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPrefsWindowController.m; sourceTree = "<group>"; };
 		47DBDB690E94EF6500671A1E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		47DBDBB00E94F6CA00671A1E /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updates.png; path = Images/Preferences/Updates.png; sourceTree = "<group>"; };
 		551BF111112F371800265053 /* gitx_askpasswd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx_askpasswd; sourceTree = BUILT_PRODUCTS_DIR; };
 		551BF11D112F376C00265053 /* gitx_askpasswd_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx_askpasswd_main.m; sourceTree = "<group>"; };
 		65D58BC3132D27A7003F7290 /* PBResetSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBResetSheet.xib; sourceTree = "<group>"; };
-		65D58BC5132D48BF003F7290 /* PBResetSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBResetSheet.h; sourceTree = "<group>"; };
-		65D58BC6132D48C0003F7290 /* PBResetSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBResetSheet.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = GitTest_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		77C8280B06725ACE000B614F /* GitXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXAppDelegate.h; sourceTree = "<group>"; };
-		77C8280C06725ACE000B614F /* GitXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXAppDelegate.m; sourceTree = "<group>"; };
 		846C05FA13FA37D000D88D0B /* gitx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx.m; sourceTree = "<group>"; };
 		846C05FD13FA383C00D88D0B /* GitX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX.h; sourceTree = "<group>"; };
 		846C05FE13FA383C00D88D0B /* GitX.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GitX.sdef; sourceTree = "<group>"; };
@@ -381,19 +367,98 @@
 		84C1C77A13FCA86900FAC131 /* SearchWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWebView.h; sourceTree = "<group>"; };
 		84C1C77B13FCA86900FAC131 /* SearchWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchWebView.m; sourceTree = "<group>"; };
 		84C1C77C13FCA86900FAC131 /* Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminal.h; sourceTree = "<group>"; };
-		89087CA413A3E46500911503 /* PBWebCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebCommitController.h; sourceTree = "<group>"; };
-		89087CA513A3E46B00911503 /* PBWebCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebCommitController.m; sourceTree = "<group>"; };
-		8998B1AC13A55AC100121729 /* PBWebStashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebStashController.h; sourceTree = "<group>"; };
-		8998B1C513A55B3500121729 /* PBWebStashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebStashController.m; sourceTree = "<group>"; };
+		84C1C79F13FCB85E00FAC131 /* PBGitCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitCommitController.h; sourceTree = "<group>"; };
+		84C1C7A013FCB85E00FAC131 /* PBGitCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitCommitController.m; sourceTree = "<group>"; };
+		84C1C7A113FCB85E00FAC131 /* PBGitIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndexController.h; sourceTree = "<group>"; };
+		84C1C7A213FCB85E00FAC131 /* PBGitIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndexController.m; sourceTree = "<group>"; };
+		84C1C7A313FCB85E00FAC131 /* PBWebChangesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebChangesController.h; sourceTree = "<group>"; };
+		84C1C7A413FCB85E00FAC131 /* PBWebChangesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebChangesController.m; sourceTree = "<group>"; };
+		84C1C7A513FCB85E00FAC131 /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBPrefsWindowController.h; sourceTree = "<group>"; };
+		84C1C7A613FCB85E00FAC131 /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBPrefsWindowController.m; sourceTree = "<group>"; };
+		84C1C7A813FCB85E00FAC131 /* PBDiffWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDiffWindowController.h; sourceTree = "<group>"; };
+		84C1C7A913FCB85E00FAC131 /* PBDiffWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDiffWindowController.m; sourceTree = "<group>"; };
+		84C1C7AA13FCB85E00FAC131 /* PBWebDiffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebDiffController.h; sourceTree = "<group>"; };
+		84C1C7AB13FCB85E00FAC131 /* PBWebDiffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebDiffController.m; sourceTree = "<group>"; };
+		84C1C7AD13FCB85E00FAC131 /* GLFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFileView.h; sourceTree = "<group>"; };
+		84C1C7AE13FCB85E00FAC131 /* GLFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLFileView.m; sourceTree = "<group>"; };
+		84C1C7AF13FCB85E00FAC131 /* GitXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXAppDelegate.h; sourceTree = "<group>"; };
+		84C1C7B013FCB85E00FAC131 /* GitXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXAppDelegate.m; sourceTree = "<group>"; };
+		84C1C7B213FCB85E00FAC131 /* PBGitHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryController.h; sourceTree = "<group>"; };
+		84C1C7B313FCB85E00FAC131 /* PBGitHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryController.m; sourceTree = "<group>"; };
+		84C1C7B413FCB85E00FAC131 /* PBHistorySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHistorySearchController.h; sourceTree = "<group>"; };
+		84C1C7B513FCB85E00FAC131 /* PBHistorySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHistorySearchController.m; sourceTree = "<group>"; };
+		84C1C7B613FCB85E00FAC131 /* PBRefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefController.h; sourceTree = "<group>"; };
+		84C1C7B713FCB85E00FAC131 /* PBRefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefController.m; sourceTree = "<group>"; };
+		84C1C7B813FCB85E00FAC131 /* PBWebHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebHistoryController.h; sourceTree = "<group>"; };
+		84C1C7B913FCB85E00FAC131 /* PBWebHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebHistoryController.m; sourceTree = "<group>"; };
+		84C1C7BA13FCB85E00FAC131 /* PBGitDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitDefaults.h; sourceTree = "<group>"; };
+		84C1C7BB13FCB85E00FAC131 /* PBGitDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitDefaults.m; sourceTree = "<group>"; };
+		84C1C7BC13FCB85E00FAC131 /* PBGitWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitWindowController.h; sourceTree = "<group>"; };
+		84C1C7BD13FCB85E00FAC131 /* PBGitWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitWindowController.m; sourceTree = "<group>"; };
+		84C1C7BE13FCB85E00FAC131 /* PBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPrefsWindowController.h; sourceTree = "<group>"; };
+		84C1C7BF13FCB85E00FAC131 /* PBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPrefsWindowController.m; sourceTree = "<group>"; };
+		84C1C7C013FCB85E00FAC131 /* PBRepositoryDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRepositoryDocumentController.h; sourceTree = "<group>"; };
+		84C1C7C113FCB85E00FAC131 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRepositoryDocumentController.m; sourceTree = "<group>"; };
+		84C1C7C213FCB85E00FAC131 /* PBServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBServicesController.h; sourceTree = "<group>"; };
+		84C1C7C313FCB85E00FAC131 /* PBServicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBServicesController.m; sourceTree = "<group>"; };
+		84C1C7C413FCB85E00FAC131 /* PBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
+		84C1C7C513FCB85E00FAC131 /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
+		84C1C7C613FCB85E00FAC131 /* PBWebCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebCommitController.h; sourceTree = "<group>"; };
+		84C1C7C713FCB85E00FAC131 /* PBWebCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebCommitController.m; sourceTree = "<group>"; };
+		84C1C7C813FCB85E00FAC131 /* PBWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebController.h; sourceTree = "<group>"; };
+		84C1C7C913FCB85E00FAC131 /* PBWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebController.m; sourceTree = "<group>"; };
+		84C1C7CB13FCB85E00FAC131 /* PBAddRemoteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAddRemoteSheet.h; sourceTree = "<group>"; };
+		84C1C7CC13FCB85E00FAC131 /* PBAddRemoteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAddRemoteSheet.m; sourceTree = "<group>"; };
+		84C1C7CD13FCB85E00FAC131 /* PBCloneRepositoryPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCloneRepositoryPanel.h; sourceTree = "<group>"; };
+		84C1C7CE13FCB85E00FAC131 /* PBCloneRepositoryPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCloneRepositoryPanel.m; sourceTree = "<group>"; };
+		84C1C7CF13FCB85E00FAC131 /* PBCloneRepsitoryToSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCloneRepsitoryToSheet.h; sourceTree = "<group>"; };
+		84C1C7D013FCB85E00FAC131 /* PBCloneRepsitoryToSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCloneRepsitoryToSheet.m; sourceTree = "<group>"; };
+		84C1C7D113FCB85E00FAC131 /* PBCommitHookFailedSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitHookFailedSheet.h; sourceTree = "<group>"; };
+		84C1C7D213FCB85E00FAC131 /* PBCommitHookFailedSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitHookFailedSheet.m; sourceTree = "<group>"; };
+		84C1C7D313FCB85E00FAC131 /* PBCreateBranchSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCreateBranchSheet.h; sourceTree = "<group>"; };
+		84C1C7D413FCB85E00FAC131 /* PBCreateBranchSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCreateBranchSheet.m; sourceTree = "<group>"; };
+		84C1C7D513FCB85E00FAC131 /* PBCreateTagSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCreateTagSheet.h; sourceTree = "<group>"; };
+		84C1C7D613FCB85E00FAC131 /* PBCreateTagSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCreateTagSheet.m; sourceTree = "<group>"; };
+		84C1C7D713FCB85E00FAC131 /* PBGitXMessageSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitXMessageSheet.h; sourceTree = "<group>"; };
+		84C1C7D813FCB85E00FAC131 /* PBGitXMessageSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitXMessageSheet.m; sourceTree = "<group>"; };
+		84C1C7D913FCB85E00FAC131 /* PBRemoteProgressSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRemoteProgressSheet.h; sourceTree = "<group>"; };
+		84C1C7DA13FCB85E00FAC131 /* PBRemoteProgressSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRemoteProgressSheet.m; sourceTree = "<group>"; };
+		84C1C7DB13FCB85E00FAC131 /* PBResetSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBResetSheet.h; sourceTree = "<group>"; };
+		84C1C7DC13FCB85E00FAC131 /* PBResetSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBResetSheet.m; sourceTree = "<group>"; };
+		84C1C7DE13FCB85F00FAC131 /* PBGitSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSidebarController.h; sourceTree = "<group>"; };
+		84C1C7DF13FCB85F00FAC131 /* PBGitSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSidebarController.m; sourceTree = "<group>"; };
+		84C1C7E013FCB85F00FAC131 /* PBSourceViewBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewBadge.h; sourceTree = "<group>"; };
+		84C1C7E113FCB85F00FAC131 /* PBSourceViewBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewBadge.m; sourceTree = "<group>"; };
+		84C1C7E213FCB85F00FAC131 /* PBSourceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewCell.h; sourceTree = "<group>"; };
+		84C1C7E313FCB85F00FAC131 /* PBSourceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewCell.m; sourceTree = "<group>"; };
+		84C1C7E513FCB85F00FAC131 /* PBGitMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitMenuItem.h; sourceTree = "<group>"; };
+		84C1C7E613FCB85F00FAC131 /* PBGitMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitMenuItem.m; sourceTree = "<group>"; };
+		84C1C7E713FCB85F00FAC131 /* PBGitSVBranchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVBranchItem.h; sourceTree = "<group>"; };
+		84C1C7E813FCB85F00FAC131 /* PBGitSVBranchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVBranchItem.m; sourceTree = "<group>"; };
+		84C1C7E913FCB85F00FAC131 /* PBGitSVFolderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVFolderItem.h; sourceTree = "<group>"; };
+		84C1C7EA13FCB85F00FAC131 /* PBGitSVFolderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVFolderItem.m; sourceTree = "<group>"; };
+		84C1C7EB13FCB85F00FAC131 /* PBGitSVOtherRevItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVOtherRevItem.h; sourceTree = "<group>"; };
+		84C1C7EC13FCB85F00FAC131 /* PBGitSVOtherRevItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVOtherRevItem.m; sourceTree = "<group>"; };
+		84C1C7ED13FCB85F00FAC131 /* PBGitSVRemoteBranchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVRemoteBranchItem.h; sourceTree = "<group>"; };
+		84C1C7EE13FCB85F00FAC131 /* PBGitSVRemoteBranchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVRemoteBranchItem.m; sourceTree = "<group>"; };
+		84C1C7EF13FCB85F00FAC131 /* PBGitSVRemoteItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVRemoteItem.h; sourceTree = "<group>"; };
+		84C1C7F013FCB85F00FAC131 /* PBGitSVRemoteItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVRemoteItem.m; sourceTree = "<group>"; };
+		84C1C7F113FCB85F00FAC131 /* PBGitSVStageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVStageItem.h; sourceTree = "<group>"; };
+		84C1C7F213FCB85F00FAC131 /* PBGitSVStageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVStageItem.m; sourceTree = "<group>"; };
+		84C1C7F313FCB85F00FAC131 /* PBGitSVTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVTagItem.h; sourceTree = "<group>"; };
+		84C1C7F413FCB85F00FAC131 /* PBGitSVTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVTagItem.m; sourceTree = "<group>"; };
+		84C1C7F513FCB85F00FAC131 /* PBSourceViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewItem.h; sourceTree = "<group>"; };
+		84C1C7F613FCB85F00FAC131 /* PBSourceViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewItem.m; sourceTree = "<group>"; };
+		84C1C7F713FCB85F00FAC131 /* PBSourceViewItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewItems.h; sourceTree = "<group>"; };
+		84C1C7F913FCB85F00FAC131 /* PBStashContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBStashContentController.h; sourceTree = "<group>"; };
+		84C1C7FA13FCB85F00FAC131 /* PBStashContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBStashContentController.m; sourceTree = "<group>"; };
+		84C1C7FB13FCB85F00FAC131 /* PBWebStashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebStashController.h; sourceTree = "<group>"; };
+		84C1C7FC13FCB85F00FAC131 /* PBWebStashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebStashController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* GitX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		911111E10E58BD5A00BF76B4 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RepositoryWindow.xib; sourceTree = "<group>"; };
-		911111F60E594F3F00BF76B4 /* PBRepositoryDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRepositoryDocumentController.h; sourceTree = "<group>"; };
-		911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRepositoryDocumentController.m; sourceTree = "<group>"; };
 		911112360E5A097800BF76B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		913D5E490E55644600CECEA2 /* gitx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx; sourceTree = BUILT_PRODUCTS_DIR; };
-		93CB42C00EAB7B2200530609 /* PBGitDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitDefaults.h; sourceTree = "<group>"; };
-		93CB42C10EAB7B2200530609 /* PBGitDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitDefaults.m; sourceTree = "<group>"; };
 		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
 		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageView.m; sourceTree = "<group>"; };
 		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitConfig.m; sourceTree = "<group>"; };
@@ -401,22 +466,8 @@
 		D26DC6440E782C9000C777B2 /* GitX.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GitX.icns; sourceTree = "<group>"; };
 		D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
 		D8022FE711E124A0003C21F6 /* PBGitXMessageSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitXMessageSheet.xib; sourceTree = "<group>"; };
-		D8022FEB11E124C8003C21F6 /* PBGitXMessageSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitXMessageSheet.h; sourceTree = "<group>"; };
-		D8022FEC11E124C8003C21F6 /* PBGitXMessageSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitXMessageSheet.m; sourceTree = "<group>"; };
-		D8083A2D111E045300337480 /* PBRemoteProgressSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRemoteProgressSheet.h; sourceTree = "<group>"; };
-		D8083A42111E045D00337480 /* PBRemoteProgressSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRemoteProgressSheet.m; sourceTree = "<group>"; };
-		D8083C42111F106800337480 /* PBAddRemoteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBAddRemoteSheet.h; sourceTree = "<group>"; };
-		D8083C43111F106800337480 /* PBAddRemoteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBAddRemoteSheet.m; sourceTree = "<group>"; };
 		D8083C46111F136400337480 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBAddRemoteSheet.xib; sourceTree = "<group>"; };
-		D8083DC2111F90F300337480 /* PBCloneRepsitoryToSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCloneRepsitoryToSheet.h; sourceTree = "<group>"; };
-		D8083DC3111F90F300337480 /* PBCloneRepsitoryToSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCloneRepsitoryToSheet.m; sourceTree = "<group>"; };
 		D8083DCC111F918900337480 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCloneRepsitoryToSheet.xib; sourceTree = "<group>"; };
-		D8083E01111FA33700337480 /* PBCloneRepositoryPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCloneRepositoryPanel.h; sourceTree = "<group>"; };
-		D8083E02111FA33700337480 /* PBCloneRepositoryPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCloneRepositoryPanel.m; sourceTree = "<group>"; };
-		D828A40B1127B18700F09D11 /* PBSourceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewCell.h; sourceTree = "<group>"; };
-		D828A40C1127B18700F09D11 /* PBSourceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewCell.m; sourceTree = "<group>"; };
-		D828A40F1127B1C400F09D11 /* PBSourceViewBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewBadge.h; sourceTree = "<group>"; };
-		D828A4101127B1C400F09D11 /* PBSourceViewBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewBadge.m; sourceTree = "<group>"; };
 		D828A5EF1128AE7200F09D11 /* FetchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FetchTemplate.png; path = Images/FetchTemplate.png; sourceTree = "<group>"; };
 		D828A5F01128AE7200F09D11 /* PullTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PullTemplate.png; path = Images/PullTemplate.png; sourceTree = "<group>"; };
 		D828A5F11128AE7200F09D11 /* PushTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PushTemplate.png; path = Images/PushTemplate.png; sourceTree = "<group>"; };
@@ -425,8 +476,6 @@
 		D8295D291130A1DC00C838E8 /* PBGitHistoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryList.m; sourceTree = "<group>"; };
 		D8295DDE1130E43900C838E8 /* PBGitHistoryGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryGrapher.h; sourceTree = "<group>"; };
 		D8295DDF1130E43900C838E8 /* PBGitHistoryGrapher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryGrapher.m; sourceTree = "<group>"; };
-		D854948410D5C01B0083B917 /* PBCreateBranchSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCreateBranchSheet.h; sourceTree = "<group>"; };
-		D854948510D5C01B0083B917 /* PBCreateBranchSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCreateBranchSheet.m; sourceTree = "<group>"; };
 		D854949310D5C3E20083B917 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCreateBranchSheet.xib; sourceTree = "<group>"; };
 		D85810541127476E007F254B /* StageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StageView.png; path = Images/StageView.png; sourceTree = "<group>"; };
 		D858108011274D28007F254B /* Branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Branch.png; path = Images/Branch.png; sourceTree = "<group>"; };
@@ -436,41 +485,16 @@
 		D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CherryPickTemplate.png; path = Images/CherryPickTemplate.png; sourceTree = "<group>"; };
 		D8A4BD051134AD2900E92D51 /* MergeTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MergeTemplate.png; path = Images/MergeTemplate.png; sourceTree = "<group>"; };
 		D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RebaseTemplate.png; path = Images/RebaseTemplate.png; sourceTree = "<group>"; };
-		D8B4DC551220D1E4004166D6 /* PBHistorySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHistorySearchController.h; sourceTree = "<group>"; };
-		D8B4DC561220D1E4004166D6 /* PBHistorySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHistorySearchController.m; sourceTree = "<group>"; };
 		D8C1B77210E875CF009B7F8B /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBRemoteProgressSheet.xib; sourceTree = "<group>"; };
 		D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
-		D8E3B34B10DCA958001096A3 /* PBCreateTagSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCreateTagSheet.h; sourceTree = "<group>"; };
-		D8E3B34C10DCA958001096A3 /* PBCreateTagSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCreateTagSheet.m; sourceTree = "<group>"; };
 		D8E3B38110DD4E2C001096A3 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCreateTagSheet.xib; sourceTree = "<group>"; };
 		D8F4AB7812298CE200D6D53C /* rewindImage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = rewindImage.pdf; path = Images/rewindImage.pdf; sourceTree = "<group>"; };
 		D8FDD9F611432A12005647F6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCloneRepositoryPanel.xib; sourceTree = "<group>"; };
-		D8FDDA5C114335E8005647F6 /* PBGitSVBranchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVBranchItem.h; sourceTree = "<group>"; };
-		D8FDDA5D114335E8005647F6 /* PBGitSVBranchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVBranchItem.m; sourceTree = "<group>"; };
-		D8FDDA5E114335E8005647F6 /* PBGitSVFolderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVFolderItem.h; sourceTree = "<group>"; };
-		D8FDDA5F114335E8005647F6 /* PBGitSVFolderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVFolderItem.m; sourceTree = "<group>"; };
-		D8FDDA60114335E8005647F6 /* PBGitSVOtherRevItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVOtherRevItem.h; sourceTree = "<group>"; };
-		D8FDDA61114335E8005647F6 /* PBGitSVOtherRevItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVOtherRevItem.m; sourceTree = "<group>"; };
-		D8FDDA62114335E8005647F6 /* PBGitSVRemoteBranchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVRemoteBranchItem.h; sourceTree = "<group>"; };
-		D8FDDA63114335E8005647F6 /* PBGitSVRemoteBranchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVRemoteBranchItem.m; sourceTree = "<group>"; };
-		D8FDDA64114335E8005647F6 /* PBGitSVRemoteItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVRemoteItem.h; sourceTree = "<group>"; };
-		D8FDDA65114335E8005647F6 /* PBGitSVRemoteItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVRemoteItem.m; sourceTree = "<group>"; };
-		D8FDDA66114335E8005647F6 /* PBGitSVStageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVStageItem.h; sourceTree = "<group>"; };
-		D8FDDA67114335E8005647F6 /* PBGitSVStageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVStageItem.m; sourceTree = "<group>"; };
-		D8FDDA68114335E8005647F6 /* PBGitSVTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVTagItem.h; sourceTree = "<group>"; };
-		D8FDDA69114335E8005647F6 /* PBGitSVTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSVTagItem.m; sourceTree = "<group>"; };
-		D8FDDA7311433634005647F6 /* PBSourceViewItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewItems.h; sourceTree = "<group>"; };
 		D8FDDBF31143F318005647F6 /* AddRemote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddRemote.png; path = Images/AddRemote.png; sourceTree = "<group>"; };
-		DDB8FDFF13998CE2001A9EE2 /* PBStashContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBStashContentController.h; sourceTree = "<group>"; };
-		DDB8FE0013998CE2001A9EE2 /* PBStashContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBStashContentController.m; sourceTree = "<group>"; };
 		DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBStashContentView.xib; sourceTree = "<group>"; };
 		F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevisionCell.h; sourceTree = "<group>"; };
 		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevisionCell.m; sourceTree = "<group>"; };
-		F523CEB40ED3399100DDD714 /* PBGitIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndexController.h; sourceTree = "<group>"; };
-		F523CEB50ED3399200DDD714 /* PBGitIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndexController.m; sourceTree = "<group>"; };
 		F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitHistoryView.xib; sourceTree = "<group>"; };
-		F52BCE050E84211300AA3741 /* PBGitHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitHistoryController.h; sourceTree = "<group>"; };
-		F52BCE060E84211300AA3741 /* PBGitHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitHistoryController.m; sourceTree = "<group>"; };
 		F53C4DF50E97FC630022AD59 /* PBGitBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitBinary.h; sourceTree = "<group>"; };
 		F53C4DF60E97FC630022AD59 /* PBGitBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitBinary.m; sourceTree = "<group>"; };
 		F53FF2030E7ABB5300389171 /* PBGitRevSpecifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevSpecifier.h; sourceTree = "<group>"; };
@@ -480,8 +504,6 @@
 		F56524EE0E02D45200F03B52 /* PBGitCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitCommit.h; sourceTree = "<group>"; };
 		F56524EF0E02D45200F03B52 /* PBGitCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitCommit.m; sourceTree = "<group>"; };
 		F56526230E03D85900F03B52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
-		F56526290E03D89B00F03B52 /* PBWebHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebHistoryController.h; sourceTree = "<group>"; };
-		F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebHistoryController.m; sourceTree = "<group>"; };
 		F567CC3A106E6B910059BB9D /* GitXTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitXTesting-Info.plist"; sourceTree = "<group>"; };
 		F569AE920F2CBD7C00C2FFA7 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddBranchTemplate.png; path = Images/AddBranchTemplate.png; sourceTree = "<group>"; };
@@ -490,19 +512,9 @@
 		F56CC7300E65E0E5004307B4 /* PBGraphCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGraphCellInfo.h; sourceTree = "<group>"; };
 		F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGraphCellInfo.m; sourceTree = "<group>"; };
 		F57240BA0E9678EA00D8EE66 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleted_file.png; path = Images/deleted_file.png; sourceTree = "<group>"; };
-		F574A2830EAE2EAC003F2CB1 /* PBRefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefController.h; sourceTree = "<group>"; };
-		F574A2840EAE2EAC003F2CB1 /* PBRefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefController.m; sourceTree = "<group>"; };
-		F57CC43F0E05E496000472E2 /* PBGitWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitWindowController.h; sourceTree = "<group>"; };
-		F57CC4400E05E496000472E2 /* PBGitWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitWindowController.m; sourceTree = "<group>"; };
 		F580E6AD0E733276009E2D3F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		F58DB55710566D3500CFDF4A /* PBGitSidebarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSidebarController.h; sourceTree = "<group>"; };
-		F58DB55810566D3500CFDF4A /* PBGitSidebarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitSidebarController.m; sourceTree = "<group>"; };
 		F58DB55F10566E3900CFDF4A /* PBGitSidebarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitSidebarView.xib; sourceTree = "<group>"; };
-		F58DB5E6105671B600CFDF4A /* PBSourceViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewItem.h; sourceTree = "<group>"; };
-		F58DB5E7105671B600CFDF4A /* PBSourceViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewItem.m; sourceTree = "<group>"; };
 		F59116E50E843BB50072CCB1 /* PBGitCommitView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitCommitView.xib; sourceTree = "<group>"; };
-		F59116E70E843BCB0072CCB1 /* PBGitCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitCommitController.h; sourceTree = "<group>"; };
-		F59116E80E843BCB0072CCB1 /* PBGitCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitCommitController.m; sourceTree = "<group>"; };
 		F593DF760E9E636C003A8559 /* PBFileChangesTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFileChangesTableView.h; sourceTree = "<group>"; };
 		F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBFileChangesTableView.m; sourceTree = "<group>"; };
 		F5945E150E02B0C200706420 /* PBGitRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRepository.h; sourceTree = "<group>"; };
@@ -518,27 +530,15 @@
 		F5D2DC850EA401A80034AD24 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitConfig.h; sourceTree = "<group>"; };
 		F5D619ED0EAE62EA00341D73 /* html */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBDiffWindow.xib; sourceTree = "<group>"; };
-		F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDiffWindowController.m; sourceTree = "<group>"; };
-		F5E424140EA3E4E10046E362 /* PBDiffWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDiffWindowController.h; sourceTree = "<group>"; };
-		F5E424160EA3E4EB0046E362 /* PBWebDiffController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebDiffController.m; sourceTree = "<group>"; };
-		F5E424170EA3E4EB0046E362 /* PBWebDiffController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebDiffController.h; sourceTree = "<group>"; };
 		F5E4DBFA0EAB58D90013FAFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
-		F5E926040E8827D300056E75 /* PBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBViewController.h; sourceTree = "<group>"; };
-		F5E926050E8827D300056E75 /* PBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBViewController.m; sourceTree = "<group>"; };
 		F5E927F60E883E7200056E75 /* PBChangedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBChangedFile.h; sourceTree = "<group>"; };
 		F5E927F70E883E7200056E75 /* PBChangedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBChangedFile.m; sourceTree = "<group>"; };
-		F5E927FA0E883F0700056E75 /* PBWebChangesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebChangesController.h; sourceTree = "<group>"; };
-		F5E927FB0E883F0700056E75 /* PBWebChangesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebChangesController.m; sourceTree = "<group>"; };
 		F5E92A1A0E88550E00056E75 /* empty_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty_file.png; path = Images/empty_file.png; sourceTree = "<group>"; };
 		F5E92A220E88569500056E75 /* new_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_file.png; path = Images/new_file.png; sourceTree = "<group>"; };
-		F5EF8C8C0E9D4A5D0050906B /* PBWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebController.h; sourceTree = "<group>"; };
-		F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebController.m; sourceTree = "<group>"; };
 		F5F7D0641062E7940072C81C /* UpdateKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UpdateKey.pem; sourceTree = "<group>"; };
 		F5FC43C30EBD050800191D80 /* PBRefContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefContextDelegate.h; sourceTree = "<group>"; };
 		F5FC43FC0EBD08EE00191D80 /* PBRefMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefMenuItem.h; sourceTree = "<group>"; };
 		F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefMenuItem.m; sourceTree = "<group>"; };
-		F5FE6C010EB13BC900F30D12 /* PBServicesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBServicesController.h; sourceTree = "<group>"; };
-		F5FE6C020EB13BC900F30D12 /* PBServicesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBServicesController.m; sourceTree = "<group>"; };
 		F5FF4E160E0829C20006317A /* PBGitRevList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevList.h; sourceTree = "<group>"; };
 		F5FF4E170E0829C20006317A /* PBGitRevList.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitRevList.mm; sourceTree = "<group>"; };
 		F5FF4E780E082E440006317A /* PBGitGrapher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGrapher.h; sourceTree = "<group>"; };
@@ -709,7 +709,7 @@
 				846C05F913FA37D000D88D0B /* cli */,
 				846C05FC13FA383C00D88D0B /* GitXScripting */,
 				84C1C74913FCA86900FAC131 /* Aux */,
-				F57CC3850E05DDC1000472E2 /* Controllers */,
+				84C1C79D13FCB85E00FAC131 /* Controllers */,
 				F56174540E05887E001DCD79 /* Git */,
 				F5D619ED0EAE62EA00341D73 /* html */,
 				7756732906782D8800D1FEB8 /* Models */,
@@ -806,15 +806,6 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		310DC1D5124059820017A0F7 /* FileView */ = {
-			isa = PBXGroup;
-			children = (
-				310DC1D61240599E0017A0F7 /* GLFileView.h */,
-				310DC1D71240599E0017A0F7 /* GLFileView.m */,
-			);
-			name = FileView;
 			sourceTree = "<group>";
 		};
 		47DBDB920E94F47200671A1E /* Preference Icons */ = {
@@ -930,66 +921,162 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8998B1AB13A55A9B00121729 /* Stash */ = {
+		84C1C79D13FCB85E00FAC131 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DDB8FDFF13998CE2001A9EE2 /* PBStashContentController.h */,
-				DDB8FE0013998CE2001A9EE2 /* PBStashContentController.m */,
-				8998B1AC13A55AC100121729 /* PBWebStashController.h */,
-				8998B1C513A55B3500121729 /* PBWebStashController.m */,
+				84C1C7A513FCB85E00FAC131 /* DBPrefsWindowController.h */,
+				84C1C7A613FCB85E00FAC131 /* DBPrefsWindowController.m */,
+				84C1C7AF13FCB85E00FAC131 /* GitXAppDelegate.h */,
+				84C1C7B013FCB85E00FAC131 /* GitXAppDelegate.m */,
+				84C1C7BA13FCB85E00FAC131 /* PBGitDefaults.h */,
+				84C1C7BB13FCB85E00FAC131 /* PBGitDefaults.m */,
+				84C1C7BC13FCB85E00FAC131 /* PBGitWindowController.h */,
+				84C1C7BD13FCB85E00FAC131 /* PBGitWindowController.m */,
+				84C1C7BE13FCB85E00FAC131 /* PBPrefsWindowController.h */,
+				84C1C7BF13FCB85E00FAC131 /* PBPrefsWindowController.m */,
+				84C1C7C013FCB85E00FAC131 /* PBRepositoryDocumentController.h */,
+				84C1C7C113FCB85E00FAC131 /* PBRepositoryDocumentController.m */,
+				84C1C7C213FCB85E00FAC131 /* PBServicesController.h */,
+				84C1C7C313FCB85E00FAC131 /* PBServicesController.m */,
+				84C1C7C413FCB85E00FAC131 /* PBViewController.h */,
+				84C1C7C513FCB85E00FAC131 /* PBViewController.m */,
+				84C1C7C613FCB85E00FAC131 /* PBWebCommitController.h */,
+				84C1C7C713FCB85E00FAC131 /* PBWebCommitController.m */,
+				84C1C7C813FCB85E00FAC131 /* PBWebController.h */,
+				84C1C7C913FCB85E00FAC131 /* PBWebController.m */,
+				84C1C79E13FCB85E00FAC131 /* Commit */,
+				84C1C7A713FCB85E00FAC131 /* Diff */,
+				84C1C7AC13FCB85E00FAC131 /* FileView */,
+				84C1C7B113FCB85E00FAC131 /* History */,
+				84C1C7CA13FCB85E00FAC131 /* Sheets */,
+				84C1C7DD13FCB85E00FAC131 /* Sidebar */,
+				84C1C7F813FCB85F00FAC131 /* Stash */,
 			);
-			name = Stash;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		D82F435F111B9C6D00A25A39 /* Sheets */ = {
+		84C1C79E13FCB85E00FAC131 /* Commit */ = {
 			isa = PBXGroup;
 			children = (
-				02B41A5C123E307200DFC531 /* PBCommitHookFailedSheet.h */,
-				02B41A5D123E307200DFC531 /* PBCommitHookFailedSheet.m */,
-				D854948410D5C01B0083B917 /* PBCreateBranchSheet.h */,
-				D854948510D5C01B0083B917 /* PBCreateBranchSheet.m */,
-				D8E3B34B10DCA958001096A3 /* PBCreateTagSheet.h */,
-				D8E3B34C10DCA958001096A3 /* PBCreateTagSheet.m */,
-				D8083A2D111E045300337480 /* PBRemoteProgressSheet.h */,
-				D8083A42111E045D00337480 /* PBRemoteProgressSheet.m */,
-				D8083C42111F106800337480 /* PBAddRemoteSheet.h */,
-				D8083C43111F106800337480 /* PBAddRemoteSheet.m */,
-				D8083DC2111F90F300337480 /* PBCloneRepsitoryToSheet.h */,
-				D8083DC3111F90F300337480 /* PBCloneRepsitoryToSheet.m */,
-				D8083E01111FA33700337480 /* PBCloneRepositoryPanel.h */,
-				D8083E02111FA33700337480 /* PBCloneRepositoryPanel.m */,
-				D8022FEB11E124C8003C21F6 /* PBGitXMessageSheet.h */,
-				D8022FEC11E124C8003C21F6 /* PBGitXMessageSheet.m */,
-				65D58BC5132D48BF003F7290 /* PBResetSheet.h */,
-				65D58BC6132D48C0003F7290 /* PBResetSheet.m */,
+				84C1C79F13FCB85E00FAC131 /* PBGitCommitController.h */,
+				84C1C7A013FCB85E00FAC131 /* PBGitCommitController.m */,
+				84C1C7A113FCB85E00FAC131 /* PBGitIndexController.h */,
+				84C1C7A213FCB85E00FAC131 /* PBGitIndexController.m */,
+				84C1C7A313FCB85E00FAC131 /* PBWebChangesController.h */,
+				84C1C7A413FCB85E00FAC131 /* PBWebChangesController.m */,
 			);
-			name = Sheets;
+			path = Commit;
 			sourceTree = "<group>";
 		};
-		D8FDDA58114335B0005647F6 /* Source View Items */ = {
+		84C1C7A713FCB85E00FAC131 /* Diff */ = {
 			isa = PBXGroup;
 			children = (
-				D8FDDA7311433634005647F6 /* PBSourceViewItems.h */,
-				F58DB5E6105671B600CFDF4A /* PBSourceViewItem.h */,
-				F58DB5E7105671B600CFDF4A /* PBSourceViewItem.m */,
-				D8FDDA66114335E8005647F6 /* PBGitSVStageItem.h */,
-				D8FDDA67114335E8005647F6 /* PBGitSVStageItem.m */,
-				D8FDDA5C114335E8005647F6 /* PBGitSVBranchItem.h */,
-				D8FDDA5D114335E8005647F6 /* PBGitSVBranchItem.m */,
-				D8FDDA64114335E8005647F6 /* PBGitSVRemoteItem.h */,
-				D8FDDA65114335E8005647F6 /* PBGitSVRemoteItem.m */,
-				D8FDDA62114335E8005647F6 /* PBGitSVRemoteBranchItem.h */,
-				D8FDDA63114335E8005647F6 /* PBGitSVRemoteBranchItem.m */,
-				D8FDDA68114335E8005647F6 /* PBGitSVTagItem.h */,
-				D8FDDA69114335E8005647F6 /* PBGitSVTagItem.m */,
-				21230CAF1284B26A0046E5A1 /* PBGitMenuItem.h */,
-				21230CB01284B26A0046E5A1 /* PBGitMenuItem.m */,
-				D8FDDA60114335E8005647F6 /* PBGitSVOtherRevItem.h */,
-				D8FDDA61114335E8005647F6 /* PBGitSVOtherRevItem.m */,
-				D8FDDA5E114335E8005647F6 /* PBGitSVFolderItem.h */,
-				D8FDDA5F114335E8005647F6 /* PBGitSVFolderItem.m */,
+				84C1C7A813FCB85E00FAC131 /* PBDiffWindowController.h */,
+				84C1C7A913FCB85E00FAC131 /* PBDiffWindowController.m */,
+				84C1C7AA13FCB85E00FAC131 /* PBWebDiffController.h */,
+				84C1C7AB13FCB85E00FAC131 /* PBWebDiffController.m */,
 			);
-			name = "Source View Items";
+			path = Diff;
+			sourceTree = "<group>";
+		};
+		84C1C7AC13FCB85E00FAC131 /* FileView */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C7AD13FCB85E00FAC131 /* GLFileView.h */,
+				84C1C7AE13FCB85E00FAC131 /* GLFileView.m */,
+			);
+			path = FileView;
+			sourceTree = "<group>";
+		};
+		84C1C7B113FCB85E00FAC131 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C7B213FCB85E00FAC131 /* PBGitHistoryController.h */,
+				84C1C7B313FCB85E00FAC131 /* PBGitHistoryController.m */,
+				84C1C7B413FCB85E00FAC131 /* PBHistorySearchController.h */,
+				84C1C7B513FCB85E00FAC131 /* PBHistorySearchController.m */,
+				84C1C7B613FCB85E00FAC131 /* PBRefController.h */,
+				84C1C7B713FCB85E00FAC131 /* PBRefController.m */,
+				84C1C7B813FCB85E00FAC131 /* PBWebHistoryController.h */,
+				84C1C7B913FCB85E00FAC131 /* PBWebHistoryController.m */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		84C1C7CA13FCB85E00FAC131 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C7CB13FCB85E00FAC131 /* PBAddRemoteSheet.h */,
+				84C1C7CC13FCB85E00FAC131 /* PBAddRemoteSheet.m */,
+				84C1C7CD13FCB85E00FAC131 /* PBCloneRepositoryPanel.h */,
+				84C1C7CE13FCB85E00FAC131 /* PBCloneRepositoryPanel.m */,
+				84C1C7CF13FCB85E00FAC131 /* PBCloneRepsitoryToSheet.h */,
+				84C1C7D013FCB85E00FAC131 /* PBCloneRepsitoryToSheet.m */,
+				84C1C7D113FCB85E00FAC131 /* PBCommitHookFailedSheet.h */,
+				84C1C7D213FCB85E00FAC131 /* PBCommitHookFailedSheet.m */,
+				84C1C7D313FCB85E00FAC131 /* PBCreateBranchSheet.h */,
+				84C1C7D413FCB85E00FAC131 /* PBCreateBranchSheet.m */,
+				84C1C7D513FCB85E00FAC131 /* PBCreateTagSheet.h */,
+				84C1C7D613FCB85E00FAC131 /* PBCreateTagSheet.m */,
+				84C1C7D713FCB85E00FAC131 /* PBGitXMessageSheet.h */,
+				84C1C7D813FCB85E00FAC131 /* PBGitXMessageSheet.m */,
+				84C1C7D913FCB85E00FAC131 /* PBRemoteProgressSheet.h */,
+				84C1C7DA13FCB85E00FAC131 /* PBRemoteProgressSheet.m */,
+				84C1C7DB13FCB85E00FAC131 /* PBResetSheet.h */,
+				84C1C7DC13FCB85E00FAC131 /* PBResetSheet.m */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		84C1C7DD13FCB85E00FAC131 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C7DE13FCB85F00FAC131 /* PBGitSidebarController.h */,
+				84C1C7DF13FCB85F00FAC131 /* PBGitSidebarController.m */,
+				84C1C7E013FCB85F00FAC131 /* PBSourceViewBadge.h */,
+				84C1C7E113FCB85F00FAC131 /* PBSourceViewBadge.m */,
+				84C1C7E213FCB85F00FAC131 /* PBSourceViewCell.h */,
+				84C1C7E313FCB85F00FAC131 /* PBSourceViewCell.m */,
+				84C1C7E413FCB85F00FAC131 /* Source View Items */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		84C1C7E413FCB85F00FAC131 /* Source View Items */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C7E513FCB85F00FAC131 /* PBGitMenuItem.h */,
+				84C1C7E613FCB85F00FAC131 /* PBGitMenuItem.m */,
+				84C1C7E713FCB85F00FAC131 /* PBGitSVBranchItem.h */,
+				84C1C7E813FCB85F00FAC131 /* PBGitSVBranchItem.m */,
+				84C1C7E913FCB85F00FAC131 /* PBGitSVFolderItem.h */,
+				84C1C7EA13FCB85F00FAC131 /* PBGitSVFolderItem.m */,
+				84C1C7EB13FCB85F00FAC131 /* PBGitSVOtherRevItem.h */,
+				84C1C7EC13FCB85F00FAC131 /* PBGitSVOtherRevItem.m */,
+				84C1C7ED13FCB85F00FAC131 /* PBGitSVRemoteBranchItem.h */,
+				84C1C7EE13FCB85F00FAC131 /* PBGitSVRemoteBranchItem.m */,
+				84C1C7EF13FCB85F00FAC131 /* PBGitSVRemoteItem.h */,
+				84C1C7F013FCB85F00FAC131 /* PBGitSVRemoteItem.m */,
+				84C1C7F113FCB85F00FAC131 /* PBGitSVStageItem.h */,
+				84C1C7F213FCB85F00FAC131 /* PBGitSVStageItem.m */,
+				84C1C7F313FCB85F00FAC131 /* PBGitSVTagItem.h */,
+				84C1C7F413FCB85F00FAC131 /* PBGitSVTagItem.m */,
+				84C1C7F513FCB85F00FAC131 /* PBSourceViewItem.h */,
+				84C1C7F613FCB85F00FAC131 /* PBSourceViewItem.m */,
+				84C1C7F713FCB85F00FAC131 /* PBSourceViewItems.h */,
+			);
+			path = "Source View Items";
+			sourceTree = "<group>";
+		};
+		84C1C7F813FCB85F00FAC131 /* Stash */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C7F913FCB85F00FAC131 /* PBStashContentController.h */,
+				84C1C7FA13FCB85F00FAC131 /* PBStashContentController.m */,
+				84C1C7FB13FCB85F00FAC131 /* PBWebStashController.h */,
+				84C1C7FC13FCB85F00FAC131 /* PBWebStashController.m */,
+			);
+			path = Stash;
 			sourceTree = "<group>";
 		};
 		F56174540E05887E001DCD79 /* Git */ = {
@@ -1008,54 +1095,6 @@
 			name = Git;
 			sourceTree = "<group>";
 		};
-		F57CC3850E05DDC1000472E2 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				310DC1D5124059820017A0F7 /* FileView */,
-				F58DB55610566D1F00CFDF4A /* Sidebar */,
-				F5B161BB0EAB6E0C005A1DE1 /* Diff */,
-				F5EF8C880E9D498F0050906B /* History */,
-				F5E927F90E883EF600056E75 /* Commit */,
-				D82F435F111B9C6D00A25A39 /* Sheets */,
-				8998B1AB13A55A9B00121729 /* Stash */,
-				77C8280B06725ACE000B614F /* GitXAppDelegate.h */,
-				77C8280C06725ACE000B614F /* GitXAppDelegate.m */,
-				93CB42C00EAB7B2200530609 /* PBGitDefaults.h */,
-				93CB42C10EAB7B2200530609 /* PBGitDefaults.m */,
-				F57CC43F0E05E496000472E2 /* PBGitWindowController.h */,
-				F57CC4400E05E496000472E2 /* PBGitWindowController.m */,
-				911111F60E594F3F00BF76B4 /* PBRepositoryDocumentController.h */,
-				911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */,
-				F5E926040E8827D300056E75 /* PBViewController.h */,
-				F5E926050E8827D300056E75 /* PBViewController.m */,
-				89087CA413A3E46500911503 /* PBWebCommitController.h */,
-				89087CA513A3E46B00911503 /* PBWebCommitController.m */,
-				F5EF8C8C0E9D4A5D0050906B /* PBWebController.h */,
-				F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */,
-				F5FE6C010EB13BC900F30D12 /* PBServicesController.h */,
-				F5FE6C020EB13BC900F30D12 /* PBServicesController.m */,
-				47DBDB560E94EDE700671A1E /* DBPrefsWindowController.h */,
-				47DBDB570E94EDE700671A1E /* DBPrefsWindowController.m */,
-				47DBDB650E94EE8B00671A1E /* PBPrefsWindowController.h */,
-				47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		F58DB55610566D1F00CFDF4A /* Sidebar */ = {
-			isa = PBXGroup;
-			children = (
-				F58DB55710566D3500CFDF4A /* PBGitSidebarController.h */,
-				F58DB55810566D3500CFDF4A /* PBGitSidebarController.m */,
-				D828A40B1127B18700F09D11 /* PBSourceViewCell.h */,
-				D828A40C1127B18700F09D11 /* PBSourceViewCell.m */,
-				D828A40F1127B1C400F09D11 /* PBSourceViewBadge.h */,
-				D828A4101127B1C400F09D11 /* PBSourceViewBadge.m */,
-				D8FDDA58114335B0005647F6 /* Source View Items */,
-			);
-			name = Sidebar;
-			sourceTree = "<group>";
-		};
 		F59F1DD2105C4FDE00115F88 /* Index */ = {
 			isa = PBXGroup;
 			children = (
@@ -1065,17 +1104,6 @@
 				F59F1DD4105C4FF300115F88 /* PBGitIndex.m */,
 			);
 			name = Index;
-			sourceTree = "<group>";
-		};
-		F5B161BB0EAB6E0C005A1DE1 /* Diff */ = {
-			isa = PBXGroup;
-			children = (
-				F5E424140EA3E4E10046E362 /* PBDiffWindowController.h */,
-				F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */,
-				F5E424160EA3E4EB0046E362 /* PBWebDiffController.m */,
-				F5E424170EA3E4EB0046E362 /* PBWebDiffController.h */,
-			);
-			name = Diff;
 			sourceTree = "<group>";
 		};
 		F5C6F6750E65FE2B00478D97 /* Graphing */ = {
@@ -1131,34 +1159,6 @@
 				F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */,
 			);
 			name = Commit;
-			sourceTree = "<group>";
-		};
-		F5E927F90E883EF600056E75 /* Commit */ = {
-			isa = PBXGroup;
-			children = (
-				F59116E70E843BCB0072CCB1 /* PBGitCommitController.h */,
-				F59116E80E843BCB0072CCB1 /* PBGitCommitController.m */,
-				F5E927FA0E883F0700056E75 /* PBWebChangesController.h */,
-				F5E927FB0E883F0700056E75 /* PBWebChangesController.m */,
-				F523CEB40ED3399100DDD714 /* PBGitIndexController.h */,
-				F523CEB50ED3399200DDD714 /* PBGitIndexController.m */,
-			);
-			name = Commit;
-			sourceTree = "<group>";
-		};
-		F5EF8C880E9D498F0050906B /* History */ = {
-			isa = PBXGroup;
-			children = (
-				F56526290E03D89B00F03B52 /* PBWebHistoryController.h */,
-				F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */,
-				F52BCE050E84211300AA3741 /* PBGitHistoryController.h */,
-				F52BCE060E84211300AA3741 /* PBGitHistoryController.m */,
-				F574A2830EAE2EAC003F2CB1 /* PBRefController.h */,
-				F574A2840EAE2EAC003F2CB1 /* PBRefController.m */,
-				D8B4DC551220D1E4004166D6 /* PBHistorySearchController.h */,
-				D8B4DC561220D1E4004166D6 /* PBHistorySearchController.m */,
-			);
-			name = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1398,66 +1398,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EF8C8E0E9D4A5D0050906B /* PBWebController.m in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				F574A2910EAE2FF4003F2CB1 /* PBGitConfig.m in Sources */,
-				77C8280E06725ACE000B614F /* GitXAppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */,
 				F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */,
 				F56524F00E02D45200F03B52 /* PBGitCommit.m in Sources */,
-				F565262B0E03D89B00F03B52 /* PBWebHistoryController.m in Sources */,
 				F56174570E058893001DCD79 /* PBGitTree.m in Sources */,
-				F57CC4410E05E496000472E2 /* PBGitWindowController.m in Sources */,
 				F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */,
 				F5FF4E180E0829C20006317A /* PBGitRevList.mm in Sources */,
 				F5FF4E7A0E082E440006317A /* PBGitGrapher.mm in Sources */,
-				911111F80E594F3F00BF76B4 /* PBRepositoryDocumentController.m in Sources */,
 				F56CC7320E65E0E5004307B4 /* PBGraphCellInfo.m in Sources */,
 				F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */,
 				F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */,
 				F53FF2050E7ABB5300389171 /* PBGitRevSpecifier.m in Sources */,
-				F52BCE070E84211300AA3741 /* PBGitHistoryController.m in Sources */,
-				F59116E90E843BCB0072CCB1 /* PBGitCommitController.m in Sources */,
-				F5E926060E8827D300056E75 /* PBViewController.m in Sources */,
 				F5E927F80E883E7200056E75 /* PBChangedFile.m in Sources */,
-				F5E927FC0E883F0700056E75 /* PBWebChangesController.m in Sources */,
 				F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */,
 				F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */,
 				93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */,
-				93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */,
-				F5E424150EA3E4E10046E362 /* PBDiffWindowController.m in Sources */,
-				F5E424180EA3E4EB0046E362 /* PBWebDiffController.m in Sources */,
-				F5FE6C030EB13BC900F30D12 /* PBServicesController.m in Sources */,
-				F574A2850EAE2EAC003F2CB1 /* PBRefController.m in Sources */,
 				F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */,
-				F523CEB60ED3399200DDD714 /* PBGitIndexController.m in Sources */,
-				47DBDB580E94EDE700671A1E /* DBPrefsWindowController.m in Sources */,
-				47DBDB670E94EE8B00671A1E /* PBPrefsWindowController.m in Sources */,
 				F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */,
-				D854948610D5C01B0083B917 /* PBCreateBranchSheet.m in Sources */,
-				D8E3B34D10DCA958001096A3 /* PBCreateTagSheet.m in Sources */,
-				D8083A43111E045D00337480 /* PBRemoteProgressSheet.m in Sources */,
-				D8083C44111F106800337480 /* PBAddRemoteSheet.m in Sources */,
-				D8083DC4111F90F300337480 /* PBCloneRepsitoryToSheet.m in Sources */,
-				D8083E03111FA33700337480 /* PBCloneRepositoryPanel.m in Sources */,
-				F58DB55910566D3500CFDF4A /* PBGitSidebarController.m in Sources */,
-				F58DB5E8105671B600CFDF4A /* PBSourceViewItem.m in Sources */,
-				D8FDDA6A114335E8005647F6 /* PBGitSVBranchItem.m in Sources */,
-				D8FDDA6B114335E8005647F6 /* PBGitSVFolderItem.m in Sources */,
-				D8FDDA6C114335E8005647F6 /* PBGitSVOtherRevItem.m in Sources */,
-				D8FDDA6D114335E8005647F6 /* PBGitSVRemoteBranchItem.m in Sources */,
-				D8FDDA6E114335E8005647F6 /* PBGitSVRemoteItem.m in Sources */,
-				D8FDDA6F114335E8005647F6 /* PBGitSVStageItem.m in Sources */,
-				D8FDDA70114335E8005647F6 /* PBGitSVTagItem.m in Sources */,
-				D828A40D1127B18700F09D11 /* PBSourceViewCell.m in Sources */,
-				D828A4111127B1C400F09D11 /* PBSourceViewBadge.m in Sources */,
 				D8295D2A1130A1DC00C838E8 /* PBGitHistoryList.m in Sources */,
 				D8295DE01130E43900C838E8 /* PBGitHistoryGrapher.m in Sources */,
-				D8022FED11E124C8003C21F6 /* PBGitXMessageSheet.m in Sources */,
-				D8B4DC571220D1E4004166D6 /* PBHistorySearchController.m in Sources */,
-				310DC1D81240599E0017A0F7 /* GLFileView.m in Sources */,
-				02B41A5E123E307200DFC531 /* PBCommitHookFailedSheet.m in Sources */,
-				21230CB11284B26A0046E5A1 /* PBGitMenuItem.m in Sources */,
 				21230D351284C5080046E5A1 /* PBGitStash.m in Sources */,
 				21230D9C128552720046E5A1 /* PBCommand.m in Sources */,
 				21230D9F128552FA0046E5A1 /* PBStashCommandFactory.m in Sources */,
@@ -1473,10 +1434,6 @@
 				217FF0BA12A1CB3300785A65 /* PBSubmoduleController.m in Sources */,
 				217FF0BB12A1CB3300785A65 /* PBGitResetController.m in Sources */,
 				217FF0BE12A1CB3E00785A65 /* PBRevealWithFinderCommand.m in Sources */,
-				65D58BC7132D48C2003F7290 /* PBResetSheet.m in Sources */,
-				DDB8FE0113998CE2001A9EE2 /* PBStashContentController.m in Sources */,
-				89087CA613A3E46B00911503 /* PBWebCommitController.m in Sources */,
-				8998B1C613A55B3500121729 /* PBWebStashController.m in Sources */,
 				846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */,
 				84C1C78113FCA86900FAC131 /* GitXRelativeDateFormatter.m in Sources */,
 				84C1C78213FCA86900FAC131 /* GitXTextFieldCell.m in Sources */,
@@ -1496,6 +1453,49 @@
 				84C1C79613FCA86900FAC131 /* PBQLTextView.m in Sources */,
 				84C1C79713FCA86900FAC131 /* PBUnsortableTableHeader.m in Sources */,
 				84C1C79813FCA86900FAC131 /* SearchWebView.m in Sources */,
+				84C1C7FD13FCB85F00FAC131 /* PBGitCommitController.m in Sources */,
+				84C1C7FE13FCB85F00FAC131 /* PBGitIndexController.m in Sources */,
+				84C1C7FF13FCB85F00FAC131 /* PBWebChangesController.m in Sources */,
+				84C1C80013FCB85F00FAC131 /* DBPrefsWindowController.m in Sources */,
+				84C1C80113FCB85F00FAC131 /* PBDiffWindowController.m in Sources */,
+				84C1C80213FCB85F00FAC131 /* PBWebDiffController.m in Sources */,
+				84C1C80313FCB85F00FAC131 /* GLFileView.m in Sources */,
+				84C1C80413FCB85F00FAC131 /* GitXAppDelegate.m in Sources */,
+				84C1C80513FCB85F00FAC131 /* PBGitHistoryController.m in Sources */,
+				84C1C80613FCB85F00FAC131 /* PBHistorySearchController.m in Sources */,
+				84C1C80713FCB85F00FAC131 /* PBRefController.m in Sources */,
+				84C1C80813FCB85F00FAC131 /* PBWebHistoryController.m in Sources */,
+				84C1C80913FCB85F00FAC131 /* PBGitDefaults.m in Sources */,
+				84C1C80A13FCB85F00FAC131 /* PBGitWindowController.m in Sources */,
+				84C1C80B13FCB85F00FAC131 /* PBPrefsWindowController.m in Sources */,
+				84C1C80C13FCB85F00FAC131 /* PBRepositoryDocumentController.m in Sources */,
+				84C1C80D13FCB85F00FAC131 /* PBServicesController.m in Sources */,
+				84C1C80E13FCB85F00FAC131 /* PBViewController.m in Sources */,
+				84C1C80F13FCB85F00FAC131 /* PBWebCommitController.m in Sources */,
+				84C1C81013FCB85F00FAC131 /* PBWebController.m in Sources */,
+				84C1C81113FCB85F00FAC131 /* PBAddRemoteSheet.m in Sources */,
+				84C1C81213FCB85F00FAC131 /* PBCloneRepositoryPanel.m in Sources */,
+				84C1C81313FCB85F00FAC131 /* PBCloneRepsitoryToSheet.m in Sources */,
+				84C1C81413FCB85F00FAC131 /* PBCommitHookFailedSheet.m in Sources */,
+				84C1C81513FCB85F00FAC131 /* PBCreateBranchSheet.m in Sources */,
+				84C1C81613FCB85F00FAC131 /* PBCreateTagSheet.m in Sources */,
+				84C1C81713FCB85F00FAC131 /* PBGitXMessageSheet.m in Sources */,
+				84C1C81813FCB85F00FAC131 /* PBRemoteProgressSheet.m in Sources */,
+				84C1C81913FCB85F00FAC131 /* PBResetSheet.m in Sources */,
+				84C1C81A13FCB85F00FAC131 /* PBGitSidebarController.m in Sources */,
+				84C1C81B13FCB85F00FAC131 /* PBSourceViewBadge.m in Sources */,
+				84C1C81C13FCB85F00FAC131 /* PBSourceViewCell.m in Sources */,
+				84C1C81D13FCB85F00FAC131 /* PBGitMenuItem.m in Sources */,
+				84C1C81E13FCB85F00FAC131 /* PBGitSVBranchItem.m in Sources */,
+				84C1C81F13FCB85F00FAC131 /* PBGitSVFolderItem.m in Sources */,
+				84C1C82013FCB85F00FAC131 /* PBGitSVOtherRevItem.m in Sources */,
+				84C1C82113FCB85F00FAC131 /* PBGitSVRemoteBranchItem.m in Sources */,
+				84C1C82213FCB85F00FAC131 /* PBGitSVRemoteItem.m in Sources */,
+				84C1C82313FCB85F00FAC131 /* PBGitSVStageItem.m in Sources */,
+				84C1C82413FCB85F00FAC131 /* PBGitSVTagItem.m in Sources */,
+				84C1C82513FCB85F00FAC131 /* PBSourceViewItem.m in Sources */,
+				84C1C82613FCB85F00FAC131 /* PBStashContentController.m in Sources */,
+				84C1C82713FCB85F00FAC131 /* PBWebStashController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
