@@ -58,15 +58,9 @@
 		311D4F561370C9A50061CFD3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F551370C9A50061CFD3 /* Security.framework */; };
 		311D4F5B1370CD150061CFD3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F5A1370CD150061CFD3 /* ScriptingBridge.framework */; };
 		311D4F5D1370CDA80061CFD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311D4F5C1370CDA80061CFD3 /* QuartzCore.framework */; };
-		31460CD2124185BA00B90AED /* MGRecessedPopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31460CA7124185BA00B90AED /* MGRecessedPopUpButtonCell.m */; };
-		31460CD3124185BA00B90AED /* MGScopeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 31460CA9124185BA00B90AED /* MGScopeBar.m */; };
-		31460CD4124185BA00B90AED /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31460CAF124185BA00B90AED /* ReadMe.txt */; };
-		31460CD5124185BA00B90AED /* Source Code License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31460CB0124185BA00B90AED /* Source Code License.rtf */; };
-		31460CD6124185BA00B90AED /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 31460CB1124185BA00B90AED /* TODO */; };
 		314BCAC713DAF5FA00CD85F3 /* PBGitSidebarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58DB55F10566E3900CFDF4A /* PBGitSidebarView.xib */; };
 		316E7202131EE9C600AFBB36 /* list_Template.png in Resources */ = {isa = PBXBuildFile; fileRef = 316E7200131EE9C600AFBB36 /* list_Template.png */; };
 		316E7203131EE9C600AFBB36 /* sidebar_Template.png in Resources */ = {isa = PBXBuildFile; fileRef = 316E7201131EE9C600AFBB36 /* sidebar_Template.png */; };
-		31776089133569350025876E /* SearchWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31776088133569350025876E /* SearchWebView.m */; };
 		31DAA7ED1317737100463846 /* gitx_l_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 31DAA7EC1317737100463846 /* gitx_l_pub.pem */; };
 		3BC07F4C0ED5A5C5009A7768 /* HistoryViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */; };
 		3BC07F4D0ED5A5C5009A7768 /* CommitViewTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC07F4B0ED5A5C5009A7768 /* CommitViewTemplate.png */; };
@@ -74,7 +68,6 @@
 		47DBDB670E94EE8B00671A1E /* PBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */; };
 		47DBDB6A0E94EF6500671A1E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDB680E94EF6500671A1E /* Preferences.xib */; };
 		47DBDBB10E94F6CA00671A1E /* Updates.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDBB00E94F6CA00671A1E /* Updates.png */; };
-		47DBDBCA0E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */; };
 		551BF11E112F376C00265053 /* gitx_askpasswd_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 551BF11D112F376C00265053 /* gitx_askpasswd_main.m */; };
 		551BF176112F3F4B00265053 /* gitx_askpasswd in Resources */ = {isa = PBXBuildFile; fileRef = 551BF111112F371800265053 /* gitx_askpasswd */; };
 		65D58BC4132D27A8003F7290 /* PBResetSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65D58BC3132D27A7003F7290 /* PBResetSheet.xib */; };
@@ -85,6 +78,25 @@
 		846C060213FA383C00D88D0B /* GitX.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 846C05FE13FA383C00D88D0B /* GitX.sdef */; };
 		846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = 846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */; };
 		848801BD13F3947E00FC2F62 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848801BC13F3947E00FC2F62 /* Quartz.framework */; };
+		84C1C78113FCA86900FAC131 /* GitXRelativeDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C74B13FCA86900FAC131 /* GitXRelativeDateFormatter.m */; };
+		84C1C78213FCA86900FAC131 /* GitXTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C74D13FCA86900FAC131 /* GitXTextFieldCell.m */; };
+		84C1C78613FCA86900FAC131 /* MGRecessedPopUpButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C75513FCA86900FAC131 /* MGRecessedPopUpButtonCell.m */; };
+		84C1C78713FCA86900FAC131 /* MGScopeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C75713FCA86900FAC131 /* MGScopeBar.m */; };
+		84C1C78B13FCA86900FAC131 /* NSFileHandleExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76113FCA86900FAC131 /* NSFileHandleExt.m */; };
+		84C1C78C13FCA86900FAC131 /* NSOutlineViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76313FCA86900FAC131 /* NSOutlineViewExt.m */; };
+		84C1C78D13FCA86900FAC131 /* NSString_RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76513FCA86900FAC131 /* NSString_RegEx.m */; };
+		84C1C78E13FCA86900FAC131 /* PBCommitList.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76713FCA86900FAC131 /* PBCommitList.m */; };
+		84C1C78F13FCA86900FAC131 /* PBEasyFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76913FCA86900FAC131 /* PBEasyFS.m */; };
+		84C1C79013FCA86900FAC131 /* PBEasyPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76B13FCA86900FAC131 /* PBEasyPipe.m */; };
+		84C1C79113FCA86900FAC131 /* PBGitGradientBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76D13FCA86900FAC131 /* PBGitGradientBarView.m */; };
+		84C1C79213FCA86900FAC131 /* PBGitXProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76F13FCA86900FAC131 /* PBGitXProtocol.m */; };
+		84C1C79313FCA86900FAC131 /* PBIconAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77113FCA86900FAC131 /* PBIconAndTextCell.m */; };
+		84C1C79413FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77313FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.m */; };
+		84C1C79513FCA86900FAC131 /* PBQLOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77513FCA86900FAC131 /* PBQLOutlineView.m */; };
+		84C1C79613FCA86900FAC131 /* PBQLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77713FCA86900FAC131 /* PBQLTextView.m */; };
+		84C1C79713FCA86900FAC131 /* PBUnsortableTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77913FCA86900FAC131 /* PBUnsortableTableHeader.m */; };
+		84C1C79813FCA86900FAC131 /* SearchWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C77B13FCA86900FAC131 /* SearchWebView.m */; };
+		84C1C79C13FCA8C300FAC131 /* PBEasyPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C1C76B13FCA86900FAC131 /* PBEasyPipe.m */; };
 		89087CA613A3E46B00911503 /* PBWebCommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89087CA513A3E46B00911503 /* PBWebCommitController.m */; };
 		8998B1C613A55B3500121729 /* PBWebStashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8998B1C513A55B3500121729 /* PBWebStashController.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -94,7 +106,6 @@
 		911111F80E594F3F00BF76B4 /* PBRepositoryDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */; };
 		911112370E5A097800BF76B4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911112360E5A097800BF76B4 /* Security.framework */; };
 		913D5E500E55645900CECEA2 /* gitx in Resources */ = {isa = PBXBuildFile; fileRef = 913D5E490E55644600CECEA2 /* gitx */; };
-		91B103CC0E898EC300C84364 /* PBIconAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */; };
 		93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB42C10EAB7B2200530609 /* PBGitDefaults.m */; };
 		93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */; };
 		D26DC6450E782C9000C777B2 /* GitX.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* GitX.icns */; };
@@ -121,17 +132,13 @@
 		D858108411274D28007F254B /* RemoteBranch.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108111274D28007F254B /* RemoteBranch.png */; };
 		D858108511274D28007F254B /* Tag.png in Resources */ = {isa = PBXBuildFile; fileRef = D858108211274D28007F254B /* Tag.png */; };
 		D85B939310E3D8B4007F3C28 /* PBCreateBranchSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85B939210E3D8B4007F3C28 /* PBCreateBranchSheet.xib */; };
-		D8712A00122B14EC00012334 /* GitXTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D87129FF122B14EC00012334 /* GitXTextFieldCell.m */; };
 		D889EB3110E6BCBB00F08413 /* PBCreateTagSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D889EB3010E6BCBB00F08413 /* PBCreateTagSheet.xib */; };
-		D8A4BB6F11337D5C00E92D51 /* PBGitGradientBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A4BB6E11337D5C00E92D51 /* PBGitGradientBarView.m */; };
 		D8A4BD071134AD2900E92D51 /* CherryPickTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */; };
 		D8A4BD081134AD2900E92D51 /* MergeTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD051134AD2900E92D51 /* MergeTemplate.png */; };
 		D8A4BD091134AD2900E92D51 /* RebaseTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */; };
 		D8B4DC571220D1E4004166D6 /* PBHistorySearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B4DC561220D1E4004166D6 /* PBHistorySearchController.m */; };
-		D8E105471157C18200FC28A4 /* PBQLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E105461157C18200FC28A4 /* PBQLTextView.m */; };
 		D8E3B2B810DC9FB2001096A3 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */; };
 		D8E3B34D10DCA958001096A3 /* PBCreateTagSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E3B34C10DCA958001096A3 /* PBCreateTagSheet.m */; };
-		D8EB616A122F643E00FCCAF4 /* GitXRelativeDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EB6169122F643E00FCCAF4 /* GitXRelativeDateFormatter.m */; };
 		D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D8F4AB7812298CE200D6D53C /* rewindImage.pdf */; };
 		D8FDD9F711432A12005647F6 /* PBCloneRepositoryPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FDD9F511432A12005647F6 /* PBCloneRepositoryPanel.xib */; };
 		D8FDDA6A114335E8005647F6 /* PBGitSVBranchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDDA5D114335E8005647F6 /* PBGitSVBranchItem.m */; };
@@ -145,29 +152,22 @@
 		DDB8FE0113998CE2001A9EE2 /* PBStashContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB8FE0013998CE2001A9EE2 /* PBStashContentController.m */; };
 		DDB8FEC413999C24001A9EE2 /* PBStashContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */; };
 		F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */; };
-		F513085B0E0740F2000C8BCD /* PBQLOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */; };
 		F523CEB60ED3399200DDD714 /* PBGitIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = F523CEB50ED3399200DDD714 /* PBGitIndexController.m */; };
 		F52BCE030E84208300AA3741 /* PBGitHistoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */; };
 		F52BCE070E84211300AA3741 /* PBGitHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52BCE060E84211300AA3741 /* PBGitHistoryController.m */; };
 		F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C4DF60E97FC630022AD59 /* PBGitBinary.m */; };
 		F53C4DF80E97FCA70022AD59 /* PBGitBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = F53C4DF60E97FC630022AD59 /* PBGitBinary.m */; };
-		F53C4DF90E97FCAD0022AD59 /* PBEasyPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F57CC3900E05DDF2000472E2 /* PBEasyPipe.m */; };
 		F53FF2050E7ABB5300389171 /* PBGitRevSpecifier.m in Sources */ = {isa = PBXBuildFile; fileRef = F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */; };
 		F56174570E058893001DCD79 /* PBGitTree.m in Sources */ = {isa = PBXBuildFile; fileRef = F56174560E058893001DCD79 /* PBGitTree.m */; };
-		F56244090E9684B0002B6C44 /* PBUnsortableTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */; };
-		F562C8870FE1766C000EC528 /* NSString_RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F562C8860FE1766C000EC528 /* NSString_RegEx.m */; };
-		F56524BB0E02D22D00F03B52 /* NSFileHandleExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */; };
 		F56524F00E02D45200F03B52 /* PBGitCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = F56524EF0E02D45200F03B52 /* PBGitCommit.m */; };
 		F56526240E03D85900F03B52 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F56526230E03D85900F03B52 /* WebKit.framework */; };
 		F565262B0E03D89B00F03B52 /* PBWebHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */; };
-		F567B88D1057FA9F000DB976 /* NSOutlineViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F567B88C1057FA9F000DB976 /* NSOutlineViewExt.m */; };
 		F569AE930F2CBD7C00C2FFA7 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F569AE920F2CBD7C00C2FFA7 /* Credits.html */; };
 		F56ADDD90ED19F9E002AC78F /* AddBranchTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */; };
 		F56ADDDA0ED19F9E002AC78F /* AddLabelTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADDD80ED19F9E002AC78F /* AddLabelTemplate.png */; };
 		F56CC7320E65E0E5004307B4 /* PBGraphCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F56CC7310E65E0E5004307B4 /* PBGraphCellInfo.m */; };
 		F574A2850EAE2EAC003F2CB1 /* PBRefController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574A2840EAE2EAC003F2CB1 /* PBRefController.m */; };
 		F574A2910EAE2FF4003F2CB1 /* PBGitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FCCBA80EA8AF450061B02B /* PBGitConfig.m */; };
-		F57CC3910E05DDF2000472E2 /* PBEasyPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = F57CC3900E05DDF2000472E2 /* PBEasyPipe.m */; };
 		F57CC4410E05E496000472E2 /* PBGitWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57CC4400E05E496000472E2 /* PBGitWindowController.m */; };
 		F580E6AE0E733276009E2D3F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
 		F580E6B10E73328C009E2D3F /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F580E6AD0E733276009E2D3F /* Sparkle.framework */; };
@@ -178,11 +178,9 @@
 		F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */; };
 		F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F5945E160E02B0C200706420 /* PBGitRepository.m */; };
 		F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = F59F1DD4105C4FF300115F88 /* PBGitIndex.m */; };
-		F5AD56790E79B78100EDAAFE /* PBCommitList.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AD56780E79B78100EDAAFE /* PBCommitList.m */; };
 		F5B721C40E05CF7E00AF29DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B721C20E05CF7E00AF29DC /* MainMenu.xib */; };
 		F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C007740E731B48007B84B2 /* PBGitRef.m */; };
 		F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */; };
-		F5DFFA6C0E075D8800617813 /* PBEasyFS.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DFFA6B0E075D8800617813 /* PBEasyFS.m */; };
 		F5E424110EA3E4D60046E362 /* PBDiffWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */; };
 		F5E424150EA3E4E10046E362 /* PBDiffWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */; };
 		F5E424180EA3E4EB0046E362 /* PBWebDiffController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E424160EA3E4EB0046E362 /* PBWebDiffController.m */; };
@@ -193,7 +191,6 @@
 		F5E92A1B0E88550E00056E75 /* empty_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A1A0E88550E00056E75 /* empty_file.png */; };
 		F5E92A230E88569500056E75 /* new_file.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E92A220E88569500056E75 /* new_file.png */; };
 		F5EF8C8E0E9D4A5D0050906B /* PBWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */; };
-		F5FC41F40EBCBD4300191D80 /* PBGitXProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FC41F30EBCBD4300191D80 /* PBGitXProtocol.m */; };
 		F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */; };
 		F5FE6C030EB13BC900F30D12 /* PBServicesController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FE6C020EB13BC900F30D12 /* PBServicesController.m */; };
 		F5FF4E180E0829C20006317A /* PBGitRevList.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5FF4E170E0829C20006317A /* PBGitRevList.mm */; };
@@ -208,6 +205,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 551BF110112F371800265053;
 			remoteInfo = gitx_askpasswd;
+		};
+		84C1C79A13FCA86900FAC131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = MGScopeBar;
 		};
 		913D5E590E5564F400CECEA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -303,19 +307,8 @@
 		311D4F571370CC640061CFD3 /* build_libgit2.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_libgit2.sh; sourceTree = "<group>"; };
 		311D4F5A1370CD150061CFD3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		311D4F5C1370CDA80061CFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		31460CA6124185BA00B90AED /* MGRecessedPopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRecessedPopUpButtonCell.h; sourceTree = "<group>"; };
-		31460CA7124185BA00B90AED /* MGRecessedPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRecessedPopUpButtonCell.m; sourceTree = "<group>"; };
-		31460CA8124185BA00B90AED /* MGScopeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBar.h; sourceTree = "<group>"; };
-		31460CA9124185BA00B90AED /* MGScopeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGScopeBar.m; sourceTree = "<group>"; };
-		31460CAD124185BA00B90AED /* MGScopeBar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBar_Prefix.pch; sourceTree = "<group>"; };
-		31460CAE124185BA00B90AED /* MGScopeBarDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBarDelegateProtocol.h; sourceTree = "<group>"; };
-		31460CAF124185BA00B90AED /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		31460CB0124185BA00B90AED /* Source Code License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
-		31460CB1124185BA00B90AED /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		316E7200131EE9C600AFBB36 /* list_Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_Template.png; sourceTree = "<group>"; };
 		316E7201131EE9C600AFBB36 /* sidebar_Template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidebar_Template.png; sourceTree = "<group>"; };
-		31776087133569350025876E /* SearchWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWebView.h; sourceTree = "<group>"; };
-		31776088133569350025876E /* SearchWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchWebView.m; sourceTree = "<group>"; };
 		31DAA7EC1317737100463846 /* gitx_l_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitx_l_pub.pem; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitX_Prefix.pch; sourceTree = "<group>"; };
 		3BC07F4A0ED5A5C5009A7768 /* HistoryViewTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HistoryViewTemplate.png; path = Images/HistoryViewTemplate.png; sourceTree = "<group>"; };
@@ -326,8 +319,6 @@
 		47DBDB660E94EE8B00671A1E /* PBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPrefsWindowController.m; sourceTree = "<group>"; };
 		47DBDB690E94EF6500671A1E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Preferences.xib; sourceTree = "<group>"; };
 		47DBDBB00E94F6CA00671A1E /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updates.png; path = Images/Preferences/Updates.png; sourceTree = "<group>"; };
-		47DBDBC80E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNSURLPathUserDefaultsTransfomer.h; sourceTree = "<group>"; };
-		47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNSURLPathUserDefaultsTransfomer.m; sourceTree = "<group>"; };
 		551BF111112F371800265053 /* gitx_askpasswd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx_askpasswd; sourceTree = BUILT_PRODUCTS_DIR; };
 		551BF11D112F376C00265053 /* gitx_askpasswd_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx_askpasswd_main.m; sourceTree = "<group>"; };
 		65D58BC3132D27A7003F7290 /* PBResetSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBResetSheet.xib; sourceTree = "<group>"; };
@@ -344,6 +335,52 @@
 		846C060013FA383C00D88D0B /* NSApplication+GitXScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GitXScripting.h"; sourceTree = "<group>"; };
 		846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GitXScripting.m"; sourceTree = "<group>"; };
 		848801BC13F3947E00FC2F62 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = ../../../../System/Library/Frameworks/Quartz.framework; sourceTree = "<group>"; };
+		84C1C74A13FCA86900FAC131 /* GitXRelativeDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXRelativeDateFormatter.h; sourceTree = "<group>"; };
+		84C1C74B13FCA86900FAC131 /* GitXRelativeDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXRelativeDateFormatter.m; sourceTree = "<group>"; };
+		84C1C74C13FCA86900FAC131 /* GitXTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXTextFieldCell.h; sourceTree = "<group>"; };
+		84C1C74D13FCA86900FAC131 /* GitXTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXTextFieldCell.m; sourceTree = "<group>"; };
+		84C1C75013FCA86900FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C1C75213FCA86900FAC131 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84C1C75313FCA86900FAC131 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C1C75413FCA86900FAC131 /* MGRecessedPopUpButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRecessedPopUpButtonCell.h; sourceTree = "<group>"; };
+		84C1C75513FCA86900FAC131 /* MGRecessedPopUpButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGRecessedPopUpButtonCell.m; sourceTree = "<group>"; };
+		84C1C75613FCA86900FAC131 /* MGScopeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBar.h; sourceTree = "<group>"; };
+		84C1C75713FCA86900FAC131 /* MGScopeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGScopeBar.m; sourceTree = "<group>"; };
+		84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MGScopeBar.xcodeproj; sourceTree = "<group>"; };
+		84C1C75B13FCA86900FAC131 /* MGScopeBarDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBarDelegateProtocol.h; sourceTree = "<group>"; };
+		84C1C75C13FCA86900FAC131 /* MGScopeBar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScopeBar_Prefix.pch; sourceTree = "<group>"; };
+		84C1C75D13FCA86900FAC131 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		84C1C75E13FCA86900FAC131 /* Source Code License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
+		84C1C75F13FCA86900FAC131 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		84C1C76013FCA86900FAC131 /* NSFileHandleExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileHandleExt.h; sourceTree = "<group>"; };
+		84C1C76113FCA86900FAC131 /* NSFileHandleExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileHandleExt.m; sourceTree = "<group>"; };
+		84C1C76213FCA86900FAC131 /* NSOutlineViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOutlineViewExt.h; sourceTree = "<group>"; };
+		84C1C76313FCA86900FAC131 /* NSOutlineViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOutlineViewExt.m; sourceTree = "<group>"; };
+		84C1C76413FCA86900FAC131 /* NSString_RegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_RegEx.h; sourceTree = "<group>"; };
+		84C1C76513FCA86900FAC131 /* NSString_RegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_RegEx.m; sourceTree = "<group>"; };
+		84C1C76613FCA86900FAC131 /* PBCommitList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitList.h; sourceTree = "<group>"; };
+		84C1C76713FCA86900FAC131 /* PBCommitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitList.m; sourceTree = "<group>"; };
+		84C1C76813FCA86900FAC131 /* PBEasyFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEasyFS.h; sourceTree = "<group>"; };
+		84C1C76913FCA86900FAC131 /* PBEasyFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEasyFS.m; sourceTree = "<group>"; };
+		84C1C76A13FCA86900FAC131 /* PBEasyPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEasyPipe.h; sourceTree = "<group>"; };
+		84C1C76B13FCA86900FAC131 /* PBEasyPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEasyPipe.m; sourceTree = "<group>"; };
+		84C1C76C13FCA86900FAC131 /* PBGitGradientBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGradientBarView.h; sourceTree = "<group>"; };
+		84C1C76D13FCA86900FAC131 /* PBGitGradientBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitGradientBarView.m; sourceTree = "<group>"; };
+		84C1C76E13FCA86900FAC131 /* PBGitXProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitXProtocol.h; sourceTree = "<group>"; };
+		84C1C76F13FCA86900FAC131 /* PBGitXProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitXProtocol.m; sourceTree = "<group>"; };
+		84C1C77013FCA86900FAC131 /* PBIconAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIconAndTextCell.h; sourceTree = "<group>"; };
+		84C1C77113FCA86900FAC131 /* PBIconAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconAndTextCell.m; sourceTree = "<group>"; };
+		84C1C77213FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNSURLPathUserDefaultsTransfomer.h; sourceTree = "<group>"; };
+		84C1C77313FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNSURLPathUserDefaultsTransfomer.m; sourceTree = "<group>"; };
+		84C1C77413FCA86900FAC131 /* PBQLOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQLOutlineView.h; sourceTree = "<group>"; };
+		84C1C77513FCA86900FAC131 /* PBQLOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQLOutlineView.m; sourceTree = "<group>"; };
+		84C1C77613FCA86900FAC131 /* PBQLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQLTextView.h; sourceTree = "<group>"; };
+		84C1C77713FCA86900FAC131 /* PBQLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQLTextView.m; sourceTree = "<group>"; };
+		84C1C77813FCA86900FAC131 /* PBUnsortableTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBUnsortableTableHeader.h; sourceTree = "<group>"; };
+		84C1C77913FCA86900FAC131 /* PBUnsortableTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBUnsortableTableHeader.m; sourceTree = "<group>"; };
+		84C1C77A13FCA86900FAC131 /* SearchWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWebView.h; sourceTree = "<group>"; };
+		84C1C77B13FCA86900FAC131 /* SearchWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchWebView.m; sourceTree = "<group>"; };
+		84C1C77C13FCA86900FAC131 /* Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminal.h; sourceTree = "<group>"; };
 		89087CA413A3E46500911503 /* PBWebCommitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebCommitController.h; sourceTree = "<group>"; };
 		89087CA513A3E46B00911503 /* PBWebCommitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebCommitController.m; sourceTree = "<group>"; };
 		8998B1AC13A55AC100121729 /* PBWebStashController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebStashController.h; sourceTree = "<group>"; };
@@ -355,8 +392,6 @@
 		911111F70E594F3F00BF76B4 /* PBRepositoryDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRepositoryDocumentController.m; sourceTree = "<group>"; };
 		911112360E5A097800BF76B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		913D5E490E55644600CECEA2 /* gitx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gitx; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B103CA0E898EC300C84364 /* PBIconAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIconAndTextCell.h; sourceTree = "<group>"; };
-		91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconAndTextCell.m; sourceTree = "<group>"; };
 		93CB42C00EAB7B2200530609 /* PBGitDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitDefaults.h; sourceTree = "<group>"; };
 		93CB42C10EAB7B2200530609 /* PBGitDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitDefaults.m; sourceTree = "<group>"; };
 		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
@@ -378,7 +413,6 @@
 		D8083DCC111F918900337480 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCloneRepsitoryToSheet.xib; sourceTree = "<group>"; };
 		D8083E01111FA33700337480 /* PBCloneRepositoryPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCloneRepositoryPanel.h; sourceTree = "<group>"; };
 		D8083E02111FA33700337480 /* PBCloneRepositoryPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCloneRepositoryPanel.m; sourceTree = "<group>"; };
-		D823487410CB382C00944BDE /* Terminal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terminal.h; sourceTree = "<group>"; };
 		D828A40B1127B18700F09D11 /* PBSourceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewCell.h; sourceTree = "<group>"; };
 		D828A40C1127B18700F09D11 /* PBSourceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBSourceViewCell.m; sourceTree = "<group>"; };
 		D828A40F1127B1C400F09D11 /* PBSourceViewBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBSourceViewBadge.h; sourceTree = "<group>"; };
@@ -399,24 +433,16 @@
 		D858108111274D28007F254B /* RemoteBranch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RemoteBranch.png; path = Images/RemoteBranch.png; sourceTree = "<group>"; };
 		D858108211274D28007F254B /* Tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tag.png; path = Images/Tag.png; sourceTree = "<group>"; };
 		D85B93F610E51279007F3C28 /* PBGitRefish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRefish.h; sourceTree = "<group>"; };
-		D87129FE122B14EC00012334 /* GitXTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXTextFieldCell.h; sourceTree = "<group>"; };
-		D87129FF122B14EC00012334 /* GitXTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXTextFieldCell.m; sourceTree = "<group>"; };
-		D8A4BB6D11337D5C00E92D51 /* PBGitGradientBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitGradientBarView.h; sourceTree = "<group>"; };
-		D8A4BB6E11337D5C00E92D51 /* PBGitGradientBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitGradientBarView.m; sourceTree = "<group>"; };
 		D8A4BD041134AD2900E92D51 /* CherryPickTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CherryPickTemplate.png; path = Images/CherryPickTemplate.png; sourceTree = "<group>"; };
 		D8A4BD051134AD2900E92D51 /* MergeTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MergeTemplate.png; path = Images/MergeTemplate.png; sourceTree = "<group>"; };
 		D8A4BD061134AD2900E92D51 /* RebaseTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RebaseTemplate.png; path = Images/RebaseTemplate.png; sourceTree = "<group>"; };
 		D8B4DC551220D1E4004166D6 /* PBHistorySearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHistorySearchController.h; sourceTree = "<group>"; };
 		D8B4DC561220D1E4004166D6 /* PBHistorySearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHistorySearchController.m; sourceTree = "<group>"; };
 		D8C1B77210E875CF009B7F8B /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBRemoteProgressSheet.xib; sourceTree = "<group>"; };
-		D8E105451157C18200FC28A4 /* PBQLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQLTextView.h; sourceTree = "<group>"; };
-		D8E105461157C18200FC28A4 /* PBQLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQLTextView.m; sourceTree = "<group>"; };
 		D8E3B2B710DC9FB2001096A3 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		D8E3B34B10DCA958001096A3 /* PBCreateTagSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCreateTagSheet.h; sourceTree = "<group>"; };
 		D8E3B34C10DCA958001096A3 /* PBCreateTagSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCreateTagSheet.m; sourceTree = "<group>"; };
 		D8E3B38110DD4E2C001096A3 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCreateTagSheet.xib; sourceTree = "<group>"; };
-		D8EB6168122F643E00FCCAF4 /* GitXRelativeDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitXRelativeDateFormatter.h; sourceTree = "<group>"; };
-		D8EB6169122F643E00FCCAF4 /* GitXRelativeDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitXRelativeDateFormatter.m; sourceTree = "<group>"; };
 		D8F4AB7812298CE200D6D53C /* rewindImage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = rewindImage.pdf; path = Images/rewindImage.pdf; sourceTree = "<group>"; };
 		D8FDD9F611432A12005647F6 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PBCloneRepositoryPanel.xib; sourceTree = "<group>"; };
 		D8FDDA5C114335E8005647F6 /* PBGitSVBranchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitSVBranchItem.h; sourceTree = "<group>"; };
@@ -440,8 +466,6 @@
 		DDB8FEC313999C24001A9EE2 /* PBStashContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBStashContentView.xib; sourceTree = "<group>"; };
 		F50FE0E10E07BE9600854FCD /* PBGitRevisionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRevisionCell.h; sourceTree = "<group>"; };
 		F50FE0E20E07BE9600854FCD /* PBGitRevisionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevisionCell.m; sourceTree = "<group>"; };
-		F51308590E0740F2000C8BCD /* PBQLOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBQLOutlineView.h; sourceTree = "<group>"; };
-		F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBQLOutlineView.m; sourceTree = "<group>"; };
 		F523CEB40ED3399100DDD714 /* PBGitIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndexController.h; sourceTree = "<group>"; };
 		F523CEB50ED3399200DDD714 /* PBGitIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndexController.m; sourceTree = "<group>"; };
 		F52BCE020E84208300AA3741 /* PBGitHistoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBGitHistoryView.xib; sourceTree = "<group>"; };
@@ -453,19 +477,11 @@
 		F53FF2040E7ABB5300389171 /* PBGitRevSpecifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRevSpecifier.m; sourceTree = "<group>"; };
 		F56174550E058893001DCD79 /* PBGitTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitTree.h; sourceTree = "<group>"; };
 		F56174560E058893001DCD79 /* PBGitTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitTree.m; sourceTree = "<group>"; };
-		F56244070E9684B0002B6C44 /* PBUnsortableTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBUnsortableTableHeader.h; sourceTree = "<group>"; };
-		F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBUnsortableTableHeader.m; sourceTree = "<group>"; };
-		F562C8850FE1766C000EC528 /* NSString_RegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_RegEx.h; sourceTree = "<group>"; };
-		F562C8860FE1766C000EC528 /* NSString_RegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_RegEx.m; sourceTree = "<group>"; };
-		F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileHandleExt.m; sourceTree = "<group>"; };
-		F56524BA0E02D22D00F03B52 /* NSFileHandleExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileHandleExt.h; sourceTree = "<group>"; };
 		F56524EE0E02D45200F03B52 /* PBGitCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitCommit.h; sourceTree = "<group>"; };
 		F56524EF0E02D45200F03B52 /* PBGitCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitCommit.m; sourceTree = "<group>"; };
 		F56526230E03D85900F03B52 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
 		F56526290E03D89B00F03B52 /* PBWebHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebHistoryController.h; sourceTree = "<group>"; };
 		F565262A0E03D89B00F03B52 /* PBWebHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebHistoryController.m; sourceTree = "<group>"; };
-		F567B88B1057FA9F000DB976 /* NSOutlineViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOutlineViewExt.h; sourceTree = "<group>"; };
-		F567B88C1057FA9F000DB976 /* NSOutlineViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOutlineViewExt.m; sourceTree = "<group>"; };
 		F567CC3A106E6B910059BB9D /* GitXTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitXTesting-Info.plist"; sourceTree = "<group>"; };
 		F569AE920F2CBD7C00C2FFA7 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		F56ADDD70ED19F9E002AC78F /* AddBranchTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddBranchTemplate.png; path = Images/AddBranchTemplate.png; sourceTree = "<group>"; };
@@ -476,8 +492,6 @@
 		F57240BA0E9678EA00D8EE66 /* deleted_file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleted_file.png; path = Images/deleted_file.png; sourceTree = "<group>"; };
 		F574A2830EAE2EAC003F2CB1 /* PBRefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefController.h; sourceTree = "<group>"; };
 		F574A2840EAE2EAC003F2CB1 /* PBRefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefController.m; sourceTree = "<group>"; };
-		F57CC38F0E05DDF2000472E2 /* PBEasyPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEasyPipe.h; sourceTree = "<group>"; };
-		F57CC3900E05DDF2000472E2 /* PBEasyPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEasyPipe.m; sourceTree = "<group>"; };
 		F57CC43F0E05E496000472E2 /* PBGitWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitWindowController.h; sourceTree = "<group>"; };
 		F57CC4400E05E496000472E2 /* PBGitWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitWindowController.m; sourceTree = "<group>"; };
 		F580E6AD0E733276009E2D3F /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
@@ -495,8 +509,6 @@
 		F5945E160E02B0C200706420 /* PBGitRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRepository.m; sourceTree = "<group>"; };
 		F59F1DD3105C4FF300115F88 /* PBGitIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitIndex.h; sourceTree = "<group>"; };
 		F59F1DD4105C4FF300115F88 /* PBGitIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitIndex.m; sourceTree = "<group>"; };
-		F5AD56770E79B78100EDAAFE /* PBCommitList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitList.h; sourceTree = "<group>"; };
-		F5AD56780E79B78100EDAAFE /* PBCommitList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitList.m; sourceTree = "<group>"; };
 		F5B721C30E05CF7E00AF29DC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F5C007730E731B48007B84B2 /* PBGitRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitRef.h; sourceTree = "<group>"; };
 		F5C007740E731B48007B84B2 /* PBGitRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitRef.m; sourceTree = "<group>"; };
@@ -505,8 +517,6 @@
 		F5C6F68C0E65FF9300478D97 /* PBGitLane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PBGitLane.mm; sourceTree = "<group>"; };
 		F5D2DC850EA401A80034AD24 /* PBGitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitConfig.h; sourceTree = "<group>"; };
 		F5D619ED0EAE62EA00341D73 /* html */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
-		F5DFFA6A0E075D8800617813 /* PBEasyFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBEasyFS.h; sourceTree = "<group>"; };
-		F5DFFA6B0E075D8800617813 /* PBEasyFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBEasyFS.m; sourceTree = "<group>"; };
 		F5E424100EA3E4D60046E362 /* PBDiffWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBDiffWindow.xib; sourceTree = "<group>"; };
 		F5E424130EA3E4E10046E362 /* PBDiffWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDiffWindowController.m; sourceTree = "<group>"; };
 		F5E424140EA3E4E10046E362 /* PBDiffWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDiffWindowController.h; sourceTree = "<group>"; };
@@ -524,8 +534,6 @@
 		F5EF8C8C0E9D4A5D0050906B /* PBWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBWebController.h; sourceTree = "<group>"; };
 		F5EF8C8D0E9D4A5D0050906B /* PBWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBWebController.m; sourceTree = "<group>"; };
 		F5F7D0641062E7940072C81C /* UpdateKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UpdateKey.pem; sourceTree = "<group>"; };
-		F5FC41F20EBCBD4300191D80 /* PBGitXProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitXProtocol.h; sourceTree = "<group>"; };
-		F5FC41F30EBCBD4300191D80 /* PBGitXProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitXProtocol.m; sourceTree = "<group>"; };
 		F5FC43C30EBD050800191D80 /* PBRefContextDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefContextDelegate.h; sourceTree = "<group>"; };
 		F5FC43FC0EBD08EE00191D80 /* PBRefMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRefMenuItem.h; sourceTree = "<group>"; };
 		F5FC43FD0EBD08EE00191D80 /* PBRefMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRefMenuItem.m; sourceTree = "<group>"; };
@@ -700,7 +708,7 @@
 				C5EA6E5413F293F800292110 /* GitX.entitlements */,
 				846C05F913FA37D000D88D0B /* cli */,
 				846C05FC13FA383C00D88D0B /* GitXScripting */,
-				F57CC43E0E05E472000472E2 /* Aux */,
+				84C1C74913FCA86900FAC131 /* Aux */,
 				F57CC3850E05DDC1000472E2 /* Controllers */,
 				F56174540E05887E001DCD79 /* Git */,
 				F5D619ED0EAE62EA00341D73 /* html */,
@@ -809,22 +817,6 @@
 			name = FileView;
 			sourceTree = "<group>";
 		};
-		31460C79124185B900B90AED /* MGScopeBar */ = {
-			isa = PBXGroup;
-			children = (
-				31460CA6124185BA00B90AED /* MGRecessedPopUpButtonCell.h */,
-				31460CA7124185BA00B90AED /* MGRecessedPopUpButtonCell.m */,
-				31460CA8124185BA00B90AED /* MGScopeBar.h */,
-				31460CA9124185BA00B90AED /* MGScopeBar.m */,
-				31460CAD124185BA00B90AED /* MGScopeBar_Prefix.pch */,
-				31460CAE124185BA00B90AED /* MGScopeBarDelegateProtocol.h */,
-				31460CAF124185BA00B90AED /* ReadMe.txt */,
-				31460CB0124185BA00B90AED /* Source Code License.rtf */,
-				31460CB1124185BA00B90AED /* TODO */,
-			);
-			path = MGScopeBar;
-			sourceTree = "<group>";
-		};
 		47DBDB920E94F47200671A1E /* Preference Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -867,6 +859,75 @@
 				846C060113FA383C00D88D0B /* NSApplication+GitXScripting.m */,
 			);
 			path = GitXScripting;
+			sourceTree = "<group>";
+		};
+		84C1C74913FCA86900FAC131 /* Aux */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C74E13FCA86900FAC131 /* MGScopeBar */,
+				84C1C74A13FCA86900FAC131 /* GitXRelativeDateFormatter.h */,
+				84C1C74B13FCA86900FAC131 /* GitXRelativeDateFormatter.m */,
+				84C1C74C13FCA86900FAC131 /* GitXTextFieldCell.h */,
+				84C1C74D13FCA86900FAC131 /* GitXTextFieldCell.m */,
+				84C1C76013FCA86900FAC131 /* NSFileHandleExt.h */,
+				84C1C76113FCA86900FAC131 /* NSFileHandleExt.m */,
+				84C1C76213FCA86900FAC131 /* NSOutlineViewExt.h */,
+				84C1C76313FCA86900FAC131 /* NSOutlineViewExt.m */,
+				84C1C76413FCA86900FAC131 /* NSString_RegEx.h */,
+				84C1C76513FCA86900FAC131 /* NSString_RegEx.m */,
+				84C1C76613FCA86900FAC131 /* PBCommitList.h */,
+				84C1C76713FCA86900FAC131 /* PBCommitList.m */,
+				84C1C76813FCA86900FAC131 /* PBEasyFS.h */,
+				84C1C76913FCA86900FAC131 /* PBEasyFS.m */,
+				84C1C76A13FCA86900FAC131 /* PBEasyPipe.h */,
+				84C1C76B13FCA86900FAC131 /* PBEasyPipe.m */,
+				84C1C76C13FCA86900FAC131 /* PBGitGradientBarView.h */,
+				84C1C76D13FCA86900FAC131 /* PBGitGradientBarView.m */,
+				84C1C76E13FCA86900FAC131 /* PBGitXProtocol.h */,
+				84C1C76F13FCA86900FAC131 /* PBGitXProtocol.m */,
+				84C1C77013FCA86900FAC131 /* PBIconAndTextCell.h */,
+				84C1C77113FCA86900FAC131 /* PBIconAndTextCell.m */,
+				84C1C77213FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.h */,
+				84C1C77313FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.m */,
+				84C1C77413FCA86900FAC131 /* PBQLOutlineView.h */,
+				84C1C77513FCA86900FAC131 /* PBQLOutlineView.m */,
+				84C1C77613FCA86900FAC131 /* PBQLTextView.h */,
+				84C1C77713FCA86900FAC131 /* PBQLTextView.m */,
+				84C1C77813FCA86900FAC131 /* PBUnsortableTableHeader.h */,
+				84C1C77913FCA86900FAC131 /* PBUnsortableTableHeader.m */,
+				84C1C77A13FCA86900FAC131 /* SearchWebView.h */,
+				84C1C77B13FCA86900FAC131 /* SearchWebView.m */,
+				84C1C77C13FCA86900FAC131 /* Terminal.h */,
+			);
+			path = Aux;
+			sourceTree = "<group>";
+		};
+		84C1C74E13FCA86900FAC131 /* MGScopeBar */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C74F13FCA86900FAC131 /* InfoPlist.strings */,
+				84C1C75113FCA86900FAC131 /* MainMenu.xib */,
+				84C1C75313FCA86900FAC131 /* Info.plist */,
+				84C1C75413FCA86900FAC131 /* MGRecessedPopUpButtonCell.h */,
+				84C1C75513FCA86900FAC131 /* MGRecessedPopUpButtonCell.m */,
+				84C1C75613FCA86900FAC131 /* MGScopeBar.h */,
+				84C1C75713FCA86900FAC131 /* MGScopeBar.m */,
+				84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */,
+				84C1C75B13FCA86900FAC131 /* MGScopeBarDelegateProtocol.h */,
+				84C1C75C13FCA86900FAC131 /* MGScopeBar_Prefix.pch */,
+				84C1C75D13FCA86900FAC131 /* ReadMe.txt */,
+				84C1C75E13FCA86900FAC131 /* Source Code License.rtf */,
+				84C1C75F13FCA86900FAC131 /* TODO */,
+			);
+			path = MGScopeBar;
+			sourceTree = "<group>";
+		};
+		84C1C75913FCA86900FAC131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C1C79B13FCA86900FAC131 /* MGScopeBar.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8998B1AB13A55A9B00121729 /* Stash */ = {
@@ -981,47 +1042,6 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		F57CC43E0E05E472000472E2 /* Aux */ = {
-			isa = PBXGroup;
-			children = (
-				31460C79124185B900B90AED /* MGScopeBar */,
-				47DBDBC80E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.h */,
-				47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */,
-				F5AD56770E79B78100EDAAFE /* PBCommitList.h */,
-				F5AD56780E79B78100EDAAFE /* PBCommitList.m */,
-				F56524BA0E02D22D00F03B52 /* NSFileHandleExt.h */,
-				F56524B90E02D22D00F03B52 /* NSFileHandleExt.m */,
-				F562C8850FE1766C000EC528 /* NSString_RegEx.h */,
-				F562C8860FE1766C000EC528 /* NSString_RegEx.m */,
-				F57CC38F0E05DDF2000472E2 /* PBEasyPipe.h */,
-				F57CC3900E05DDF2000472E2 /* PBEasyPipe.m */,
-				F5DFFA6A0E075D8800617813 /* PBEasyFS.h */,
-				F5DFFA6B0E075D8800617813 /* PBEasyFS.m */,
-				F51308590E0740F2000C8BCD /* PBQLOutlineView.h */,
-				F513085A0E0740F2000C8BCD /* PBQLOutlineView.m */,
-				D8E105451157C18200FC28A4 /* PBQLTextView.h */,
-				D8E105461157C18200FC28A4 /* PBQLTextView.m */,
-				91B103CA0E898EC300C84364 /* PBIconAndTextCell.h */,
-				91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */,
-				F56244070E9684B0002B6C44 /* PBUnsortableTableHeader.h */,
-				F56244080E9684B0002B6C44 /* PBUnsortableTableHeader.m */,
-				F5FC41F20EBCBD4300191D80 /* PBGitXProtocol.h */,
-				F5FC41F30EBCBD4300191D80 /* PBGitXProtocol.m */,
-				D823487410CB382C00944BDE /* Terminal.h */,
-				F567B88B1057FA9F000DB976 /* NSOutlineViewExt.h */,
-				F567B88C1057FA9F000DB976 /* NSOutlineViewExt.m */,
-				D8A4BB6D11337D5C00E92D51 /* PBGitGradientBarView.h */,
-				D8A4BB6E11337D5C00E92D51 /* PBGitGradientBarView.m */,
-				D8EB6168122F643E00FCCAF4 /* GitXRelativeDateFormatter.h */,
-				D8EB6169122F643E00FCCAF4 /* GitXRelativeDateFormatter.m */,
-				D87129FE122B14EC00012334 /* GitXTextFieldCell.h */,
-				D87129FF122B14EC00012334 /* GitXTextFieldCell.m */,
-				31776087133569350025876E /* SearchWebView.h */,
-				31776088133569350025876E /* SearchWebView.m */,
-			);
-			name = Aux;
-			sourceTree = "<group>";
-		};
 		F58DB55610566D1F00CFDF4A /* Sidebar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1077,8 +1097,6 @@
 		F5E927E10E883D2E00056E75 /* History */ = {
 			isa = PBXGroup;
 			children = (
-				F5AD56770E79B78100EDAAFE /* PBCommitList.h */,
-				F5AD56780E79B78100EDAAFE /* PBCommitList.m */,
 				F5C6F6750E65FE2B00478D97 /* Graphing */,
 				D85B93F610E51279007F3C28 /* PBGitRefish.h */,
 				F56524EE0E02D45200F03B52 /* PBGitCommit.h */,
@@ -1222,6 +1240,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* GitTest */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84C1C75913FCA86900FAC131 /* Products */;
+					ProjectRef = 84C1C75813FCA86900FAC131 /* MGScopeBar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* GitX */,
@@ -1231,6 +1255,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84C1C79B13FCA86900FAC131 /* MGScopeBar.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MGScopeBar.app;
+			remoteRef = 84C1C79A13FCA86900FAC131 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -1278,9 +1312,6 @@
 				D828AEEC112F411100F09D11 /* CloneRepositoryTemplate.png in Resources */,
 				D8022FE811E124A0003C21F6 /* PBGitXMessageSheet.xib in Resources */,
 				D8F4AB7912298CE200D6D53C /* rewindImage.pdf in Resources */,
-				31460CD4124185BA00B90AED /* ReadMe.txt in Resources */,
-				31460CD5124185BA00B90AED /* Source Code License.rtf in Resources */,
-				31460CD6124185BA00B90AED /* TODO in Resources */,
 				02B41A60123E307F00DFC531 /* PBCommitHookFailedSheet.xib in Resources */,
 				21230D821284D1CC0046E5A1 /* stash-icon.png in Resources */,
 				21230ED21285EB5A0046E5A1 /* PBArgumentPicker.xib in Resources */,
@@ -1373,14 +1404,10 @@
 				77C8280E06725ACE000B614F /* GitXAppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */,
 				F5945E170E02B0C200706420 /* PBGitRepository.m in Sources */,
-				F56524BB0E02D22D00F03B52 /* NSFileHandleExt.m in Sources */,
 				F56524F00E02D45200F03B52 /* PBGitCommit.m in Sources */,
 				F565262B0E03D89B00F03B52 /* PBWebHistoryController.m in Sources */,
 				F56174570E058893001DCD79 /* PBGitTree.m in Sources */,
-				F57CC3910E05DDF2000472E2 /* PBEasyPipe.m in Sources */,
 				F57CC4410E05E496000472E2 /* PBGitWindowController.m in Sources */,
-				F513085B0E0740F2000C8BCD /* PBQLOutlineView.m in Sources */,
-				F5DFFA6C0E075D8800617813 /* PBEasyFS.m in Sources */,
 				F50FE0E30E07BE9600854FCD /* PBGitRevisionCell.m in Sources */,
 				F5FF4E180E0829C20006317A /* PBGitRevList.mm in Sources */,
 				F5FF4E7A0E082E440006317A /* PBGitGrapher.mm in Sources */,
@@ -1388,15 +1415,12 @@
 				F56CC7320E65E0E5004307B4 /* PBGraphCellInfo.m in Sources */,
 				F5C6F68D0E65FF9300478D97 /* PBGitLane.mm in Sources */,
 				F5C007750E731B48007B84B2 /* PBGitRef.m in Sources */,
-				F5AD56790E79B78100EDAAFE /* PBCommitList.m in Sources */,
 				F53FF2050E7ABB5300389171 /* PBGitRevSpecifier.m in Sources */,
 				F52BCE070E84211300AA3741 /* PBGitHistoryController.m in Sources */,
 				F59116E90E843BCB0072CCB1 /* PBGitCommitController.m in Sources */,
 				F5E926060E8827D300056E75 /* PBViewController.m in Sources */,
 				F5E927F80E883E7200056E75 /* PBChangedFile.m in Sources */,
 				F5E927FC0E883F0700056E75 /* PBWebChangesController.m in Sources */,
-				91B103CC0E898EC300C84364 /* PBIconAndTextCell.m in Sources */,
-				F56244090E9684B0002B6C44 /* PBUnsortableTableHeader.m in Sources */,
 				F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */,
 				F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */,
 				93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */,
@@ -1404,14 +1428,11 @@
 				F5E424150EA3E4E10046E362 /* PBDiffWindowController.m in Sources */,
 				F5E424180EA3E4EB0046E362 /* PBWebDiffController.m in Sources */,
 				F5FE6C030EB13BC900F30D12 /* PBServicesController.m in Sources */,
-				F5FC41F40EBCBD4300191D80 /* PBGitXProtocol.m in Sources */,
 				F574A2850EAE2EAC003F2CB1 /* PBRefController.m in Sources */,
 				F5FC43FE0EBD08EE00191D80 /* PBRefMenuItem.m in Sources */,
 				F523CEB60ED3399200DDD714 /* PBGitIndexController.m in Sources */,
 				47DBDB580E94EDE700671A1E /* DBPrefsWindowController.m in Sources */,
 				47DBDB670E94EE8B00671A1E /* PBPrefsWindowController.m in Sources */,
-				47DBDBCA0E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m in Sources */,
-				F562C8870FE1766C000EC528 /* NSString_RegEx.m in Sources */,
 				F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */,
 				D854948610D5C01B0083B917 /* PBCreateBranchSheet.m in Sources */,
 				D8E3B34D10DCA958001096A3 /* PBCreateTagSheet.m in Sources */,
@@ -1421,7 +1442,6 @@
 				D8083E03111FA33700337480 /* PBCloneRepositoryPanel.m in Sources */,
 				F58DB55910566D3500CFDF4A /* PBGitSidebarController.m in Sources */,
 				F58DB5E8105671B600CFDF4A /* PBSourceViewItem.m in Sources */,
-				F567B88D1057FA9F000DB976 /* NSOutlineViewExt.m in Sources */,
 				D8FDDA6A114335E8005647F6 /* PBGitSVBranchItem.m in Sources */,
 				D8FDDA6B114335E8005647F6 /* PBGitSVFolderItem.m in Sources */,
 				D8FDDA6C114335E8005647F6 /* PBGitSVOtherRevItem.m in Sources */,
@@ -1429,19 +1449,13 @@
 				D8FDDA6E114335E8005647F6 /* PBGitSVRemoteItem.m in Sources */,
 				D8FDDA6F114335E8005647F6 /* PBGitSVStageItem.m in Sources */,
 				D8FDDA70114335E8005647F6 /* PBGitSVTagItem.m in Sources */,
-				D8A4BB6F11337D5C00E92D51 /* PBGitGradientBarView.m in Sources */,
 				D828A40D1127B18700F09D11 /* PBSourceViewCell.m in Sources */,
 				D828A4111127B1C400F09D11 /* PBSourceViewBadge.m in Sources */,
 				D8295D2A1130A1DC00C838E8 /* PBGitHistoryList.m in Sources */,
 				D8295DE01130E43900C838E8 /* PBGitHistoryGrapher.m in Sources */,
-				D8E105471157C18200FC28A4 /* PBQLTextView.m in Sources */,
 				D8022FED11E124C8003C21F6 /* PBGitXMessageSheet.m in Sources */,
-				D8EB616A122F643E00FCCAF4 /* GitXRelativeDateFormatter.m in Sources */,
 				D8B4DC571220D1E4004166D6 /* PBHistorySearchController.m in Sources */,
-				D8712A00122B14EC00012334 /* GitXTextFieldCell.m in Sources */,
 				310DC1D81240599E0017A0F7 /* GLFileView.m in Sources */,
-				31460CD2124185BA00B90AED /* MGRecessedPopUpButtonCell.m in Sources */,
-				31460CD3124185BA00B90AED /* MGScopeBar.m in Sources */,
 				02B41A5E123E307200DFC531 /* PBCommitHookFailedSheet.m in Sources */,
 				21230CB11284B26A0046E5A1 /* PBGitMenuItem.m in Sources */,
 				21230D351284C5080046E5A1 /* PBGitStash.m in Sources */,
@@ -1460,11 +1474,28 @@
 				217FF0BB12A1CB3300785A65 /* PBGitResetController.m in Sources */,
 				217FF0BE12A1CB3E00785A65 /* PBRevealWithFinderCommand.m in Sources */,
 				65D58BC7132D48C2003F7290 /* PBResetSheet.m in Sources */,
-				31776089133569350025876E /* SearchWebView.m in Sources */,
 				DDB8FE0113998CE2001A9EE2 /* PBStashContentController.m in Sources */,
 				89087CA613A3E46B00911503 /* PBWebCommitController.m in Sources */,
 				8998B1C613A55B3500121729 /* PBWebStashController.m in Sources */,
 				846C060313FA383C00D88D0B /* NSApplication+GitXScripting.m in Sources */,
+				84C1C78113FCA86900FAC131 /* GitXRelativeDateFormatter.m in Sources */,
+				84C1C78213FCA86900FAC131 /* GitXTextFieldCell.m in Sources */,
+				84C1C78613FCA86900FAC131 /* MGRecessedPopUpButtonCell.m in Sources */,
+				84C1C78713FCA86900FAC131 /* MGScopeBar.m in Sources */,
+				84C1C78B13FCA86900FAC131 /* NSFileHandleExt.m in Sources */,
+				84C1C78C13FCA86900FAC131 /* NSOutlineViewExt.m in Sources */,
+				84C1C78D13FCA86900FAC131 /* NSString_RegEx.m in Sources */,
+				84C1C78E13FCA86900FAC131 /* PBCommitList.m in Sources */,
+				84C1C78F13FCA86900FAC131 /* PBEasyFS.m in Sources */,
+				84C1C79013FCA86900FAC131 /* PBEasyPipe.m in Sources */,
+				84C1C79113FCA86900FAC131 /* PBGitGradientBarView.m in Sources */,
+				84C1C79213FCA86900FAC131 /* PBGitXProtocol.m in Sources */,
+				84C1C79313FCA86900FAC131 /* PBIconAndTextCell.m in Sources */,
+				84C1C79413FCA86900FAC131 /* PBNSURLPathUserDefaultsTransfomer.m in Sources */,
+				84C1C79513FCA86900FAC131 /* PBQLOutlineView.m in Sources */,
+				84C1C79613FCA86900FAC131 /* PBQLTextView.m in Sources */,
+				84C1C79713FCA86900FAC131 /* PBUnsortableTableHeader.m in Sources */,
+				84C1C79813FCA86900FAC131 /* SearchWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1472,9 +1503,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53C4DF90E97FCAD0022AD59 /* PBEasyPipe.m in Sources */,
 				F53C4DF80E97FCA70022AD59 /* PBGitBinary.m in Sources */,
 				846C05FB13FA37D000D88D0B /* gitx.m in Sources */,
+				84C1C79C13FCA8C300FAC131 /* PBEasyPipe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1513,6 +1544,22 @@
 				47DBDB690E94EF6500671A1E /* English */,
 			);
 			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		84C1C74F13FCA86900FAC131 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C1C75013FCA86900FAC131 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C1C75113FCA86900FAC131 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C1C75213FCA86900FAC131 /* English */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		911111E00E58BD5A00BF76B4 /* RepositoryWindow.xib */ = {
