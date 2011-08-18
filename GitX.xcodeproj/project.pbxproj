@@ -489,7 +489,7 @@
 		84C1C8A513FCBD0000FAC131 /* gitx_askpasswd_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gitx_askpasswd_main.m; sourceTree = "<group>"; };
 		84C1C8A813FCBF6F00FAC131 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		84C1C8A913FCBF6F00FAC131 /* GitX.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GitX.icns; sourceTree = "<group>"; };
-		84C1C8AA13FCBF6F00FAC131 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C1C8AA13FCBF6F00FAC131 /* GitX-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GitX-Info.plist"; sourceTree = "<group>"; };
 		84C1C8AC13FCBF6F00FAC131 /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Updates.png; sourceTree = "<group>"; };
 		84C1C8AD13FCBF6F00FAC131 /* Start_iTerm2.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Start_iTerm2.applescript; sourceTree = "<group>"; };
 		84C1C8AE13FCBF6F00FAC131 /* UpdateKey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UpdateKey.pem; sourceTree = "<group>"; };
@@ -677,8 +677,8 @@
 			children = (
 				84C1C9D013FCC31E00FAC131 /* main.m */,
 				32CA4F630368D1EE00C91783 /* GitX_Prefix.pch */,
+				84C1C8AA13FCBF6F00FAC131 /* GitX-Info.plist */,
 				D8022A3411DFCCA5003C21F6 /* build_libgit2.sh */,
-				84C1C8AA13FCBF6F00FAC131 /* Info.plist */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -1797,7 +1797,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GitX_Prefix.pch;
 				HEADER_SEARCH_PATHS = libgit2/include;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "GitX-Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				INFOPLIST_PREPROCESS = YES;
@@ -1827,7 +1827,7 @@
 				GCC_PREFIX_HEADER = GitX_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
 				HEADER_SEARCH_PATHS = libgit2/include;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "GitX-Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = $PROJECT_TEMP_DIR/revision;
 				INFOPLIST_PREPROCESS = YES;
